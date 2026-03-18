@@ -1,0 +1,61 @@
+[
+  {
+    "_comment": "Add an entry here for each past paper you want to ingest.",
+    "_comment2": "Run: python scripts/ingest_papers.py",
+    "_comment3": "PDFs stay local (gitignored). Commit data/questions.json after ingestion.",
+    "paper": "June 2019",
+    "code": "J560/01",
+    "component": "Written Paper 1",
+    "paper_pdf": "papers/2019_june_01/paper.pdf",
+    "ms_pdf": "papers/2019_june_01/ms.pdf"
+  },
+  {
+    "paper": "June 2019",
+    "code": "J560/02",
+    "component": "Written Paper 2",
+    "paper_pdf": "papers/2019_june_02/paper.pdf",
+    "ms_pdf": "papers/2019_june_02/ms.pdf"
+  },
+  {
+    "paper": "June 2022",
+    "code": "J560/01",
+    "component": "Written Paper 1",
+    "paper_pdf": "papers/2022_june_01/paper.pdf",
+    "ms_pdf": "papers/2022_june_01/ms.pdf"
+  },
+  {
+    "paper": "June 2022",
+    "code": "J560/02",
+    "component": "Written Paper 2",
+    "paper_pdf": "papers/2022_june_02/paper.pdf",
+    "ms_pdf": "papers/2022_june_02/ms.pdf"
+  },
+  {
+    "paper": "June 2023",
+    "code": "J560/01",
+    "component": "Written Paper 1",
+    "paper_pdf": "papers/2023_june_01/paper.pdf",
+    "ms_pdf": "papers/2023_june_01/ms.pdf"
+  },
+  {
+    "paper": "June 2023",
+    "code": "J560/02",
+    "component": "Written Paper 2",
+    "paper_pdf": "papers/2023_june_02/paper.pdf",
+    "ms_pdf": "papers/2023_june_02/ms.pdf"
+  },
+  {
+    "paper": "June 2024",
+    "code": "J560/01",
+    "component": "Written Paper 1",
+    "paper_pdf": "papers/2024_june_01/paper.pdf",
+    "ms_pdf": "papers/2024_june_01/ms.pdf"
+  },
+  {
+    "paper": "June 2024",
+    "code": "J560/02",
+    "component": "Written Paper 2",
+    "paper_pdf": "papers/2024_june_02/paper.pdf",
+    "ms_pdf": "papers/2024_june_02/ms.pdf"
+  }
+]

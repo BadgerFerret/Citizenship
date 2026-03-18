@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# Past paper PDFs — store locally, do not commit (large binary files).
+# The extracted questions live in data/questions.json which IS committed.
+papers/**/*.pdf
