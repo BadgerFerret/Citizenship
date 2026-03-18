@@ -5,94 +5,21 @@
 <div class="page-admin">
   <h1>Question Bank</h1>
 
-  <div class="admin-tabs">
-    <button class="tab-btn active" onclick="showTab('bank')">Question Bank</button>
-    <button class="tab-btn" onclick="showTab('import')">Import Questions</button>
+  <div class="bank-filters">
+    <select id="filter-topic" onchange="loadBank()">
+      <option value="">All topics</option>
+      {% for key, info in topics.items() %}
+      <option value="{{ key }}">{{ info.label }}</option>
+      {% endfor %}
+    </select>
+    <label>
+      <input type="checkbox" id="filter-inactive" onchange="loadBank()">
+      Show inactive
+    </label>
+    <span id="bank-count" class="bank-count"></span>
   </div>
 
-  <!-- Question Bank Tab -->
-  <div id="tab-bank" class="tab-panel">
-    <div class="bank-filters">
-      <select id="filter-topic" onchange="loadBank()">
-        <option value="">All topics</option>
-        {% for key, info in topics.items() %}
-        <option value="{{ key }}">{{ info.label }}</option>
-        {% endfor %}
-      </select>
-      <label>
-        <input type="checkbox" id="filter-inactive" onchange="loadBank()">
-        Show inactive
-      </label>
-      <span id="bank-count" class="bank-count"></span>
-    </div>
-    <div id="bank-table-wrap">Loading...</div>
-  </div>
-
-  <!-- Import Tab -->
-  <div id="tab-import" class="tab-panel" style="display:none">
-
-    <!-- PDF Upload section -->
-    <div class="import-section">
-      <h2>Upload past papers</h2>
-      <p class="import-desc">Upload a question paper PDF and its mark scheme — Claude will extract all questions automatically.</p>
-
-      <div class="upload-form-card">
-        <div class="upload-row">
-          <div class="upload-field">
-            <label>Paper label <span class="field-hint">(e.g. June 2023)</span></label>
-            <input type="text" id="paper-label" placeholder="June 2023" value="">
-          </div>
-          <div class="upload-field">
-            <label>Paper code <span class="field-hint">(e.g. J560/01)</span></label>
-            <input type="text" id="paper-code" placeholder="J560/01" value="">
-          </div>
-        </div>
-        <div class="upload-row">
-          <div class="upload-field">
-            <label>Question paper PDF</label>
-            <input type="file" id="paper-pdf" accept=".pdf">
-          </div>
-          <div class="upload-field">
-            <label>Mark scheme PDF</label>
-            <input type="file" id="ms-pdf" accept=".pdf">
-          </div>
-        </div>
-        <button class="btn btn-primary" id="upload-btn" onclick="uploadPapers()">
-          Extract questions with Claude
-        </button>
-      </div>
-
-      <div id="upload-status" style="display:none" class="upload-status">
-        <div class="spinner"></div>
-        <p>Claude is reading the papers and extracting questions… this takes about 30 seconds.</p>
-      </div>
-    </div>
-
-    <hr class="section-divider">
-
-    <!-- JSON paste section -->
-    <div class="import-section">
-      <h2>Or paste JSON directly</h2>
-      <p class="import-desc">If you have questions in JSON format already, paste them here.</p>
-
-      <textarea id="import-json" class="import-textarea" rows="10"
-        placeholder='[{"id": "q_2023j_01a", "topic": "government_and_democracy", ...}]'></textarea>
-
-      <div class="import-actions">
-        <button class="btn btn-outline" onclick="validateImport()">Validate &amp; Preview</button>
-        <button class="btn btn-primary" id="confirm-import-btn" style="display:none" onclick="confirmImport()">
-          Add to Question Bank
-        </button>
-      </div>
-    </div>
-
-    <div id="import-preview" style="display:none">
-      <h3>Preview</h3>
-      <div id="import-preview-inner"></div>
-    </div>
-
-    <div id="import-result"></div>
-  </div>
+  <div id="bank-table-wrap">Loading...</div>
 </div>
 
 <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
