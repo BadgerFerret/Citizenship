@@ -444,6 +444,17 @@ def add_student():
     return redirect(url_for("home"))
 
 
+@app.route("/delete-student/<int:student_id>", methods=["POST"])
+def delete_student(student_id):
+    db = get_db()
+    db.execute("DELETE FROM attempts WHERE student_id=?", (student_id,))
+    db.execute("DELETE FROM sessions WHERE student_id=?", (student_id,))
+    db.execute("DELETE FROM students WHERE id=?", (student_id,))
+    db.commit()
+    db.close()
+    return redirect(url_for("home"))
+
+
 # ---------------------------------------------------------------------------
 # Routes — Session
 # ---------------------------------------------------------------------------

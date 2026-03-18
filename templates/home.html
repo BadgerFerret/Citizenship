@@ -39,6 +39,10 @@
         <a href="{{ url_for('progress', student_id=s.id) }}" class="btn btn-outline">
           View Progress
         </a>
+        <form method="post" action="{{ url_for('delete_student', student_id=s.id) }}"
+              onsubmit="return confirm('Delete {{ s.name }} and all their data?')">
+          <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
       </div>
     </div>
     {% endfor %}
