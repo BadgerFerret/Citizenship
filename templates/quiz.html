@@ -22,11 +22,70 @@
       {% endif %}
     </div>
     <h2 class="question-text">{{ question.question_text }}</h2>
+    {% if question.question_type in ('multiple_choice', 'multiple_choice_multi') %}
+      {% if question.question_type == 'multiple_choice_multi' %}
+      <p class="answer-hint">Select <strong>two</strong> answers.</p>
+      {% else %}
+      <p class="answer-hint">Select the best answer.</p>
+      {% endif %}
+    {% else %}
     <p class="answer-hint">
       Write your answer in full sentences. Aim for {{ question.marks }} point{{ 's' if question.marks != 1 else '' }}.
     </p>
+    {% endif %}
   </div>
 
+  <!-- ── MCQ single-choice ── -->
+  {% if question.question_type == 'multiple_choice' %}
+  <div class="answer-section mcq-section">
+    <div class="mcq-options" id="mcq-options">
+      {% for opt in question.options %}
+      <button
+        class="mcq-option"
+        data-letter="{{ opt.letter }}"
+        onclick="selectOption(this)"
+        type="button"
+      >
+        <span class="mcq-letter">{{ opt.letter }}</span>
+        <span class="mcq-text">{{ opt.text }}</span>
+      </button>
+      {% endfor %}
+    </div>
+    <div class="answer-footer">
+      <span></span>
+      <button id="submit-btn" class="btn btn-primary btn-large" onclick="submitMCQ()" disabled>
+        Submit Answer
+      </button>
+    </div>
+  </div>
+
+  <!-- ── MCQ multi-choice (pick two) ── -->
+  {% elif question.question_type == 'multiple_choice_multi' %}
+  <div class="answer-section mcq-section">
+    <div class="mcq-options" id="mcq-options">
+      {% for opt in question.options %}
+      <button
+        class="mcq-option mcq-multi"
+        data-letter="{{ opt.letter }}"
+        onclick="toggleOption(this)"
+        type="button"
+      >
+        <span class="mcq-checkbox"></span>
+        <span class="mcq-letter">{{ opt.letter }}</span>
+        <span class="mcq-text">{{ opt.text }}</span>
+      </button>
+      {% endfor %}
+    </div>
+    <div class="answer-footer">
+      <span id="multi-count" class="word-count">0 of 2 selected</span>
+      <button id="submit-btn" class="btn btn-primary btn-large" onclick="submitMCQ()" disabled>
+        Submit Answer
+      </button>
+    </div>
+  </div>
+
+  <!-- ── Free-text ── -->
+  {% else %}
   <div class="answer-section">
     <textarea
       id="answer-box"
@@ -41,6 +100,7 @@
       </button>
     </div>
   </div>
+  {% endif %}
 
   <div id="loading-overlay" class="loading-overlay" style="display:none">
     <div class="loading-box">
@@ -51,21 +111,62 @@
 </div>
 
 <script>
-const SESSION_ID = {{ session_id }};
+const SESSION_ID  = {{ session_id }};
 const QUESTION_ID = "{{ question.id }}";
+const IS_MULTI    = {{ 'true' if question.question_type == 'multiple_choice_multi' else 'false' }};
+const MAX_MULTI   = {{ question.marks }};
 
-document.getElementById('answer-box').addEventListener('input', function() {
-  const words = this.value.trim().split(/\s+/).filter(w => w).length;
-  document.getElementById('word-count').textContent = words + ' word' + (words !== 1 ? 's' : '');
-});
+// ── Free-text word count ──
+const answerBox = document.getElementById('answer-box');
+if (answerBox) {
+  answerBox.addEventListener('input', function () {
+    const words = this.value.trim().split(/\s+/).filter(w => w).length;
+    document.getElementById('word-count').textContent = words + ' word' + (words !== 1 ? 's' : '');
+  });
+}
 
+// ── MCQ single-choice ──
+function selectOption(btn) {
+  document.querySelectorAll('.mcq-option').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('submit-btn').disabled = false;
+}
+
+// ── MCQ multi-choice ──
+function toggleOption(btn) {
+  const selected = document.querySelectorAll('.mcq-option.selected');
+  if (btn.classList.contains('selected')) {
+    btn.classList.remove('selected');
+  } else {
+    if (selected.length >= MAX_MULTI) return; // cap at required number
+    btn.classList.add('selected');
+  }
+  const count = document.querySelectorAll('.mcq-option.selected').length;
+  document.getElementById('multi-count').textContent = count + ' of ' + MAX_MULTI + ' selected';
+  document.getElementById('submit-btn').disabled = (count !== MAX_MULTI);
+}
+
+// ── Submit MCQ ──
+async function submitMCQ() {
+  const selected = Array.from(document.querySelectorAll('.mcq-option.selected'))
+                        .map(b => b.dataset.letter);
+  if (!selected.length) return;
+  const answer = selected.join(',');
+  await doSubmit(answer);
+}
+
+// ── Submit free-text ──
 async function submitAnswer() {
   const answer = document.getElementById('answer-box').value.trim();
   if (!answer) {
     alert('Please write your answer before submitting.');
     return;
   }
+  await doSubmit(answer);
+}
 
+// ── Shared submit logic ──
+async function doSubmit(answer) {
   document.getElementById('submit-btn').disabled = true;
   document.getElementById('loading-overlay').style.display = 'flex';
 
@@ -76,7 +177,7 @@ async function submitAnswer() {
       body: JSON.stringify({
         session_id: SESSION_ID,
         question_id: QUESTION_ID,
-        answer: answer
+        answer: answer,
       })
     });
     const data = await res.json();

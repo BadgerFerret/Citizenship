@@ -224,6 +224,115 @@ def select_next_question(student_id, session_id, topic_filter=None):
 # Claude evaluation
 # ---------------------------------------------------------------------------
 
+def auto_mark_mcq(question, selected_letters):
+    """Instantly mark a multiple-choice question when the correct answer is known."""
+    correct = question['mark_scheme'].get('correct_answer', '').upper()
+    marks = question['marks']
+    options = {o['letter']: o['text'] for o in question.get('options', [])}
+
+    if question.get('question_type') == 'multiple_choice_multi':
+        # correct_answer not reliably available for multi; fall through to Claude
+        return None
+
+    if not correct:
+        return None  # no stored answer — caller will use Claude
+
+    selected = selected_letters[0] if selected_letters else ''
+    correct_text = options.get(correct, '')
+    selected_text = options.get(selected, selected)
+    is_correct = selected.upper() == correct
+
+    return {
+        "marks_awarded": marks if is_correct else 0,
+        "percentage": 100 if is_correct else 0,
+        "points_credited": [f"{correct}) {correct_text}"] if is_correct else [],
+        "points_missed": [] if is_correct else [f"Correct answer: {correct}) {correct_text}"],
+        "what_was_good": f"Correct! The answer is {correct}) {correct_text}." if is_correct else "",
+        "how_to_improve": "" if is_correct else f"The correct answer was {correct}) {correct_text}.",
+        "examiner_tip": "Read all options carefully before selecting — eliminate obviously wrong answers first.",
+        "suggested_answer": f"{correct}) {correct_text}",
+        "is_mcq": True,
+        "correct_letter": correct,
+        "selected_letter": selected,
+    }
+
+
+def evaluate_mcq_with_claude(question, selected_letters):
+    """Ask Claude to mark an MCQ when the correct answer isn't in the mark scheme."""
+    client = anthropic.Anthropic(api_key=Config.ANTHROPIC_API_KEY)
+    marks = question['marks']
+    options = question.get('options', [])
+    is_multi = question.get('question_type') == 'multiple_choice_multi'
+
+    options_text = "\n".join(f"  {o['letter']}) {o['text']}" for o in options)
+    selected_display = ", ".join(selected_letters)
+
+    user_prompt = f"""## Multiple-Choice Question
+{question['question_text']}
+
+## Options
+{options_text}
+
+## Student's Selection
+{selected_display}
+
+This question is worth {marks} mark{'s' if marks != 1 else ''}.
+{"The student must select the correct two options." if is_multi else "The student must select the single correct option."}
+
+## Your Task
+Determine whether the student's selection is correct based on GCSE Citizenship knowledge.
+Respond with ONLY valid JSON (no markdown):
+{{
+  "marks_awarded": <integer 0 to {marks}>,
+  "percentage": <integer 0-100>,
+  "points_credited": [<correct options the student selected, as strings>],
+  "points_missed": [<correct options the student missed, if any>],
+  "what_was_good": "<empty string if wrong, or brief confirmation if right>",
+  "how_to_improve": "<explanation of the correct answer and why>",
+  "examiner_tip": "<1 sentence of exam technique advice>",
+  "suggested_answer": "<letter and text of the correct answer(s)>",
+  "is_mcq": true,
+  "correct_letter": "<letter(s) of correct answer(s), comma-separated>",
+  "selected_letter": "{selected_display}"
+}}"""
+
+    for attempt in range(3):
+        try:
+            response = client.messages.create(
+                model=Config.CLAUDE_MODEL,
+                max_tokens=600,
+                system=Config.EVALUATION_SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": user_prompt}],
+            )
+            text = response.content[0].text.strip()
+            if text.startswith("```"):
+                text = text.split("```")[1]
+                if text.startswith("json"):
+                    text = text[4:]
+            data = json.loads(text)
+            assert isinstance(data["marks_awarded"], int)
+            assert 0 <= data["marks_awarded"] <= marks
+            data["percentage"] = round(data["marks_awarded"] / marks * 100) if marks else 0
+            data["is_mcq"] = True
+            return data
+        except Exception:
+            if attempt == 2:
+                return {
+                    "marks_awarded": 0,
+                    "percentage": 0,
+                    "points_credited": [],
+                    "points_missed": [],
+                    "what_was_good": "",
+                    "how_to_improve": "Unable to evaluate automatically. Ask your teacher to review.",
+                    "examiner_tip": "",
+                    "suggested_answer": "",
+                    "is_mcq": True,
+                    "correct_letter": "",
+                    "selected_letter": selected_display,
+                    "error": "evaluation_failed",
+                }
+
+
 def evaluate_answer(question, student_answer):
     client = anthropic.Anthropic(api_key=Config.ANTHROPIC_API_KEY)
 
@@ -422,7 +531,14 @@ def submit_answer():
     sess = db.execute("SELECT * FROM sessions WHERE id=?", (session_id,)).fetchone()
     db.close()
 
-    feedback = evaluate_answer(question, student_answer)
+    q_type = question.get('question_type', '')
+    if q_type in ('multiple_choice', 'multiple_choice_multi'):
+        selected_letters = [l.strip().upper() for l in student_answer.split(',') if l.strip()]
+        feedback = auto_mark_mcq(question, selected_letters)
+        if feedback is None:
+            feedback = evaluate_mcq_with_claude(question, selected_letters)
+    else:
+        feedback = evaluate_answer(question, student_answer)
     marks_awarded = feedback.get("marks_awarded", 0)
 
     db = get_db()

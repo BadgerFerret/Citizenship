@@ -31,6 +31,21 @@
   </details>
 
   <!-- Feedback panels -->
+  {% if feedback.is_mcq %}
+  <div class="feedback-grid">
+    {% if feedback.percentage == 100 %}
+    <div class="feedback-panel panel-good mcq-verdict">
+      <h3>Correct!</h3>
+      <p>{{ feedback.suggested_answer }}</p>
+    </div>
+    {% else %}
+    <div class="feedback-panel panel-missed mcq-verdict">
+      <h3>Incorrect</h3>
+      <p><strong>Correct answer:</strong> {{ feedback.suggested_answer }}</p>
+    </div>
+    {% endif %}
+  </div>
+  {% else %}
   <div class="feedback-grid">
 
     {% if feedback.points_credited %}
@@ -56,6 +71,7 @@
     {% endif %}
 
   </div>
+  {% endif %}
 
   <!-- Examiner feedback -->
   <div class="examiner-feedback">

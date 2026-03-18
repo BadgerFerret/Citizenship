@@ -11,16 +11,42 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which two of the following legal requirements apply to UK citizens?\n(2)\n\n  A) A duty to pay taxes on any earned income\n  B) A duty to report your neighbour\u2019s activities to the police\n  C) A duty to support older people in the community\n  D) A duty to intervene to prevent a criminal action\n  E) A duty to help those less well off than yourself\n  F) A duty to care for and look after your children",
+      "question_text": "Which two of the following legal requirements apply to UK citizens?",
       "marks": 2,
-      "question_type": "explain",
+      "question_type": "multiple_choice_multi",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A and F \nA - A duty to pay taxes on any earned income \u2013 for this is a legal requirement \nby to contribute towards the state. \nF - A duty to care for and look after your children \u2013 again this is a legal \nrequirement set out in statute law and common law. \nIncorrect answers \nB is incorrect for there is no law to report on activities of neighbours \nC is incorrect as there is no duty to support older people in the community \neven if morally good to do so. \nD is incorrect citizens do not have to intervene to prevent others from \ncommitting a criminal action \nE is incorrect as there is no duty in UK",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A duty to pay taxes on any earned income"
+        },
+        {
+          "letter": "B",
+          "text": "A duty to report your neighbour\u2019s activities to the police"
+        },
+        {
+          "letter": "C",
+          "text": "A duty to support older people in the community"
+        },
+        {
+          "letter": "D",
+          "text": "A duty to intervene to prevent a criminal action"
+        },
+        {
+          "letter": "E",
+          "text": "A duty to help those less well off than yourself"
+        },
+        {
+          "letter": "F",
+          "text": "A duty to care for and look after your children"
+        }
+      ]
     },
     {
       "id": "q_2018j_01_1b",
@@ -215,16 +241,42 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which two of the following are generally agreed to be features of the UK\u2019s\nconstitution?\n(2)\n\n  A) It automatically changes each time a new government is elected\n  B) It is rigid and difficult to amend\n  C) It is derived from several sources\n  D) It defines the role of the prime minister\n  E) It gives power to the judiciary to amend legislation\n  F) Its design means that all laws can be changed",
+      "question_text": "Which two of the following are generally agreed to be features of the UK\u2019s\nconstitution?",
       "marks": 2,
-      "question_type": "explain",
+      "question_type": "multiple_choice_multi",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C & F are correct \nC It is derived from several sources \u2013 such as common law and statute \nF Its design means that all laws can be changed \u2013 no laws or rules are entrenched and unable \nto be altered. \n\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 \nA is incorrect for the constitution does not alter when a new government is elected \nB is incorrect as it is not rigid, by contrast it is flexible \nD is incorrect as the PM has no defined role \nE is incorrect for judges do not have the power to amend legislation",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It automatically changes each time a new government is elected"
+        },
+        {
+          "letter": "B",
+          "text": "It is rigid and difficult to amend"
+        },
+        {
+          "letter": "C",
+          "text": "It is derived from several sources"
+        },
+        {
+          "letter": "D",
+          "text": "It defines the role of the prime minister"
+        },
+        {
+          "letter": "E",
+          "text": "It gives power to the judiciary to amend legislation"
+        },
+        {
+          "letter": "F",
+          "text": "Its design means that all laws can be changed"
+        }
+      ]
     },
     {
       "id": "q_2018j_01_4b",
@@ -236,16 +288,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which statement concerning parliamentary sovereignty in the UK is correct?\n(1)\n\n  A) Parliament was responsible in past times for issuing sovereign coins\n  B) Parliament has to obey petitions signed by more than 100 000 citizens\n  C) \u0007Parliament must give two years\u2019 notice to citizens for changes in the law\n  D) Parliament is supreme and its actions cannot be overruled \t Study Source B below and then answer part (c) on the next page. Source B: Changing relations between Scotland and the UK In the 2014 Scottish referendum, independence was rejected by 55.3% while 44.7%  voted in favour of becoming an independent state. The referendum came after  Scotland was granted devolution in 1998 and established the Scottish Parliament  at Holyrood.  In the main, devolution was seen as a means of promoting Scottish culture and  identity and at the same time binding the common UK bonds that have been  established since the 18th century. It was hoped that the union of the UK would  become stronger. A promise made by the major political parties in Westminster was  that Scotland would be granted further devolved powers if it voted to stay in the UK;  this has now been carried out. In the 2015 general election the SNP won 56 out of the 59 seats in Scotland and  are the third largest party in Westminster. However, the UK-wide referendum on EU  membership in 2016, which approved the UK leaving the EU, has caused upset in  Scotland as the majority there voted to remain in the EU.  This seems to have fuelled the demand in the SNP for a second referendum on  obtaining Scottish independence and perhaps leaving the UK. However, in the 2017  general election the SNP lost over a third of its seats at the Westminster Parliament.",
+      "question_text": "Which statement concerning parliamentary sovereignty in the UK is correct?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D \nParliament is supreme and its actions cannot be overruled \u2013 it has no peer it is peerless \nA is incorrect for Parliament was not responsible for issuing coinage \nB is incorrect for Parliament does not have to obey petitions signed by more \nthan 100 000 citizens \nC is incorrect as Parliament does not have to give two years notice fior any \nchange in the law",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parliament was responsible in past times for issuing sovereign coins"
+        },
+        {
+          "letter": "B",
+          "text": "Parliament has to obey petitions signed by more than 100 000 citizens"
+        },
+        {
+          "letter": "C",
+          "text": "Parliament must give two years\u2019 notice to citizens for changes in the law"
+        },
+        {
+          "letter": "D",
+          "text": "Parliament is supreme and its actions cannot be overruled   Study Source B below and then answer part (c) on the next page. Source B: Changing relations between Scotland and the UK In the 2014 Scottish referendum, independence was rejected by 55.3% w"
+        }
+      ]
     },
     {
       "id": "q_2018j_01_4c",
@@ -361,16 +431,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "The principle of equality before the law means that\n(1)\n\n  A) \u0007an equal amount of court time has to be given to the defence and the  prosecution\n  B) \u0007the punishments given to convicted offenders have to equal the  damage caused\n  C) \u0007the law treats all citizens as equal and disregards age, wealth and  education\n  D) \u0007police officers have equal rights alongside all the accused persons  in court",
+      "question_text": "The principle of equality before the law means that",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C \n Is correct for the law treats all citizens as equal and disregards age, wealth and education \nA is incorrect as there are no time restrictions in court on the defence or prosecution  \nB is incorrect as in law there is no stipulation that punishments have to equate to any damage \ncriteria \nD is incorrect as Police Officers have no established or set rights which relate to the accused in \ncourt, there is no connection",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "an equal amount of court time has to be given to the defence and the  prosecution"
+        },
+        {
+          "letter": "B",
+          "text": "the punishments given to convicted offenders have to equal the  damage caused"
+        },
+        {
+          "letter": "C",
+          "text": "the law treats all citizens as equal and disregards age, wealth and  education"
+        },
+        {
+          "letter": "D",
+          "text": "police officers have equal rights alongside all the accused persons  in court"
+        }
+      ]
     },
     {
       "id": "q_2018j_01_6b",
@@ -447,16 +535,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which of the following does Johnny Mercer believe?\n(1)\n\n  A) National security is not an essential concern in this debate.\n  B) Extremists need to be made more aware of our way of life.\n  C) MPs should vote as their constituents wish.\n  D) Military force is necessary in the world we currently live in.",
+      "question_text": "Which of the following does Johnny Mercer believe?",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D \nMilitary force is necessary in the world we currently live is correct as this is stated by Johnny \nMercer \nA is incorrect as the tenor of the debate is about national security \nB is incorrect as no reference in the extract was made to making extremists aware of our way \nof life \nC is incorrect as Mercer does not state that MPs have to vote in line with the views of their \nconstituents",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "National security is not an essential concern in this debate."
+        },
+        {
+          "letter": "B",
+          "text": "Extremists need to be made more aware of our way of life."
+        },
+        {
+          "letter": "C",
+          "text": "MPs should vote as their constituents wish."
+        },
+        {
+          "letter": "D",
+          "text": "Military force is necessary in the world we currently live in."
+        }
+      ]
     },
     {
       "id": "q_2018j_01_7b",
@@ -468,16 +574,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Which of the following does Alex Salmond believe?\n(1)\n\n  A) Spending money on bombing always produces successful results.\n  B) UK involvement will make a major difference to the outcome.\n  C) We should not be drawn into a conflict without a definite strategy.\n  D) It is impossible to stop people being radicalised.",
+      "question_text": "Which of the following does Alex Salmond believe?",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C \nWe should not be drawn into a conflict without a definite strategy this is correct as it is stated by \nAlex S \nA is incorrect as Alex Salmond does no state that spending money on bombing always \nproduces successful results \u2013 he infers the opposite \nB is incorrect as Alex Salmond infers that there is no evidence that the UK if involved would \nmake a major difference to the outcome \nD is incorrect as Alex Salmond does not say that it is impossible to stop people being \nradicalised",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spending money on bombing always produces successful results."
+        },
+        {
+          "letter": "B",
+          "text": "UK involvement will make a major difference to the outcome."
+        },
+        {
+          "letter": "C",
+          "text": "We should not be drawn into a conflict without a definite strategy."
+        },
+        {
+          "letter": "D",
+          "text": "It is impossible to stop people being radicalised."
+        }
+      ]
     },
     {
       "id": "q_2018j_01_7c",
@@ -850,16 +974,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "The Council of Europe is an organisation that\n\n  A) promotes human rights, democracy and the rule of law\n  B) was set up to promote free trade between nations\n  C) uses peacekeepers to prevent conflict\n  D) acts as the highest court in Europe",
+      "question_text": "The Council of Europe is an organisation that",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A promotes human rights, democracy and the rule of law  \nThis is the correct answer because this is the main function of the \nCouncil of Europe \nB is incorrect because this describes the European Union. \nC is incorrect because this describe the United Nations. \nD is incorrect because this describes the European Court of Justice.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "promotes human rights, democracy and the rule of law"
+        },
+        {
+          "letter": "B",
+          "text": "was set up to promote free trade between nations"
+        },
+        {
+          "letter": "C",
+          "text": "uses peacekeepers to prevent conflict"
+        },
+        {
+          "letter": "D",
+          "text": "acts as the highest court in Europe"
+        }
+      ]
     },
     {
       "id": "q_2018j_02_4",
@@ -871,16 +1013,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "An example of a non-governmental organisation (NGO) is\n\n  A) World Trade Organisation\n  B) Save the Children\n  C) Coca-Cola\n  D) International Criminal Court",
+      "question_text": "An example of a non-governmental organisation (NGO) is",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is incorrect because the World Trade Organisation is an economic \norganisation \nB Save the Children \nThis is the correct answer because Save the Children is an NGO. \nC is incorrect because Coca-Cola is a business. \nD is incorrect because the International Criminal Court is a legal court.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "World Trade Organisation"
+        },
+        {
+          "letter": "B",
+          "text": "Save the Children"
+        },
+        {
+          "letter": "C",
+          "text": "Coca-Cola"
+        },
+        {
+          "letter": "D",
+          "text": "International Criminal Court"
+        }
+      ]
     },
     {
       "id": "q_2018j_02_5",
@@ -892,16 +1052,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "International humanitarian law applies to situations involving\n\n  A) strikes affecting essential services in a country\n  B) economic sanctions applied to trade\n  C) armed conflict between or within countries\n  D) acts of individual terrorists",
+      "question_text": "International humanitarian law applies to situations involving",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is incorrect because it defines a work stoppage which is not \nrelated to international humanitarian law \nB is incorrect because it defines stopping/limiting trade which is not \nrelated to international humanitarian law \nC \narmed conflict between or within countries  \nThis is the correct answer because this is when international  \nhumanitarian law would apply \nD is incorrect because this is something individual countries deal with \nand so not related to international humanitarian law",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "strikes affecting essential services in a country"
+        },
+        {
+          "letter": "B",
+          "text": "economic sanctions applied to trade"
+        },
+        {
+          "letter": "C",
+          "text": "armed conflict between or within countries"
+        },
+        {
+          "letter": "D",
+          "text": "acts of individual terrorists"
+        }
+      ]
     },
     {
       "id": "q_2018j_02_6",
@@ -1111,16 +1289,42 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which two of the following functions are carried out by main local councils?\n(2)\n\n  A) Providing library services\n  B) Providing  accommodation for the armed forces\n  C) Providing border checks for those who enter the UK\n  D) Providing the local water supply\n  E) Providing collection services for refuse\n  F) Providing staff for NHS hospitals",
+      "question_text": "Which two of the following functions are carried out by main local councils?",
       "marks": 2,
-      "question_type": "explain",
+      "question_type": "multiple_choice_multi",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A and E are both correct. \nProviding library services is a service provided at local level \nProviding collection services for refuse again a service at local level \nB is incorrect for accommodation for the armed forces is not done by local \ngovernment but part of the armed services \nC  is incorrect  as border checks is part of central government and the Border Agency \nD is incorrect as water is not supplied by local councils \nF is incorrect as staff for NHS hospitals is serviced by each individual NHS Trust",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Providing library services"
+        },
+        {
+          "letter": "B",
+          "text": "Providing  accommodation for the armed forces"
+        },
+        {
+          "letter": "C",
+          "text": "Providing border checks for those who enter the UK"
+        },
+        {
+          "letter": "D",
+          "text": "Providing the local water supply"
+        },
+        {
+          "letter": "E",
+          "text": "Providing collection services for refuse"
+        },
+        {
+          "letter": "F",
+          "text": "Providing staff for NHS hospitals"
+        }
+      ]
     },
     {
       "id": "q_2019j_01_1b",
@@ -1326,16 +1530,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these explains what may happen when no single party can form a\ngovernment after a general election?\n(1)\n\n  A) A coalition government or a minority government may be formed.\n  B) \u0007The Monarch will appoint the Lord Chancellor to become Prime  Minister.\n  C) Another general election must be held after six months.\n  D) The Leader of the Opposition becomes the Prime Minister.",
+      "question_text": "Which one of these explains what may happen when no single party can form a\ngovernment after a general election?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is correct \nA coalition government or a minority government may be formed \nB is incorrect as the Lord Chancellor is appointed by the Prime Minisiter \nC is incorrect as there is no rule that a General Election has to be held in six months \nD is incorrect as the Leader of the Opposition may not be in a position to form a \ngovernment either",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A coalition government or a minority government may be formed."
+        },
+        {
+          "letter": "B",
+          "text": "The Monarch will appoint the Lord Chancellor to become Prime  Minister."
+        },
+        {
+          "letter": "C",
+          "text": "Another general election must be held after six months."
+        },
+        {
+          "letter": "D",
+          "text": "The Leader of the Opposition becomes the Prime Minister."
+        }
+      ]
     },
     {
       "id": "q_2019j_01_4b",
@@ -1347,16 +1569,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these best explains the Royal Assent?\n(1)\n\n  A) \u0007It is when the Monarch signs a bill which becomes an Act of  Parliament.\n  B) It is a symbol which shows that royalty is above ordinary citizens.\n  C) \u0007It is the principle that the monarch agrees not to enter the House of  Commons.\n  D) It promotes the principle that only a male child can inherit the throne.",
+      "question_text": "Which one of these best explains the Royal Assent?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is correct \nIt is when the Monarch signs a bill which becomes an Act of Parliament \nB Is incorrect as it is not a symbol to show royal supremacy \nC  Is incorrect as this is a tradition or custom and not the Royal Assent \nD Is incorrect as this is known by the process (now obsolete) of primogeniture",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is when the Monarch signs a bill which becomes an Act of  Parliament."
+        },
+        {
+          "letter": "B",
+          "text": "It is a symbol which shows that royalty is above ordinary citizens."
+        },
+        {
+          "letter": "C",
+          "text": "It is the principle that the monarch agrees not to enter the House of  Commons."
+        },
+        {
+          "letter": "D",
+          "text": "It promotes the principle that only a male child can inherit the throne."
+        }
+      ]
     },
     {
       "id": "q_2019j_01_4c",
@@ -1368,16 +1608,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these explains the role of a whip in Parliament?\n(1)\n\n  A) To punish anyone who breaks parliamentary rules\n  B) To act as a sponsor when a new MP swears the Oath of Allegiance\n  C) To ensure that members of the same political party vote together\n  D) To advise the government on legal issues  \t \t \t Study Source B below and then answer part (d).",
+      "question_text": "Which one of these explains the role of a whip in Parliament?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct \nTo ensure that members of the same poitical party vote together \nA is incorrect as whips do not have this power \nB is incorrect as whips do not carry out this function \nD is incorrect  as governments have legal officers",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "To punish anyone who breaks parliamentary rules"
+        },
+        {
+          "letter": "B",
+          "text": "To act as a sponsor when a new MP swears the Oath of Allegiance"
+        },
+        {
+          "letter": "C",
+          "text": "To ensure that members of the same political party vote together"
+        },
+        {
+          "letter": "D",
+          "text": "To advise the government on legal issues        Study Source B below and then answer part (d)."
+        }
+      ]
     },
     {
       "id": "q_2019j_01_4d",
@@ -1560,16 +1818,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following does Sarah Shemkus believe?\n(1)\n\n  A) It is highly unlikely that prison offenders will ever get a job\n  B) \u0007It is better for the economy to use the cheap labour available in  prisons\n  C) \u0007Prisoners cannot do complex technical tasks that a modern economy  requires\n  D) If offenders work in prison they acquire a range of skills",
+      "question_text": "Which one of the following does Sarah Shemkus believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D is correct \nIf offenders work in prison they acquire a range of skills \nA is incorrect as this goes against what the author is saying \nB is incorrect as she does not mention cheap labour \nC is incorrect as she does not state this and implies the opposite",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is highly unlikely that prison offenders will ever get a job"
+        },
+        {
+          "letter": "B",
+          "text": "It is better for the economy to use the cheap labour available in  prisons"
+        },
+        {
+          "letter": "C",
+          "text": "Prisoners cannot do complex technical tasks that a modern economy  requires"
+        },
+        {
+          "letter": "D",
+          "text": "If offenders work in prison they acquire a range of skills"
+        }
+      ]
     },
     {
       "id": "q_2019j_01_7b",
@@ -1581,16 +1857,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following does Helen Brown Coverdale believe?\n(1)\n\n  A) Defendants have to play a role alongside offenders in rehabilitation\n  B) Prisoners will always riot no matter what changes are made.\n  C) Prisoners must be treated far more thoughtfully as individuals.\n  D) The state is not responding to the current high levels of crime",
+      "question_text": "Which one of the following does Helen Brown Coverdale believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct \nPrisons must address individual prisoner\u2019s needs \nA is incorrect as there is no real connection in this wording and extract between \ndefendants (unconvicted) and offenders \nB is incorrect as there is no connection established between rioting and boredom \nD is incorrect as no linkage is made between the state\u2019s response to crime",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Defendants have to play a role alongside offenders in rehabilitation"
+        },
+        {
+          "letter": "B",
+          "text": "Prisoners will always riot no matter what changes are made."
+        },
+        {
+          "letter": "C",
+          "text": "Prisoners must be treated far more thoughtfully as individuals."
+        },
+        {
+          "letter": "D",
+          "text": "The state is not responding to the current high levels of crime"
+        }
+      ]
     },
     {
       "id": "q_2019j_01_7c",
@@ -1964,16 +2258,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "The UK press regulator is now called the:\n\n  A) Federal Communications Commission\n  B) Press Complaints Commission\n  C) Independent Press Standards Organisation\n  D) National Archives",
+      "question_text": "The UK press regulator is now called the:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C Independent Press Standards Organisation \nA Federal Communications Commission is incorrect because this is an American \norganisation \nB Press Complaints Commission is incorrect because it was closed in 2014 and \nreplaced by [C]  \nC Independent Press Standards Organisation is the correct answer as it was set up \nto regulate the press in 2014 \nD National Archives is incorrect because this is the official archive for the UK \ngovernment",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Federal Communications Commission"
+        },
+        {
+          "letter": "B",
+          "text": "Press Complaints Commission"
+        },
+        {
+          "letter": "C",
+          "text": "Independent Press Standards Organisation"
+        },
+        {
+          "letter": "D",
+          "text": "National Archives"
+        }
+      ]
     },
     {
       "id": "q_2019j_02_4",
@@ -1985,16 +2297,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Sanctions are when a country or organisation:\n\n  A) takes action to improve living conditions in another country\n  B) uses military force against another country\n  C) limits trade or contact with another country\n  D) tries to help resolve conflict between other countries",
+      "question_text": "Sanctions are when a country or organisation:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C limits trade or contact with another country \nA improves living conditions in another country is incorrect because this is a \ndefinition of aid \nB uses military force against another country is incorrect because this is a definition \nof using force \nC limits trade or contact with another country is the correct definition \nD resolves conflict between other countries is incorrect because this is a definition \nof mediation",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "takes action to improve living conditions in another country"
+        },
+        {
+          "letter": "B",
+          "text": "uses military force against another country"
+        },
+        {
+          "letter": "C",
+          "text": "limits trade or contact with another country"
+        },
+        {
+          "letter": "D",
+          "text": "tries to help resolve conflict between other countries"
+        }
+      ]
     },
     {
       "id": "q_2019j_02_6",
@@ -2199,16 +2529,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following is a tax used to pay for the services of local\ngovernment?\n(1)\n\n  A) income tax\n  B) value added tax\n  C) inheritance tax\n  D) council tax",
+      "question_text": "Which one of the following is a tax used to pay for the services of local\ngovernment?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is D \u2013 Council tax - it is \nraised locally by councils on business properties \nin a set locality \nA is not correct because this tax is raised by central government \nand it is a universal national tax \nB is not correct because it relates to taxes which apply nationally \nto profit made on business and investments \nC is not correct because this tax is levied on the estates of \ndeceased people over a certain figure",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "income tax"
+        },
+        {
+          "letter": "B",
+          "text": "value added tax"
+        },
+        {
+          "letter": "C",
+          "text": "inheritance tax"
+        },
+        {
+          "letter": "D",
+          "text": "council tax"
+        }
+      ]
     },
     {
       "id": "q_2020j_01_1b",
@@ -2220,16 +2568,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of these statements is true concerning the UN Universal Declaration \non Human Rights?\n(1)\n\n  A) It was agreed soon after the Second World War.\n  B) It does not cover Human Rights in non-democratic countries.\n  C) It was designed to cover the rights of children only.\n  D) It does not include unemployed people.",
+      "question_text": "Which one of these statements is true concerning the UN Universal Declaration \non Human Rights?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is A \u2013 It was agreed \nsoon after the Second World War - it was agreed \nafter the end of the Second World War in 1948 \nB is not correct because it applies internationally and disregards \nany political basis of a country \nC is not correct because it is not designed to pursue children\u2018s \nrights \nD is not correct because it applies equally to employed and \nunemployed people",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It was agreed soon after the Second World War."
+        },
+        {
+          "letter": "B",
+          "text": "It does not cover Human Rights in non-democratic countries."
+        },
+        {
+          "letter": "C",
+          "text": "It was designed to cover the rights of children only."
+        },
+        {
+          "letter": "D",
+          "text": "It does not include unemployed people."
+        }
+      ]
     },
     {
       "id": "q_2020j_01_1c",
@@ -2434,16 +2800,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Backbench MPs in the House of Commons are those who\n(1)\n\n  A) have fewer constituents than the average MP\n  B) are from an opposition party\n  C) are not part of the Government\n  D) have not sworn allegiance to the Crown",
+      "question_text": "Backbench MPs in the House of Commons are those who",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is C \u2013 Are not part of \nthe Government - this is the clear definition of a \nbackbench MP \nA is not correct because the number of constituents is irrelevant \nto an MPs status \nB is not correct because backbench MPs arise from the governing \nand opposition parties \nD is not correct because all MPs who act in the chamber have to \nswear an oath of allegiance to the Crown",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "have fewer constituents than the average MP"
+        },
+        {
+          "letter": "B",
+          "text": "are from an opposition party"
+        },
+        {
+          "letter": "C",
+          "text": "are not part of the Government"
+        },
+        {
+          "letter": "D",
+          "text": "have not sworn allegiance to the Crown"
+        }
+      ]
     },
     {
       "id": "q_2020j_01_4b",
@@ -2455,16 +2839,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these best describes the UK cabinet?\n(1)\n\n  A) It is the collected members of the Privy Council who advise the   \t Monarch.\n  B) It is the senior figures in the main political parties.\n  C) It is the senior figures from Parliament including Black Rod and the   \t Speaker.\n  D) It is a group of senior ministers chosen by the Prime Minister.",
+      "question_text": "Which one of these best describes the UK cabinet?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is D \u2013 It is a group of \nsenior ministers chosen by the Prime Minister - \nthe cabinet is a body chosen by the Prime \nMinister \nA is not correct because the Privy Council is a different body to \nthe cabinet \nB is not correct because the cabinet does not include all members \nfrom all parties \nC is not correct because Black Rod and the Speaker are officers in \nParliament not government",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is the collected members of the Privy Council who advise the     Monarch."
+        },
+        {
+          "letter": "B",
+          "text": "It is the senior figures in the main political parties."
+        },
+        {
+          "letter": "C",
+          "text": "It is the senior figures from Parliament including Black Rod and the     Speaker."
+        },
+        {
+          "letter": "D",
+          "text": "It is a group of senior ministers chosen by the Prime Minister."
+        }
+      ]
     },
     {
       "id": "q_2020j_01_4c",
@@ -2476,16 +2878,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "The process of judicial review is\n(1)\n\n  A) to check and fully investigate that no judge has ever broken the law\n  B) to check that all new laws have been scrutinised by the government   \t and the opposition\n  C) to check that government and public bodies have not exceeded their   \t authority\n  D) to check the prosecution\u2019s evidence against a defendant  \t \t Study Source B below and then answer part (d). Source B: The role of the monarch (Source: \u00a9 Handout/Getty Images) Monarchy is the oldest form of government in the United Kingdom. In a monarchy,  a king or queen is Head of State. The UK monarchy is known as a constitutional  monarchy. This means that, while the monarch is the Head of State, the ability to  make and pass legislation resides with an elected Parliament. The monarch is not  allowed to vote or have any say in party politics. Although the monarch no longer has a political or governing role, he or she has the  right to be consulted or offer advice to the Prime Minister on major issues. As Head of  State, the monarch undertakes constitutional duties and represents the UK at home  and abroad. The monarch also has a less formal role as \u2018Head of the Nation\u2019.   The monarch acts as a focus for national identity, unity and pride. The monarch  provides a sense of stability and continuity by officially recognising success and  excellence. The monarchy also supports the ideal of voluntary service. (Source: adapted from https://www.royal.uk/queen-and-government)",
+      "question_text": "The process of judicial review is",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is C \u2013 To check that \ngovernment and public bodies have not \nexceeded their authority - judicial review \nmonitors the actions of government and public \nbodies to ensure that they have the authority to \nact \nA is not correct because this is false and does not apply \nB is not correct because new laws are produced by scrutiny in \nparliament \nC is not correct because this does not apply to the process in \ncourt",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "to check and fully investigate that no judge has ever broken the law"
+        },
+        {
+          "letter": "B",
+          "text": "to check that all new laws have been scrutinised by the government     and the opposition"
+        },
+        {
+          "letter": "C",
+          "text": "to check that government and public bodies have not exceeded their     authority"
+        },
+        {
+          "letter": "D",
+          "text": "to check the prosecution\u2019s evidence against a defendant      Study Source B below and then answer part (d). Source B: The role of the monarch (Source: \u00a9 Handout/Getty Images) Monarchy is the oldest form of government in the United Kingdom. In a monar"
+        }
+      ]
     },
     {
       "id": "q_2020j_01_4d",
@@ -2610,16 +3030,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Restorative justice involves\n(1)\n\n  A) a willingness to repair and replace stolen property and belongings\n  B) achieving law and order after rioting and civil disturbances\n  C) \u0007bringing victims and offenders together to understand each other\u2019s  feelings\n  D) punishing criminals for crimes committed many years or decades ago",
+      "question_text": "Restorative justice involves",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is C \u2013 Bringing victims \nand offenders together to understand each \nother\u2019s feelings - this process does try to \nreconcile victims and offenders \nA is not correct because this process is not this type of justice \nB is not correct because this is not a process after rioting and \ndisturbance \nD is not correct because it does not apply to crimes committed in \nthe past",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "a willingness to repair and replace stolen property and belongings"
+        },
+        {
+          "letter": "B",
+          "text": "achieving law and order after rioting and civil disturbances"
+        },
+        {
+          "letter": "C",
+          "text": "bringing victims and offenders together to understand each other\u2019s  feelings"
+        },
+        {
+          "letter": "D",
+          "text": "punishing criminals for crimes committed many years or decades ago"
+        }
+      ]
     },
     {
       "id": "q_2020j_01_6b",
@@ -2688,16 +3126,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following does Philip Hammond believe?\n(1)\n\n  A) Austerity helps the poorest in society.\n  B) Taxes have to rise sharply to end austerity.\n  C) Low taxes will harm industry and business.\n  D) Austerity was needed to reduce the debt.",
+      "question_text": "Which one of the following does Philip Hammond believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is D \u2013 Austerity was \nneeded to reduce the debt - getting debt down \nis the real priority in the long term \nA is not correct because Hammond makes no reference linking \nausterity to helping the poor  \nB is not correct because Hammond is against tax rises \nC is not correct because Hammond wishes for low taxes",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Austerity helps the poorest in society."
+        },
+        {
+          "letter": "B",
+          "text": "Taxes have to rise sharply to end austerity."
+        },
+        {
+          "letter": "C",
+          "text": "Low taxes will harm industry and business."
+        },
+        {
+          "letter": "D",
+          "text": "Austerity was needed to reduce the debt."
+        }
+      ]
     },
     {
       "id": "q_2020j_01_7b",
@@ -2709,16 +3165,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Which one of the following does Jeremy Corbyn believe?\n(1)\n\n  A) Spending on the health service caused the financial crash.\n  B) Overall living standards have not been affected by austerity.\n  C) Pay has risen at a faster rate for the higher-paid people in the UK.\n  D) The level of health spending is higher in the UK than Europe.",
+      "question_text": "Which one of the following does Jeremy Corbyn believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is C \u2013 Pay has risen at \na faster rate for the higher-paid people in the UK \n- Corbyn feels the rich have increased their \nwealth under austerity \nA is not correct because Corbyn does not believe spending on the \nhealth service had anything to do with the crash \nB is not correct because Corbyn feels that overall living standards \nhave fallen under austerity \nD is not correct because Corbyn feels that the opposite is more \naccurate",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spending on the health service caused the financial crash."
+        },
+        {
+          "letter": "B",
+          "text": "Overall living standards have not been affected by austerity."
+        },
+        {
+          "letter": "C",
+          "text": "Pay has risen at a faster rate for the higher-paid people in the UK."
+        },
+        {
+          "letter": "D",
+          "text": "The level of health spending is higher in the UK than Europe."
+        }
+      ]
     },
     {
       "id": "q_2020j_01_7c",
@@ -3088,16 +3562,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Non-governmental organisations (NGOs) are best described as\n\n  A) groups of countries with shared goals\n  B) organisations specialising in trade\n  C) independent groups that are not state controlled\n  D) agencies run by international bodies to give aid",
+      "question_text": "Non-governmental organisations (NGOs) are best described as",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is C \u2013 Independent \ngroups that are not state controlled \nA is not correct because this refers to international organisations \nB is not correct because this refers to institutions with an \neconomic focus \nD is not correct because this refers to organisations that are part \nof international groups such as the EU or UN",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "groups of countries with shared goals"
+        },
+        {
+          "letter": "B",
+          "text": "organisations specialising in trade"
+        },
+        {
+          "letter": "C",
+          "text": "independent groups that are not state controlled"
+        },
+        {
+          "letter": "D",
+          "text": "agencies run by international bodies to give aid"
+        }
+      ]
     },
     {
       "id": "q_2020j_02_5",
@@ -3109,16 +3601,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Tribunals are where\n\n  A) fraud cases involving over \u00a320,000 are dealt with\n  B) a civil case is sent if it is dismissed by a court\n  C) attempted rather than actual crimes are dealt with\n  D) issues are resolved in a less formal way outside the court system",
+      "question_text": "Tribunals are where",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "The only correct answer is D \u2013 Issues are \nresolved in a less formal way outside the court \nsystem \nA is not correct because this refers to the criminal court cases \nB is not correct because this refers to the civil court system \nC is not correct because this refers to the criminal court system",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "fraud cases involving over \u00a320,000 are dealt with"
+        },
+        {
+          "letter": "B",
+          "text": "a civil case is sent if it is dismissed by a court"
+        },
+        {
+          "letter": "C",
+          "text": "attempted rather than actual crimes are dealt with"
+        },
+        {
+          "letter": "D",
+          "text": "issues are resolved in a less formal way outside the court system"
+        }
+      ]
     },
     {
       "id": "q_2020j_02_6",
@@ -3324,18 +3834,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of the following best describes the term \u2018freedom of speech\u2019?\n(1)\n\n  A) freedom to join any political organisation or pressure group\n  B) freedom to seek information about another citizen\n  C) freedom to publish anything in a newspaper about another citizen\n  D) freedom to say anything about people or issues within the law",
+      "question_text": "Which one of the following best describes the term \u2018freedom of speech\u2019?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer as the right to publish must be within the law \nA is incorrect as this pertains to freedom of association \nB is incorrect as this is more aptly covered by the Freedom of Information Act \nC is incorrect as not simply anhthing can be published , it has to be within the \nlaw and true",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "freedom to join any political organisation or pressure group"
+        },
+        {
+          "letter": "B",
+          "text": "freedom to seek information about another citizen"
+        },
+        {
+          "letter": "C",
+          "text": "freedom to publish anything in a newspaper about another citizen"
+        },
+        {
+          "letter": "D",
+          "text": "freedom to say anything about people or issues within the law"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_1b",
@@ -3347,16 +3876,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of the following statements is true concerning the Human Rights  \nAct 1998?\n(1)\n\n  A) It is no longer recognised by UK courts.\n  B) It only applies to EU citizens who have lived in the UK for three years.\n  C) It incorporated rights in the European Convention into UK law.\n  D) Children are exempt so it only applies to adults aged 18 and over.",
+      "question_text": "Which one of the following statements is true concerning the Human Rights  \nAct 1998?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct as it flows from the European Convention on Human Rights\nA is incorrect as the judges still recognise it and apply it \nB is incorrect as it makes no stipulation concerning EU Nationals \nD is incorrect as it has no watershed age of 18",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is no longer recognised by UK courts."
+        },
+        {
+          "letter": "B",
+          "text": "It only applies to EU citizens who have lived in the UK for three years."
+        },
+        {
+          "letter": "C",
+          "text": "It incorporated rights in the European Convention into UK law."
+        },
+        {
+          "letter": "D",
+          "text": "Children are exempt so it only applies to adults aged 18 and over."
+        }
+      ]
     },
     {
       "id": "q_2021j_01_1c",
@@ -3515,16 +4062,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of these is an example of an indirect tax?\n(1)\n\n  A) tax placed on purchases of goods and services such as VAT\n  B) tax based on income from being employed by a business\n  C) tax levied on earnings from those who are self-employed\n  D) tax on the profits made by companies",
+      "question_text": "Which one of these is an example of an indirect tax?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is correct as VAT is an example of a tax placed on goods or services \nand is indirect and collected at the point of sale \nB is incorrect as the government collects this tax direct from the employee\u2019s \nwage \nC is is incorrect as again the government collects tax direclty from slef \nemployed people \nD is incorrect as again the government acts as the tax collecter in this instance",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "tax placed on purchases of goods and services such as VAT"
+        },
+        {
+          "letter": "B",
+          "text": "tax based on income from being employed by a business"
+        },
+        {
+          "letter": "C",
+          "text": "tax levied on earnings from those who are self-employed"
+        },
+        {
+          "letter": "D",
+          "text": "tax on the profits made by companies"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_4b",
@@ -3536,16 +4101,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these is allowed to vote in general elections?\n(1)\n\n  A) the Monarch\n  B) members of the House of Lords\n  C) the Speaker of the House of Commons\n  D) people aged 16 or 17",
+      "question_text": "Which one of these is allowed to vote in general elections?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct as the Speaker of the Commons is simply an MP with a \nright to vote \nA is incorrect as the Monarch does not have the right to vote \nB is incorrect as members of the Lords already have a voice in parliament \nD is incorrect as in General Elections a person must be 18",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Monarch"
+        },
+        {
+          "letter": "B",
+          "text": "members of the House of Lords"
+        },
+        {
+          "letter": "C",
+          "text": "the Speaker of the House of Commons"
+        },
+        {
+          "letter": "D",
+          "text": "people aged 16 or 17"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_4c",
@@ -3557,16 +4140,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "The UK\u2019s uncodified constitution has features where \n(1)\n\n  A) \u0007all constitutional rules and laws that have been passed over time are  written in one document.\n  B) the Monarch has the supreme constitutional law-making power\n  C) \u0007constitutional rules are partly written and derived from   different sources\n  D) all constitutional changes must be approved in a referendum  \t BLANK PAGE  \t \t Study Source B below and then answer part (d). Source B: The government\u2019s annual spending programme Each year the government decides what it will spend in the year ahead with the tax  year starting in April. It will examine what it expects to raise in taxes and what it will  spend. It will decide if it has to borrow money in the forthcoming year. In essence, it  is making choices, deciding preferences and setting its wider agenda and allocating  public spending. Should more money be spent on education or defence or the environment? It has  to set levels of taxation and decide what we spend on our elderly and our sick.  Importantly it has to decide on the welfare benefits and payments to be paid to  those who cannot work or are unable to secure a job.  It must respond to any emerging crisis \u2013 such as health, the economy or overseas  problems. It also has to deal with any new genuine needs which arise. It has to satisfy  its own political party and consider public opinion. It has to cope with short-term  needs and cater for long-term plans. \t Source B describes the choices a government makes in setting its budget.",
+      "question_text": "The UK\u2019s uncodified constitution has features where",
       "marks": 1,
-      "question_type": "analyse",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct as an uncodified constitution as in the UK has these \nfeatures \nA is incorrect as this describes the characteristics of a fully codified \nconstitution  \nB is incorrect as this deal with sovereignty and more accurstley would \ndescrinbe an authortiarian mode of control \nD is incorrect as this again looks to how changes are made to a constitution \nnot its format",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "all constitutional rules and laws that have been passed over time are  written in one document."
+        },
+        {
+          "letter": "B",
+          "text": "the Monarch has the supreme constitutional law-making power"
+        },
+        {
+          "letter": "C",
+          "text": "constitutional rules are partly written and derived from   different sources"
+        },
+        {
+          "letter": "D",
+          "text": "all constitutional changes must be approved in a referendum    BLANK PAGE      Study Source B below and then answer part (d). Source B: The government\u2019s annual spending programme Each year the government decides what it will spend in the year ahead w"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_4d",
@@ -3662,18 +4263,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "The presumption of innocence in a court means that\n (1)\n\n  A) no members of a jury have ever committed a crime\n  B) all police evidence is correct and cannot be questioned in court\n  C) a defendant on trial is innocent until proven guilty\n  D) children under the age of 10 are innocent of all criminal charges",
+      "question_text": "The presumption of innocence in a court means that",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer as in the legal system a trial alone produces \nthe verdict of guilt or innocence \nA is incorrect as the jury is randomly selected and will produce a cross section \nof society \nB is incorrect as Police evidence is at liberty to be questioned in court \nD is incorrect for although children under 10 cannot be prosecuted this does \nnot define the term required",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "no members of a jury have ever committed a crime"
+        },
+        {
+          "letter": "B",
+          "text": "all police evidence is correct and cannot be questioned in court"
+        },
+        {
+          "letter": "C",
+          "text": "a defendant on trial is innocent until proven guilty"
+        },
+        {
+          "letter": "D",
+          "text": "children under the age of 10 are innocent of all criminal charges"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_6b",
@@ -3727,16 +4347,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of the following does the South Wales Police Force believe? \n(1)\n\n  A) The law permits them to use AFR technology\n  B) A citizen\u2019s private life is of no concern to the police\n  C) CCTV works better on the streets than at public events\n  D) There is an even balance between privacy and freedom of information",
+      "question_text": "Which one of the following does the South Wales Police Force believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is correct getting as the Police believe the law is in their favour\nB is incorrect is incorrect as private matters are a concern to the Police if they \nbreak the law and/or harm others \nC is incorrect as the functioning of CCTV on the streets or public events is not \ndiscussed \nD is incorrect as the balanced between privacy and freedom of information is \nnot discussed",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The law permits them to use AFR technology"
+        },
+        {
+          "letter": "B",
+          "text": "A citizen\u2019s private life is of no concern to the police"
+        },
+        {
+          "letter": "C",
+          "text": "CCTV works better on the streets than at public events"
+        },
+        {
+          "letter": "D",
+          "text": "There is an even balance between privacy and freedom of information"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_7b",
@@ -3748,18 +4386,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of the following does Liberty believe? \n(1)\n\n  A) Privacy in public places has always been limited\n  B) Inaccuracy is not a problem with current technology\n  C) AFR\u2019s benefit is overestimated\n  D) Criminals will always evade being caught",
+      "question_text": "Which one of the following does Liberty believe?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer as Liberty state that the value of AFR is over \nestimated \nA is incorrect as Liberty do not discuss if there has been limited privacy in \npublic places in the past \nB is incorrect as Liberty do not agree that inaccuracy is not a problem \nD is incorrect as Liberty do not discuss criminals and their attempts to evade \nbeing caught",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Privacy in public places has always been limited"
+        },
+        {
+          "letter": "B",
+          "text": "Inaccuracy is not a problem with current technology"
+        },
+        {
+          "letter": "C",
+          "text": "AFR\u2019s benefit is overestimated"
+        },
+        {
+          "letter": "D",
+          "text": "Criminals will always evade being caught"
+        }
+      ]
     },
     {
       "id": "q_2021j_01_7c",
@@ -4023,16 +4680,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "People who work in public services are generally\n\n  A) not allowed to be members of a trade union\n  B) committed to supporting their community\n  C) required to work for fewer hours than other workers\n  D) paid more than those employed in the private sector",
+      "question_text": "People who work in public services are generally",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "B committed to supporting their community \n(1) \nQuestio\nn \nnumber \nAnswer  \nMark \n4 \nA a non-profit-making organisation",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "not allowed to be members of a trade union"
+        },
+        {
+          "letter": "B",
+          "text": "committed to supporting their community"
+        },
+        {
+          "letter": "C",
+          "text": "required to work for fewer hours than other workers"
+        },
+        {
+          "letter": "D",
+          "text": "paid more than those employed in the private sector"
+        }
+      ]
     },
     {
       "id": "q_2021j_02_5",
@@ -4044,16 +4719,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "To be a candidate in a constituency in a UK general election, you must\n\n  A) be a member of a political party\n  B) have a university degree\n  C) live in that constituency\n  D) be nominated by local people",
+      "question_text": "To be a candidate in a constituency in a UK general election, you must",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D be nominated by local people",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "be a member of a political party"
+        },
+        {
+          "letter": "B",
+          "text": "have a university degree"
+        },
+        {
+          "letter": "C",
+          "text": "live in that constituency"
+        },
+        {
+          "letter": "D",
+          "text": "be nominated by local people"
+        }
+      ]
     },
     {
       "id": "q_2021j_02_6",
@@ -4191,18 +4884,37 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Amil is a huge fan of his local premier league football club, he is also a practising\nMuslim and he offers his time on a voluntary basis to the local dog rescue centre.\n\t\n\t\nWhich one of the following best describes Amil?\n(1)\n\n  A) Conflicting loyalties\n  B) Politically biased\n  C) Multiple identities\n  D) Ethnically prejudiced",
+      "question_text": "Amil is a huge fan of his local premier league football club, he is also a practising\nMuslim and he offers his time on a voluntary basis to the local dog rescue centre.\n\t\n\t\nWhich one of the following best describes Amil?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer as the three facts show \nmulitple identity \nA there is no reason to suggest that the three facts \nproduce conflicting loyalties \nB there is no evidence in the illustration for competing \npolitical loyalties \nD None of the facts presented indicate any ethical \nprejudice",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conflicting loyalties"
+        },
+        {
+          "letter": "B",
+          "text": "Politically biased"
+        },
+        {
+          "letter": "C",
+          "text": "Multiple identities"
+        },
+        {
+          "letter": "D",
+          "text": "Ethnically prejudiced"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_1b",
@@ -4214,16 +4926,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following statements accurately describes \u2018tolerance\u2019?\n(1)\n\n  A) \u0007Encouraging people to resolve a problem by using violence\n  B) \u0007Forcefully opposing and criticising the ideas expressed and actions  taken by others\n  C) \u0007Not allowing the views of others ever to be heard, published   or debated\n  D) \u0007Allowing others\u2019 views and opinions to be voiced even if you disagree  with them  \t \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2",
+      "question_text": "Which one of the following statements accurately describes \u2018tolerance\u2019?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D is correct as it accurately depicts the concept of \ntolerance \nA is incorrect as it does not encourage others to act \nB is incorrect as it does not forcefully oppose others \nviews \nC is incorrect as it does not attempt to silence others",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encouraging people to resolve a problem by using violence"
+        },
+        {
+          "letter": "B",
+          "text": "Forcefully opposing and criticising the ideas expressed and actions  taken by others"
+        },
+        {
+          "letter": "C",
+          "text": "Not allowing the views of others ever to be heard, published   or debated"
+        },
+        {
+          "letter": "D",
+          "text": "Allowing others\u2019 views and opinions to be voiced even if you disagree  with them    \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_1c",
@@ -4406,18 +5136,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of the following accurately describes the role of the House of Lords?\n(1)\n\n  A) Representing the Royal Family in Parliament\n  B) Acting to control what the government spends\n  C) Revising and checking legislation from the Commons\n  D) Ensures that no members belong to a political party",
+      "question_text": "Which one of the following accurately describes the role of the House of Lords?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer as this is the House\u2018s key \nrole \nA is incorrect for the Royal Family play no active part in \npolitics \nB is is incorrect as the Hous of Lords has no control \nover money matters \nD is incorrect as some House of Lords members are \nparty political",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Representing the Royal Family in Parliament"
+        },
+        {
+          "letter": "B",
+          "text": "Acting to control what the government spends"
+        },
+        {
+          "letter": "C",
+          "text": "Revising and checking legislation from the Commons"
+        },
+        {
+          "letter": "D",
+          "text": "Ensures that no members belong to a political party"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_4b",
@@ -4429,16 +5178,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of the following is true concerning General Elections in the UK?\n(1)\n\n  A) To stand in an election you must be a member of a political party\n  B) Over half the seats in the UK are never contested\n  C) Each voter has to declare who they voted for\n  D) Elections must be held at least once every five years",
+      "question_text": "Which one of the following is true concerning General Elections in the UK?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D is correct as General elections must take place \nevery 5 years  \nA is incorrect for membership of a political party is not \nmandatory \nB is incorrect as virtually all seats are contested \nC is incorrect as voting takes place in secret with no \ncompulsion to reveal how their vote was cast",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "To stand in an election you must be a member of a political party"
+        },
+        {
+          "letter": "B",
+          "text": "Over half the seats in the UK are never contested"
+        },
+        {
+          "letter": "C",
+          "text": "Each voter has to declare who they voted for"
+        },
+        {
+          "letter": "D",
+          "text": "Elections must be held at least once every five years"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_4c",
@@ -4450,16 +5217,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of the following roles is fulfilled by judges in the UK?\n(1)\n\n  A) \u0007If required judges can consider whether a government has exceeded  its authority\n  B) \u0007Judges ensure that all MPs swear an oath of allegiance to their   local constituents\n  C) \u0007Judges annually produce new constitutional rules which governments  have to abide by\n  D) \u0007Judges have the power to decide who gets allocated a position in   the Cabinet  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2  BLANK PAGE QUESTION 4 CONTINUES ON THE NEXT PAGE.  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2  Study Source B below and then answer part (d). Source B: The Government of France France elects its Head of State, the President, for a fixed term of five years; a sitting  President can then, if re-elected, only serve an additional five years. The President  chooses who will become Prime Minister from the French Parliament. This person  \u2013 who may never previously have been even a minister \u2013 forms a government. The President as Head of State, the Prime Minister and the government work closely together \u2013 though a French President can, and does often, replace their Prime Minister mid-term. In France the President is elected using a second ballot system. This involves two possible rounds of voting on Sundays two weeks apart. The candidates are voted for by the public. If any candidate gets over 50% of the vote they are declared the winner. If that level is not achieved, a second round of voting takes place two weeks later with only the top two candidates from the preceding contest. This ensures a majority for one candidate of over 50%.",
+      "question_text": "Which one of the following roles is fulfilled by judges in the UK?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A is correct for judges through judicial review can \ncheck if governments have exceeded thier \nauthority \nB is incorrect because MPs do not take an oath of \nallegiance to their constituents \nC is incorrect for constitutional rules are the product of \nparliament  \nD is incorrect for appointments to the Cabinet are the \nrole of the PM",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "If required judges can consider whether a government has exceeded  its authority"
+        },
+        {
+          "letter": "B",
+          "text": "Judges ensure that all MPs swear an oath of allegiance to their   local constituents"
+        },
+        {
+          "letter": "C",
+          "text": "Judges annually produce new constitutional rules which governments  have to abide by"
+        },
+        {
+          "letter": "D",
+          "text": "Judges have the power to decide who gets allocated a position in   the Cabinet  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2  BLANK PAGE QUESTION 4 CONTINUES ON THE NEXT PAGE.  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2  Study Source B below and then answer part (d). Source B: The Government of France France elects its H"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_4d",
@@ -4587,18 +5372,37 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Tribunals are most likely to be used to resolve\n(1)\n\n  A) an unpaid parking fine on private land\n  B) petty theft where the value of the goods stolen is less than \u00a350\n  C) where a will is contested by relatives\n  D) where a person feels that they have been unfairly dismissed",
+      "question_text": "Tribunals are most likely to be used to resolve",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer as Tribunals deal with \nemployment related issues such as unfair dismissal \nA is incorrect as this issue will be dealt with in a court \nB is incorrect as all theft is dealt with in the court \nsystem no matter what the value of the theft \nC is incorrect as it is a family law matter dealt with by \nthe courts",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "an unpaid parking fine on private land"
+        },
+        {
+          "letter": "B",
+          "text": "petty theft where the value of the goods stolen is less than \u00a350"
+        },
+        {
+          "letter": "C",
+          "text": "where a will is contested by relatives"
+        },
+        {
+          "letter": "D",
+          "text": "where a person feels that they have been unfairly dismissed"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_6b",
@@ -4671,16 +5475,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by those who favour removing statues?\n(1)\n\n  A) The slave trade is now long forgotten and is not a current concern\n  B) We have to keep all statues as they reflect a multicultural society\n  C) Statues may be regarded by some people as a sign of past injustice\n  D) Our streets and squares are ideal places to display heritage statues",
+      "question_text": "Which one of these is believed by those who favour removing statues?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct for some statues are a sign of past \ninjustice for some people \nA is incorrect as the source for removal thinks slavery is \nnot forgotten and there remains concern about its \nimpact \nB is incorrect as the extract makes no note of a \nmulticultural society and statues \nD is incorrect as the source does not imply that streets \nand squares are always suitable venues for statues",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The slave trade is now long forgotten and is not a current concern"
+        },
+        {
+          "letter": "B",
+          "text": "We have to keep all statues as they reflect a multicultural society"
+        },
+        {
+          "letter": "C",
+          "text": "Statues may be regarded by some people as a sign of past injustice"
+        },
+        {
+          "letter": "D",
+          "text": "Our streets and squares are ideal places to display heritage statues"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_7b",
@@ -4692,18 +5514,37 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by those who favour keeping statues?\n(1)\n\n  A) The public play no part in selecting and asking for new statues\n  B) Celebrating events from the past with statues should be avoided\n  C) Statues of fictional characters are the best examples of our history\n  D) \u0007Keeping statues of former leaders helps society remember its past",
+      "question_text": "Which one of these is believed by those who favour keeping statues?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer for keeping statues keeps us \nin touch with our past \nA is incorrect the source identifies the public as playing \na part in requesting statues \nB is incorrect for it does not state that celebrating \nevents from the past should be avoided \nC is incorrect as it false to cite the favour of fictional \nheroes as the best example of our history",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The public play no part in selecting and asking for new statues"
+        },
+        {
+          "letter": "B",
+          "text": "Celebrating events from the past with statues should be avoided"
+        },
+        {
+          "letter": "C",
+          "text": "Statues of fictional characters are the best examples of our history"
+        },
+        {
+          "letter": "D",
+          "text": "Keeping statues of former leaders helps society remember its past"
+        }
+      ]
     },
     {
       "id": "q_2022j_01_7c",
@@ -5069,16 +5910,34 @@
       },
       "topic": "active_citizenship",
       "subtopic": "general",
-      "question_text": "Lobbying is the process of:\n(1)\n\n  A) joining a group to give support to a particular cause or policy\n  B) citizens voting on a particular cause or policy\n  C) trying to influence the opinions of decision-makers\n  D) organising an event to disrupt society as a protest",
+      "question_text": "Lobbying is the process of:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. joining a group to give support to a particular cause \nor policy is incorrect because this is related to \nparticipation instead. \nB. citizens voting on a particular cause or policy is \nincorrect because this is related to participation \ninstead. \nC. trying to influence the opinions of decision-makers is \nthe correct answer. \nD. organising an event to disrupt society as a protest is \nincorrect because this is related to participation \ninstead.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "joining a group to give support to a particular cause or policy"
+        },
+        {
+          "letter": "B",
+          "text": "citizens voting on a particular cause or policy"
+        },
+        {
+          "letter": "C",
+          "text": "trying to influence the opinions of decision-makers"
+        },
+        {
+          "letter": "D",
+          "text": "organising an event to disrupt society as a protest"
+        }
+      ]
     },
     {
       "id": "q_2022j_02_4",
@@ -5090,16 +5949,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "An example of a pressure group is:\n(1)\n\n  A) International Criminal Court\n  B) Amnesty International\n  C) Liberal Democrats\n  D) NATO",
+      "question_text": "An example of a pressure group is:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. International Criminal Court is incorrect because \nthis is a court. \nB. Amnesty International is the correct answer. \nC. Liberal Democrats is incorrect because this is a \npolitical party. \nD. NATO is incorrect because this is an international \norganisation.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "International Criminal Court"
+        },
+        {
+          "letter": "B",
+          "text": "Amnesty International"
+        },
+        {
+          "letter": "C",
+          "text": "Liberal Democrats"
+        },
+        {
+          "letter": "D",
+          "text": "NATO"
+        }
+      ]
     },
     {
       "id": "q_2022j_02_5",
@@ -5111,18 +5988,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Digital democracy is the use of online technology to:\n(1)\n\n  A) encourage opposition to pressure groups\n  B) submit tax forms to the government via the internet\n  C) represent the rights of workers with their employers\n  D) enable engagement with voters and make them more likely to vote",
+      "question_text": "Digital democracy is the use of online technology to:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: e"
         ],
         "marking_guidance": "A. encourage opposition to pressure groups is \nincorrect because this is not a way of engaging in \nthe political process itself. \nB. submit tax forms to the government via the internet \nis incorrect because this is not a way of engaging in \nthe political process itself. \nC. represent the rights of workers with their employers \nis incorrect because this is not a way of engaging in \nthe political process itself. \nD. enable engagement with voters and make them \nmore likely to vote is the correct answer.",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "E"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "encourage opposition to pressure groups"
+        },
+        {
+          "letter": "B",
+          "text": "submit tax forms to the government via the internet"
+        },
+        {
+          "letter": "C",
+          "text": "represent the rights of workers with their employers"
+        },
+        {
+          "letter": "D",
+          "text": "enable engagement with voters and make them more likely to vote"
+        }
+      ]
     },
     {
       "id": "q_2022j_02_6",
@@ -5326,18 +6222,37 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Asylum seekers are people who:\n(1)\n\n  A) have to leave one country because of a natural disaster.\n  B) flee from one country and seek protection in another.\n  C) are from one country but seek work in another country.\n  D) visit another country but decide to stay there.",
+      "question_text": "Asylum seekers are people who:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: B"
         ],
         "marking_guidance": "B is the correct answer \nA is incorrect as this is not asylum seeking \nC is incorrect as this relates to an economic migrant \nD is incorrect as this is an example of travel",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "B"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "have to leave one country because of a natural disaster."
+        },
+        {
+          "letter": "B",
+          "text": "flee from one country and seek protection in another."
+        },
+        {
+          "letter": "C",
+          "text": "are from one country but seek work in another country."
+        },
+        {
+          "letter": "D",
+          "text": "visit another country but decide to stay there."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_1b",
@@ -5349,18 +6264,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of these accurately describes the United Nations Convention on the \nRights of the Child?\n(1)\n\n  A) It removes the responsibility of parents to care for children under 18.\n  B) It takes away the legal rights of children if a family is extremely poor.\n  C) It provides housing for all members of a child\u2019s family.\n  D) It confirms the distinct rights of children under 18.  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2",
+      "question_text": "Which one of these accurately describes the United Nations Convention on the \nRights of the Child?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer \nA is incorrect as the Charter does not make this demand on parents \nB is incorrect as poverty does not trigger this under the Charter \nC is incorrect as the Charter does not provide housing",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It removes the responsibility of parents to care for children under 18."
+        },
+        {
+          "letter": "B",
+          "text": "It takes away the legal rights of children if a family is extremely poor."
+        },
+        {
+          "letter": "C",
+          "text": "It provides housing for all members of a child\u2019s family."
+        },
+        {
+          "letter": "D",
+          "text": "It confirms the distinct rights of children under 18.  \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2"
+        }
+      ]
     },
     {
       "id": "q_2023j_01_1c",
@@ -5569,18 +6503,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these accurately describes the power of the Scottish Parliament?\n(1)\n\n  A) It can only pass laws approved by the Westminster Parliament in London.\n  B) It has fewer legal powers over the Highlands and Islands of  Northern Scotland.\n  C) It can decline to have the Monarch as Head of State.\n  D) It has power and control over fishing and agriculture but not defence.",
+      "question_text": "Which one of these accurately describes the power of the Scottish Parliament?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer as devolution granted the Scottish \nParliament the right to control fishing and agriculture but \nnot its defence \nA is incorrect as the Westminster Parliament has devolved certain \npowers to the Scottish Parliament \nB is incorrect as there is no geographical difference in the power of \nthe Scottish Parliament in Scotland  \nC is incorrect as the Scottish Parliament does not have the power to \ndetermine who is its head of state",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "It can only pass laws approved by the Westminster Parliament in London."
+        },
+        {
+          "letter": "B",
+          "text": "It has fewer legal powers over the Highlands and Islands of  Northern Scotland."
+        },
+        {
+          "letter": "C",
+          "text": "It can decline to have the Monarch as Head of State."
+        },
+        {
+          "letter": "D",
+          "text": "It has power and control over fishing and agriculture but not defence."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_4b",
@@ -5592,18 +6545,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these is an example of Parliamentary oversight and scrutiny?\n(1)\n\n  A) The weekly session of Prime Minister\u2019s Question Time.\n  B) A new member of Parliament swearing an oath of allegiance.\n  C) The official opening of a session of Parliament by the Monarch.\n  D) Allowing members of the public to view proceedings in Parliament.",
+      "question_text": "Which one of these is an example of Parliamentary oversight and scrutiny?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: A"
         ],
         "marking_guidance": "A is the correct answer as PMQ is an example of \nParliamentary oversight and scrutiny \nB is incorrect as swearing an oath of allegiance is not oversight and \nscrutiny \nC is incorrect as the Monarch opening Parliament is not scrutiny and \noversight \nD is incorrect as the public viewing Parliament is not scrutiny and \noversight",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "A"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The weekly session of Prime Minister\u2019s Question Time."
+        },
+        {
+          "letter": "B",
+          "text": "A new member of Parliament swearing an oath of allegiance."
+        },
+        {
+          "letter": "C",
+          "text": "The official opening of a session of Parliament by the Monarch."
+        },
+        {
+          "letter": "D",
+          "text": "Allowing members of the public to view proceedings in Parliament."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_4c",
@@ -5615,18 +6587,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these accurately describes the difference between a direct and an \nindirect tax?\n(1)\n\n  A) A direct tax is imposed on the wealthy, but an indirect tax is imposed  on everyone.\n  B) A direct tax is taken from income, but an indirect tax is taken  from spending.\n  C) A direct tax is levied by central government, but an indirect tax is levied  by local government.\n  D) A direct tax must be paid, but it is optional to pay an indirect tax.   \t \t\t\t \t \t \t \t \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2  \t \t Study Source B below and then answer part (d). \t Source B: The use of referendums in Switzerland and the UK Switzerland is perhaps the best example in Europe to show how important  referendums are. They are held regularly during the year with the whole population  choosing how the country is run, repealing laws, and introducing new ones. They  always attract over 65% of voters, thus making decisions legitimate. The Swiss have held referendums over a vast range of topics including banning  animal testing, improving the conditions and pay of nurses, allowing same sex  marriages and amending the law dealing with terrorism. Referendums were  available to the Swiss for difficult moral topics such as abortion and euthanasia. Referendums are an example of direct democracy rarely used in the UK. They  connect people to political life. This means that all major decisions are not taken  by just a few politicians who can be seen to be out of touch with ordinary life and  the challenges faced in society. Referendums work with the people setting the  agenda and making important decisions over a range of issues. Holding more  referendums would make a change to how the UK works politically and would  improve democracy.",
+      "question_text": "Which one of these accurately describes the difference between a direct and an \nindirect tax?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: B"
         ],
         "marking_guidance": "B is the correct answer as direct tax is taken directly from \nindividuals, but indirect tax is taken upon spending \nA is incorrect as the difference between both taxes has no \nconnection to wealth \nC is incorrect as the taxation difference has nothing to do with \neither central or local government \nD is incorrect as both taxes are compulsory",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "B"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "A direct tax is imposed on the wealthy, but an indirect tax is imposed  on everyone."
+        },
+        {
+          "letter": "B",
+          "text": "A direct tax is taken from income, but an indirect tax is taken  from spending."
+        },
+        {
+          "letter": "C",
+          "text": "A direct tax is levied by central government, but an indirect tax is levied  by local government."
+        },
+        {
+          "letter": "D",
+          "text": "A direct tax must be paid, but it is optional to pay an indirect tax.                 \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2      Study Source B below and then answer part (d).   Source B: The use of referendums in Switzerland and the UK Switzerland is perhaps the best example in"
+        }
+      ]
     },
     {
       "id": "q_2023j_01_4d",
@@ -5760,18 +6751,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of these accurately describes a difference between Magistrates\u2019 Courts\nand Crown Courts?\n(1)\n\n  A) The fines imposed in a Magistrates\u2019 Court exceed those that are  \t imposed in a Crown Court.\n  B) The defence must prove innocence in a Magistrates\u2019 Court but in a  \t Crown Court the defendant must establish guilt.\n  C) Trial by jury is a feature of a Crown Court but is not a feature in a  \t Magistrates\u2019 Court.\n  D) A Magistrates\u2019 Court can impose a maximum prison sentence of two  \t years but in a Crown Court it is ten years.",
+      "question_text": "Which one of these accurately describes a difference between Magistrates\u2019 Courts\nand Crown Courts?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer as this accurately reflects a \ndifference between the two courts. \nA is incorrect because this does not accurately reflect the power to \nfine of both courts in comparison \nB is incorrect because the burden of proof is the same in both \ncourts \nD is incorrect because the Crown Court can impose life \nimprisonment and the magistrates are limited to two years",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "The fines imposed in a Magistrates\u2019 Court exceed those that are    imposed in a Crown Court."
+        },
+        {
+          "letter": "B",
+          "text": "The defence must prove innocence in a Magistrates\u2019 Court but in a    Crown Court the defendant must establish guilt."
+        },
+        {
+          "letter": "C",
+          "text": "Trial by jury is a feature of a Crown Court but is not a feature in a    Magistrates\u2019 Court."
+        },
+        {
+          "letter": "D",
+          "text": "A Magistrates\u2019 Court can impose a maximum prison sentence of two    years but in a Crown Court it is ten years."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_6b",
@@ -5848,18 +6858,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by Peter Tatchell?\n(1)\n\n  A) General elections tend to encourage violent law-breaking.\n  B) Some groups in society break the law in order to achieve change.\n  C) Human rights are no longer of major importance in today\u2019s society.\n  D) All political parties keep the promises that they make.",
+      "question_text": "Which one of these is believed by Peter Tatchell?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: B"
         ],
         "marking_guidance": "B is the correct answer as he asserts this fact. \nA is incorrect because he does not indicate that general elections \nstimulate violence \nC is incorrect because he actually states the opposite \nD is incorrect because he actually makes the opposing point",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "B"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "General elections tend to encourage violent law-breaking."
+        },
+        {
+          "letter": "B",
+          "text": "Some groups in society break the law in order to achieve change."
+        },
+        {
+          "letter": "C",
+          "text": "Human rights are no longer of major importance in today\u2019s society."
+        },
+        {
+          "letter": "D",
+          "text": "All political parties keep the promises that they make."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_7b",
@@ -5871,18 +6900,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by Dominic Grieve?\n(1)\n\n  A) Groups with competing rights or opposing views always break the law.\n  B) The law cannot protect us all \u2013 some people will be injured.\n  C) Leaders are failing to make decisions on key issues in society.\n  D) Those who break the law are often selfish in their actions.",
+      "question_text": "Which one of these is believed by Dominic Grieve?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer as he asserts this fact. \nA is incorrect because he does make that assertion \nB is incorrect because he does not allege this to be the case \nC is incorrect because he does not state that",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Groups with competing rights or opposing views always break the law."
+        },
+        {
+          "letter": "B",
+          "text": "The law cannot protect us all \u2013 some people will be injured."
+        },
+        {
+          "letter": "C",
+          "text": "Leaders are failing to make decisions on key issues in society."
+        },
+        {
+          "letter": "D",
+          "text": "Those who break the law are often selfish in their actions."
+        }
+      ]
     },
     {
       "id": "q_2023j_01_7c",
@@ -6278,16 +7326,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of the following is an example of indirect action?\n\n  A) Participating in a demonstration\n  B) Organising a publicity stunt\n  C) Writing to your local MP\n  D) Going on strike at work",
+      "question_text": "Which one of the following is an example of indirect action?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. Participating in a demonstration is incorrect because that is an \nexample of direct action. \nB. Organising a publicity stunt is incorrect because that is an example \nof direct action. \nC. Writing to your local MP is the correct answer because that is an \nexample of indirect action \nD. Going on strike at work is incorrect because that is an example of \ndirect action.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Participating in a demonstration"
+        },
+        {
+          "letter": "B",
+          "text": "Organising a publicity stunt"
+        },
+        {
+          "letter": "C",
+          "text": "Writing to your local MP"
+        },
+        {
+          "letter": "D",
+          "text": "Going on strike at work"
+        }
+      ]
     },
     {
       "id": "q_2023j_02_4",
@@ -6299,16 +7365,34 @@
       },
       "topic": "active_citizenship",
       "subtopic": "general",
-      "question_text": "Press censorship is when:\n\n  A) press regulation does not take place in society\n  B) the press is prevented from publishing something\n  C) multiple newspapers and media outlets are permitted\n  D) legislation protects freedom of expression",
+      "question_text": "Press censorship is when:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. Press regulation does not take place in society is incorrect censorship \nincludes some sort of regulation \nB. The press is prevented from publishing something is the correct \nanswer. \nC. Multiple newspapers and media outlets are permitted is incorrect \nbecause that is a feature of a democracy. \nD. Legislation protects freedom of expression is incorrect because that is \na feature of a democracy.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "press regulation does not take place in society"
+        },
+        {
+          "letter": "B",
+          "text": "the press is prevented from publishing something"
+        },
+        {
+          "letter": "C",
+          "text": "multiple newspapers and media outlets are permitted"
+        },
+        {
+          "letter": "D",
+          "text": "legislation protects freedom of expression"
+        }
+      ]
     },
     {
       "id": "q_2023j_02_5",
@@ -6320,16 +7404,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "One function of the Council of Europe is to:\n\n  A) promote free trade between countries\n  B) guarantee security between member states\n  C) pass legislation on European issues\n  D) promote human rights and democracy",
+      "question_text": "One function of the Council of Europe is to:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. Promote free trade between countries is incorrect because that is a \nrole of the WTO. \nB. Guarantee security between member states is incorrect because that \nis a role of NATO. \nC. Passes legislation on European issues is incorrect because that is a \nrole of the European Parliament. \nD. Promote human rights and democracy is the correct answer.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "promote free trade between countries"
+        },
+        {
+          "letter": "B",
+          "text": "guarantee security between member states"
+        },
+        {
+          "letter": "C",
+          "text": "pass legislation on European issues"
+        },
+        {
+          "letter": "D",
+          "text": "promote human rights and democracy"
+        }
+      ]
     },
     {
       "id": "q_2023j_02_6",
@@ -6540,18 +7642,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which one of the following countries have not ratified the United Nations\nConvention on the Rights of the Child?\n(1)\n\n  A) Turkey\n  B) The United States of America\n  C) France\n  D) Brazil",
+      "question_text": "Which one of the following countries have not ratified the United Nations\nConvention on the Rights of the Child?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: B"
         ],
         "marking_guidance": "B is the correct answer the United States of America has not ratified \nthe UN convention on the Rights of the Child. \nIncorrect responses \nA is incorrect because it has been ratified by Turkey \nC is incorrect because it has been ratified by France \nD is incorrect because it has been ratified by Brazil",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "B"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Turkey"
+        },
+        {
+          "letter": "B",
+          "text": "The United States of America"
+        },
+        {
+          "letter": "C",
+          "text": "France"
+        },
+        {
+          "letter": "D",
+          "text": "Brazil"
+        }
+      ]
     },
     {
       "id": "q_2024j_01_1b",
@@ -6563,16 +7684,34 @@
       },
       "topic": "life_in_modern_britain",
       "subtopic": "general",
-      "question_text": "Which one of these events could be described as an example of discrimination?\n(1)\n\n  A) Coming second to another candidate in a job interview.\n  B) Taking illegal drugs to improve performance in a sports contest.\n  C) Choosing a particular form of food to eat.\n  D) Being denied opportunities in work because of your religion.  \t \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2",
+      "question_text": "Which one of these events could be described as an example of discrimination?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "D is correct for being treated differently because of your religion is \nclassed as discrimination \nIncorrect responses \nA is incorrect as differences are accepted for choosing prefered candidates in a \njob interview \nB is incorrect as taking illegal drugs in sport is considered a criminal act and a \ndeliberate act by the participant \nC is incorrect for making a choice over personal food consumption is not \ndiscrimination",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coming second to another candidate in a job interview."
+        },
+        {
+          "letter": "B",
+          "text": "Taking illegal drugs to improve performance in a sports contest."
+        },
+        {
+          "letter": "C",
+          "text": "Choosing a particular form of food to eat."
+        },
+        {
+          "letter": "D",
+          "text": "Being denied opportunities in work because of your religion.    \uf0a2\uf0a2\uf0a2\uf0a2  \uf0a2"
+        }
+      ]
     },
     {
       "id": "q_2024j_01_1c",
@@ -6784,18 +7923,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these accurately describes a referendum in the UK?\n(1)\n\n  A) They are held annually after the monarch has opened Parliament.\n  B) They occur after a closely contested vote in the House of Commons.\n  C) They are an example of direct democracy granted by Parliament.\n  D) They must take place when no single party wins a general election.",
+      "question_text": "Which one of these accurately describes a referendum in the UK?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer for they are an example of direct democracy \ngranted by Parliament \nA is incorrect as they are not held annually after the opening of Parliament \nB is is incorrect as they do not arise after a closely contested vote in the \nHouse of Commons \nD is incorrect as they do not take place after a general election with no one \nparty victorious",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are held annually after the monarch has opened Parliament."
+        },
+        {
+          "letter": "B",
+          "text": "They occur after a closely contested vote in the House of Commons."
+        },
+        {
+          "letter": "C",
+          "text": "They are an example of direct democracy granted by Parliament."
+        },
+        {
+          "letter": "D",
+          "text": "They must take place when no single party wins a general election."
+        }
+      ]
     },
     {
       "id": "q_2024j_01_4b",
@@ -6880,18 +8038,37 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Restorative justice arises when\n(1)\n\n  A) a victim determines the sentence of their offender.\n  B) the police are allowed to use excessive force on violent offenders.\n  C) an offender reaches out to their victim to make amends.\n  D) the people who aid and assist an offender are punished.",
+      "question_text": "Restorative justice arises when",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: C"
         ],
         "marking_guidance": "C is the correct answer  \nA is incorrect for this does not define restorative justice \nB is incorrect because excessive force is not allowed  \nD is incorrect for although those whom assist and aid offenders are punished it is \nnot restorative justice",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "C"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "a victim determines the sentence of their offender."
+        },
+        {
+          "letter": "B",
+          "text": "the police are allowed to use excessive force on violent offenders."
+        },
+        {
+          "letter": "C",
+          "text": "an offender reaches out to their victim to make amends."
+        },
+        {
+          "letter": "D",
+          "text": "the people who aid and assist an offender are punished."
+        }
+      ]
     },
     {
       "id": "q_2024j_01_6c",
@@ -6934,16 +8111,34 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by Tony Blair?\n(1)\n\n  A) Northern Ireland was too troublesome to be granted devolution.\n  B) Scotland was unsure about accepting devolution.\n  C) Support for Welsh devolution has grown since it was introduced.\n  D) The Mayor of London has too much power.",
+      "question_text": "Which one of these is believed by Tony Blair?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "C is correct as support for Welsh devolution has increased in the \nprovince \nA is incorrect as at no point is it remarked that this was the case for NI \nB is incorrect for there is no mention of Scotland being dubious about \ndevolution \nD is incorrect as it is not mentioned that the Mayor of London has too much \npower in the source",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Northern Ireland was too troublesome to be granted devolution."
+        },
+        {
+          "letter": "B",
+          "text": "Scotland was unsure about accepting devolution."
+        },
+        {
+          "letter": "C",
+          "text": "Support for Welsh devolution has grown since it was introduced."
+        },
+        {
+          "letter": "D",
+          "text": "The Mayor of London has too much power."
+        }
+      ]
     },
     {
       "id": "q_2024j_01_7b",
@@ -6955,18 +8150,37 @@
       },
       "topic": "government_and_democracy",
       "subtopic": "general",
-      "question_text": "Which one of these is believed by the Institute for Government?\n(1)\n\n  A) Devolution was long overdue for Scotland.\n  B) Wales is too small an area for devolution.\n  C) Community divisions are no longer a problem in Northern Ireland.\n  D) Devolution operates in an uneven manner across the UK.",
+      "question_text": "Which one of these is believed by the Institute for Government?",
       "marks": 1,
-      "question_type": "identify",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [
           "Correct answer: D"
         ],
         "marking_guidance": "D is the correct answer as the IFG indicates that devolution operates \nin an uneven manner across the UK \nA is incorrect the IFG does not state that devolution was long overdue for \nScotland. \nB is incorrect as the size of Wales was not mentioned in the source \nC is incorrect for sectarianism is still seen by the IFG as an issue",
-        "exemplar_answer": null
+        "exemplar_answer": null,
+        "correct_answer": "D"
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Devolution was long overdue for Scotland."
+        },
+        {
+          "letter": "B",
+          "text": "Wales is too small an area for devolution."
+        },
+        {
+          "letter": "C",
+          "text": "Community divisions are no longer a problem in Northern Ireland."
+        },
+        {
+          "letter": "D",
+          "text": "Devolution operates in an uneven manner across the UK."
+        }
+      ]
     },
     {
       "id": "q_2024j_01_7c",
@@ -7353,16 +8567,34 @@
       },
       "topic": "active_citizenship",
       "subtopic": "general",
-      "question_text": "An example of a charity is:\n\n  A) RNLI (Royal National Lifeboat Institute)\n  B) Extinction Rebellion\n  C) Electoral Reform Society\n  D) Liberal Democrats",
+      "question_text": "An example of a charity is:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. RNLI is the correct answer because that is an example of a \ncharity. \nB. Extinction Rebellion is incorrect because that is an example of a \npressure group. \nC. Electoral Reform Society is incorrect because this is an example of \nan independent civil society. \nD. Liberal Democrats is incorrect because that is an example of a \npolitical party.",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "RNLI (Royal National Lifeboat Institute)"
+        },
+        {
+          "letter": "B",
+          "text": "Extinction Rebellion"
+        },
+        {
+          "letter": "C",
+          "text": "Electoral Reform Society"
+        },
+        {
+          "letter": "D",
+          "text": "Liberal Democrats"
+        }
+      ]
     },
     {
       "id": "q_2024j_02_4",
@@ -7374,16 +8606,34 @@
       },
       "topic": "uk_and_wider_world",
       "subtopic": "general",
-      "question_text": "Mediation is defined as:\n\n  A) giving support to a particular cause or policy\n  B) using military force against another country\n  C) aiming to resolve conflict between countries\n  D) limiting trade or contact with another country",
+      "question_text": "Mediation is defined as:",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. Giving support to a particular cause or policy is incorrect because that \nis the definition of advocacy. \nB. Using military force against another country is incorrect because that \nis the definition of force. \nC. Aiming to resolve conflict between other countries is the correct \nanswer. \nD. Limiting trade or contact with another country is incorrect because \nthat is the definition of a sanction",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "giving support to a particular cause or policy"
+        },
+        {
+          "letter": "B",
+          "text": "using military force against another country"
+        },
+        {
+          "letter": "C",
+          "text": "aiming to resolve conflict between countries"
+        },
+        {
+          "letter": "D",
+          "text": "limiting trade or contact with another country"
+        }
+      ]
     },
     {
       "id": "q_2024j_02_5",
@@ -7395,16 +8645,34 @@
       },
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
-      "question_text": "Which organisation has the main role of supporting the rights of people in\nthe workplace?\n\n  A) Oxfam\n  B) a trade union\n  C) Greenpeace\n  D) a political party",
+      "question_text": "Which organisation has the main role of supporting the rights of people in\nthe workplace?",
       "marks": 1,
-      "question_type": "explain",
+      "question_type": "multiple_choice",
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "A. Oxfam is incorrect because their main role is not supporting the \nrights of people in the workplace \nB. A trade union is the correct answer \nC. Greenpeace is incorrect because their main role is not \nsupporting the rights of people in the workplace \nD. A political party is incorrect because their main role is not \nsupporting the rights of people in the workplace",
         "exemplar_answer": null
       },
       "difficulty": "easy",
-      "active": true
+      "active": true,
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oxfam"
+        },
+        {
+          "letter": "B",
+          "text": "a trade union"
+        },
+        {
+          "letter": "C",
+          "text": "Greenpeace"
+        },
+        {
+          "letter": "D",
+          "text": "a political party"
+        }
+      ]
     },
     {
       "id": "q_2024j_02_6",
