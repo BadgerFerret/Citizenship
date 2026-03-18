@@ -1,5 +1,61 @@
 let pendingImport = null;
 
+async function uploadPapers() {
+  const label = document.getElementById('paper-label').value.trim();
+  const code = document.getElementById('paper-code').value.trim();
+  const paperFile = document.getElementById('paper-pdf').files[0];
+  const msFile = document.getElementById('ms-pdf').files[0];
+
+  if (!label || !code) { alert('Please enter the paper label and code.'); return; }
+  if (!paperFile || !msFile) { alert('Please select both PDF files.'); return; }
+
+  document.getElementById('upload-btn').disabled = true;
+  document.getElementById('upload-status').style.display = 'flex';
+  document.getElementById('import-result').innerHTML = '';
+
+  const formData = new FormData();
+  formData.append('paper', label);
+  formData.append('code', code);
+  formData.append('paper_pdf', paperFile);
+  formData.append('ms_pdf', msFile);
+
+  try {
+    const res = await fetch('/api/upload-papers', { method: 'POST', body: formData });
+    const data = await res.json();
+    document.getElementById('upload-status').style.display = 'none';
+    document.getElementById('upload-btn').disabled = false;
+
+    if (data.error) {
+      document.getElementById('import-result').innerHTML = `<div class="alert alert-error">Error: ${data.error}</div>`;
+      return;
+    }
+
+    // Put extracted questions into the preview flow
+    pendingImport = data.questions;
+    document.getElementById('import-json').value = JSON.stringify(data.questions, null, 2);
+
+    const preview = document.getElementById('import-preview');
+    const previewInner = document.getElementById('import-preview-inner');
+    preview.style.display = 'block';
+    document.getElementById('confirm-import-btn').style.display = 'inline-block';
+
+    let html = `<p><strong>${data.count} question(s) extracted</strong> from ${label}. Review below then click "Add to Question Bank".</p>`;
+    html += `<table class="bank-table"><thead><tr><th>ID</th><th>Topic</th><th>Marks</th><th>Question</th></tr></thead><tbody>`;
+    for (const q of data.questions) {
+      html += `<tr><td>${q.id}</td><td>${(q.topic||'').replace(/_/g,' ')}</td><td>${q.marks}</td><td>${(q.question_text||'').slice(0,70)}…</td></tr>`;
+    }
+    html += '</tbody></table>';
+    previewInner.innerHTML = html;
+
+    // Scroll to preview
+    preview.scrollIntoView({ behavior: 'smooth' });
+  } catch (err) {
+    document.getElementById('upload-status').style.display = 'none';
+    document.getElementById('upload-btn').disabled = false;
+    document.getElementById('import-result').innerHTML = `<div class="alert alert-error">Request failed: ${err.message}</div>`;
+  }
+}
+
 function showTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));

@@ -30,26 +30,60 @@
 
   <!-- Import Tab -->
   <div id="tab-import" class="tab-panel" style="display:none">
-    <div class="import-instructions">
-      <h2>Import questions from past papers</h2>
-      <p>Use the import script to extract questions from PDF files, then paste the JSON output here.</p>
-      <ol>
-        <li>Copy your PDF files into the project directory.</li>
-        <li>Run: <code>python scripts/import_questions.py --paper "June 2023" --code "J560/01" --paper-pdf path/to/paper.pdf --ms-pdf path/to/markscheme.pdf</code></li>
-        <li>Review the JSON output, then paste it below.</li>
-        <li>Click <strong>Validate &amp; Preview</strong>, then <strong>Add to Bank</strong>.</li>
-      </ol>
-      <p>Alternatively, you can paste a JSON array of questions directly.</p>
+
+    <!-- PDF Upload section -->
+    <div class="import-section">
+      <h2>Upload past papers</h2>
+      <p class="import-desc">Upload a question paper PDF and its mark scheme — Claude will extract all questions automatically.</p>
+
+      <div class="upload-form-card">
+        <div class="upload-row">
+          <div class="upload-field">
+            <label>Paper label <span class="field-hint">(e.g. June 2023)</span></label>
+            <input type="text" id="paper-label" placeholder="June 2023" value="">
+          </div>
+          <div class="upload-field">
+            <label>Paper code <span class="field-hint">(e.g. J560/01)</span></label>
+            <input type="text" id="paper-code" placeholder="J560/01" value="">
+          </div>
+        </div>
+        <div class="upload-row">
+          <div class="upload-field">
+            <label>Question paper PDF</label>
+            <input type="file" id="paper-pdf" accept=".pdf">
+          </div>
+          <div class="upload-field">
+            <label>Mark scheme PDF</label>
+            <input type="file" id="ms-pdf" accept=".pdf">
+          </div>
+        </div>
+        <button class="btn btn-primary" id="upload-btn" onclick="uploadPapers()">
+          Extract questions with Claude
+        </button>
+      </div>
+
+      <div id="upload-status" style="display:none" class="upload-status">
+        <div class="spinner"></div>
+        <p>Claude is reading the papers and extracting questions… this takes about 30 seconds.</p>
+      </div>
     </div>
 
-    <textarea id="import-json" class="import-textarea" rows="16"
-      placeholder='[{"id": "q_2023j_01a", "topic": "government_and_democracy", ...}]'></textarea>
+    <hr class="section-divider">
 
-    <div class="import-actions">
-      <button class="btn btn-outline" onclick="validateImport()">Validate &amp; Preview</button>
-      <button class="btn btn-primary" id="confirm-import-btn" style="display:none" onclick="confirmImport()">
-        Add to Question Bank
-      </button>
+    <!-- JSON paste section -->
+    <div class="import-section">
+      <h2>Or paste JSON directly</h2>
+      <p class="import-desc">If you have questions in JSON format already, paste them here.</p>
+
+      <textarea id="import-json" class="import-textarea" rows="10"
+        placeholder='[{"id": "q_2023j_01a", "topic": "government_and_democracy", ...}]'></textarea>
+
+      <div class="import-actions">
+        <button class="btn btn-outline" onclick="validateImport()">Validate &amp; Preview</button>
+        <button class="btn btn-primary" id="confirm-import-btn" style="display:none" onclick="confirmImport()">
+          Add to Question Bank
+        </button>
+      </div>
     </div>
 
     <div id="import-preview" style="display:none">

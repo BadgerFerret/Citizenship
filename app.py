@@ -707,12 +707,124 @@ def import_questions():
     return jsonify({"added": added, "skipped": skipped, "total": len(data["questions"])})
 
 
+@app.route("/api/upload-papers", methods=["POST"])
+def upload_papers():
+    """Accept past paper + mark scheme PDFs, extract questions using Claude."""
+    paper_label = request.form.get("paper", "").strip()
+    paper_code = request.form.get("code", "").strip()
+
+    if not paper_label or not paper_code:
+        return jsonify({"error": "Paper label and code are required"}), 400
+
+    paper_file = request.files.get("paper_pdf")
+    ms_file = request.files.get("ms_pdf")
+
+    if not paper_file or not ms_file:
+        return jsonify({"error": "Both paper PDF and mark scheme PDF are required"}), 400
+
+    import base64
+    import re
+
+    paper_b64 = base64.standard_b64encode(paper_file.read()).decode("utf-8")
+    ms_b64 = base64.standard_b64encode(ms_file.read()).decode("utf-8")
+
+    client = anthropic.Anthropic(api_key=Config.ANTHROPIC_API_KEY)
+
+    prompt = f"""You are extracting GCSE Citizenship questions and mark scheme points from past exam papers.
+
+I am providing you with:
+1. A past paper (questions)
+2. The corresponding mark scheme
+
+Extract ALL questions (including sub-questions) and match each to its mark scheme.
+Output a JSON array where each element follows this exact schema:
+
+{{
+  "id": "q_{paper_label.lower().replace(' ', '_').replace('/', '_')}_{{}}_<question_ref_no_spaces>",
+  "source": {{
+    "paper": "{paper_label}",
+    "paper_code": "{paper_code}",
+    "question_ref": "<e.g. 1(a)>",
+    "exam_board": "OCR"
+  }},
+  "topic": "<one of: life_in_modern_britain | rights_and_responsibilities | government_and_democracy | uk_and_wider_world | active_citizenship>",
+  "subtopic": "<specific subtopic string>",
+  "question_text": "<full question text exactly as written>",
+  "marks": <integer>,
+  "question_type": "<define | describe | explain | analyse | evaluate | identify>",
+  "mark_scheme": {{
+    "indicative_points": ["<point 1>", "<point 2>"],
+    "marking_guidance": "<examiner guidance>",
+    "exemplar_answer": null
+  }},
+  "difficulty": "<easy | medium | hard>",
+  "active": true
+}}
+
+Rules:
+- Assign topic based on OCR J560 GCSE Citizenship specification subject matter.
+- difficulty: easy = 1-2 marks recall; medium = 3-4 marks explanation; hard = 5+ marks analysis/evaluation.
+- Output ONLY valid JSON — no markdown, no commentary, no code fences."""
+
+    try:
+        response = client.messages.create(
+            model=Config.CLAUDE_MODEL,
+            max_tokens=8192,
+            messages=[{
+                "role": "user",
+                "content": [
+                    {
+                        "type": "document",
+                        "source": {"type": "base64", "media_type": "application/pdf", "data": paper_b64},
+                        "title": f"Question paper: {paper_label}",
+                    },
+                    {
+                        "type": "document",
+                        "source": {"type": "base64", "media_type": "application/pdf", "data": ms_b64},
+                        "title": f"Mark scheme: {paper_label}",
+                    },
+                    {"type": "text", "text": prompt},
+                ],
+            }],
+        )
+        text = response.content[0].text.strip()
+        if text.startswith("```"):
+            text = re.sub(r"^```[a-z]*\n?", "", text)
+            text = re.sub(r"\n?```$", "", text)
+        questions = json.loads(text)
+        if not isinstance(questions, list):
+            questions = questions.get("questions", [])
+    except json.JSONDecodeError as e:
+        return jsonify({"error": f"Claude returned invalid JSON: {e}"}), 500
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+    # Validate and set defaults
+    valid = []
+    valid_topics = set(Config.TOPICS.keys())
+    for q in questions:
+        if not q.get("id") or not q.get("question_text") or not q.get("marks"):
+            continue
+        if q.get("topic") not in valid_topics:
+            q["topic"] = "life_in_modern_britain"
+        q.setdefault("active", True)
+        q.setdefault("difficulty", "medium")
+        q.setdefault("question_type", "explain")
+        if not isinstance(q.get("mark_scheme", {}).get("indicative_points"), list):
+            q.setdefault("mark_scheme", {})["indicative_points"] = []
+        valid.append(q)
+
+    return jsonify({"questions": valid, "count": len(valid)})
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     init_db()
+    port = int(os.environ.get("PORT", 5000))
+    debug = not os.environ.get("PORT")  # debug off when deployed
     print("GCSE Citizenship Revision App")
-    print("Open http://localhost:5000 in your browser")
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    print(f"Open http://localhost:{port} in your browser")
+    app.run(debug=debug, host="0.0.0.0", port=port)
