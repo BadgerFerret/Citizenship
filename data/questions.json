@@ -2,295 +2,6 @@
   "version": "1.0",
   "questions": [
     {
-      "id": "q_seed_001",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/01",
-        "question_ref": "1(a)",
-        "exam_board": "OCR"
-      },
-      "topic": "government_and_democracy",
-      "subtopic": "electoral_systems",
-      "question_text": "Explain what is meant by a 'free and fair election'.",
-      "marks": 4,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "All eligible citizens have the right to vote",
-          "Votes are cast in secret (secret ballot)",
-          "Results are counted accurately and independently",
-          "Political parties can campaign freely",
-          "No intimidation or corruption of voters",
-          "Independent electoral commission oversees the process"
-        ],
-        "marking_guidance": "Award 1 mark per valid point up to a maximum of 4 marks.",
-        "exemplar_answer": "A free and fair election is one where all eligible citizens are able to vote without fear of intimidation. Votes are cast in secret so voters cannot be pressured. Results are counted independently and accurately. All political parties are able to campaign freely before the election."
-      },
-      "difficulty": "medium",
-      "active": true
-    },
-    {
-      "id": "q_seed_002",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/01",
-        "question_ref": "2(a)",
-        "exam_board": "OCR"
-      },
-      "topic": "rights_and_responsibilities",
-      "subtopic": "citizens_rights",
-      "question_text": "Describe two human rights protected by the Human Rights Act 1998.",
-      "marks": 4,
-      "question_type": "describe",
-      "mark_scheme": {
-        "indicative_points": [
-          "Right to life (Article 2) - the state must protect your life",
-          "Right to a fair trial (Article 6) - right to a fair and public hearing",
-          "Right to privacy (Article 8) - right to respect for private and family life",
-          "Freedom of expression (Article 10) - right to hold opinions and express them",
-          "Freedom from torture (Article 3) - no one shall be subjected to torture or inhuman treatment",
-          "Right to liberty (Article 5) - right not to be unlawfully detained"
-        ],
-        "marking_guidance": "Award 1 mark for identifying the right and 1 mark for a description/explanation. Maximum 2 marks per right, maximum 4 marks total.",
-        "exemplar_answer": "The right to a fair trial (Article 6) means that everyone is entitled to a fair and public hearing if they are accused of a crime. Freedom of expression (Article 10) protects the right to hold opinions and share them, for example through the media or protests."
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_seed_003",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/01",
-        "question_ref": "3(b)",
-        "exam_board": "OCR"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "british_values_and_identity",
-      "question_text": "Explain why the rule of law is important in a democratic society.",
-      "marks": 6,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "The rule of law means everyone is equal under the law, including the government",
-          "It protects citizens from arbitrary use of power by those in authority",
-          "It ensures disputes can be settled fairly through an independent judiciary",
-          "It provides certainty \u2014 people know what is and is not permitted",
-          "It underpins democracy by ensuring elections and rights are protected by law",
-          "Without the rule of law, the powerful could act without accountability",
-          "It promotes trust in public institutions and social stability"
-        ],
-        "marking_guidance": "Award 1 mark per valid point. Higher marks (5-6) should show developed explanation with examples or links between ideas.",
-        "exemplar_answer": "The rule of law means that everyone in society \u2014 including the government \u2014 must follow the law. This is important because it protects citizens from the arbitrary use of power. Without it, those in authority could act without accountability. It also ensures disputes are settled fairly by an independent judiciary, which promotes public trust in institutions."
-      },
-      "difficulty": "medium",
-      "active": true
-    },
-    {
-      "id": "q_seed_004",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/02",
-        "question_ref": "1(c)",
-        "exam_board": "OCR"
-      },
-      "topic": "uk_and_wider_world",
-      "subtopic": "international_organisations",
-      "question_text": "Describe two roles of the United Nations (UN).",
-      "marks": 4,
-      "question_type": "describe",
-      "mark_scheme": {
-        "indicative_points": [
-          "Maintaining international peace and security through peacekeeping missions",
-          "Promoting and protecting human rights around the world",
-          "Providing humanitarian aid to people affected by conflict or disaster",
-          "Setting international law and norms through treaties and conventions",
-          "Facilitating international cooperation on issues such as climate change",
-          "Supporting economic development in poorer countries through agencies like UNICEF and WHO"
-        ],
-        "marking_guidance": "Award 1 mark for identifying a role and 1 mark for describing it. Maximum 2 marks per role, maximum 4 marks.",
-        "exemplar_answer": "The UN maintains international peace and security by sending peacekeeping forces to areas of conflict. It also promotes human rights globally by setting standards through declarations and conventions such as the Universal Declaration of Human Rights."
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_seed_005",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/02",
-        "question_ref": "4(a)",
-        "exam_board": "OCR"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "campaigning_and_advocacy",
-      "question_text": "Explain how citizens can influence government decisions in the UK.",
-      "marks": 6,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "Voting in elections to choose representatives who reflect their views",
-          "Contacting their MP by letter, email or surgery",
-          "Signing or creating petitions (100,000 signatures triggers a parliamentary debate)",
-          "Joining or forming pressure groups to campaign on issues",
-          "Peaceful protest or demonstration",
-          "Using social media to raise awareness and build public support",
-          "Standing as a candidate in local or national elections",
-          "Responding to public consultations"
-        ],
-        "marking_guidance": "Award 1 mark per valid method. For 5-6 marks, answers should show how the method leads to influence, not just list methods.",
-        "exemplar_answer": "Citizens can influence government by voting in elections to choose MPs who represent their views. They can also contact their MP directly to raise concerns, as MPs are duty-bound to represent constituents. Signing petitions is another method \u2014 if 100,000 people sign a petition it must be considered for a parliamentary debate. Pressure groups such as Amnesty International organise campaigns that can shift public opinion and put pressure on ministers."
-      },
-      "difficulty": "medium",
-      "active": true
-    },
-    {
-      "id": "q_seed_006",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/01",
-        "question_ref": "5(a)",
-        "exam_board": "OCR"
-      },
-      "topic": "government_and_democracy",
-      "subtopic": "parliament_and_government",
-      "question_text": "Describe the role of the House of Lords in the UK Parliament.",
-      "marks": 4,
-      "question_type": "describe",
-      "mark_scheme": {
-        "indicative_points": [
-          "The House of Lords scrutinises and revises legislation passed by the House of Commons",
-          "It can delay (but not permanently block) bills for up to one year",
-          "It acts as a check on the power of the elected government",
-          "Members include life peers, bishops, and (some) hereditary peers",
-          "It has less power than the House of Commons due to the Parliament Acts",
-          "Lords can introduce bills of their own (except money bills)"
-        ],
-        "marking_guidance": "Award 1 mark per valid point up to 4 marks.",
-        "exemplar_answer": "The House of Lords scrutinises and revises legislation from the House of Commons. It can suggest amendments and delay bills for up to one year, acting as a check on the power of government. It is an unelected chamber made up of life peers, bishops and some hereditary peers."
-      },
-      "difficulty": "medium",
-      "active": true
-    },
-    {
-      "id": "q_seed_007",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/01",
-        "question_ref": "6(b)",
-        "exam_board": "OCR"
-      },
-      "topic": "rights_and_responsibilities",
-      "subtopic": "justice_system",
-      "question_text": "Explain the difference between civil law and criminal law.",
-      "marks": 4,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "Criminal law deals with offences against the state/society; civil law deals with disputes between individuals or organisations",
-          "Criminal cases are prosecuted by the state (Crown Prosecution Service); civil cases are brought by individuals",
-          "The burden of proof in criminal law is 'beyond reasonable doubt'; in civil law it is 'on the balance of probabilities'",
-          "Criminal cases can result in imprisonment or fines; civil cases typically result in compensation or injunctions",
-          "Examples of criminal law: theft, assault, murder; examples of civil law: breach of contract, negligence, divorce"
-        ],
-        "marking_guidance": "Award 1 mark per valid point of distinction. Up to 4 marks.",
-        "exemplar_answer": "Criminal law deals with offences against society, such as theft or assault, and cases are brought by the Crown Prosecution Service. Civil law deals with disputes between individuals or organisations, such as breach of contract. The standard of proof is also different: criminal cases must be proved beyond reasonable doubt, while civil cases are decided on the balance of probabilities."
-      },
-      "difficulty": "medium",
-      "active": true
-    },
-    {
-      "id": "q_seed_008",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/02",
-        "question_ref": "2(a)",
-        "exam_board": "OCR"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "equality_and_discrimination",
-      "question_text": "Describe two protected characteristics under the Equality Act 2010.",
-      "marks": 4,
-      "question_type": "describe",
-      "mark_scheme": {
-        "indicative_points": [
-          "Age \u2014 protects people from being treated less favourably because of their age",
-          "Disability \u2014 protects people with physical or mental impairments",
-          "Gender reassignment \u2014 protects people who are transitioning",
-          "Marriage and civil partnership \u2014 protects people who are married or in a civil partnership",
-          "Pregnancy and maternity \u2014 protects women who are pregnant or on maternity leave",
-          "Race \u2014 protects people from discrimination based on their race, colour or nationality",
-          "Religion or belief \u2014 protects people's freedom of religion or belief",
-          "Sex \u2014 protects people from being treated less favourably because of their sex",
-          "Sexual orientation \u2014 protects gay, lesbian and bisexual people"
-        ],
-        "marking_guidance": "Award 1 mark for identifying the characteristic and 1 mark for describing it. Maximum 2 marks per characteristic, 4 marks total.",
-        "exemplar_answer": "Race is a protected characteristic, meaning people cannot be treated less favourably because of their race, colour or nationality. Disability is another protected characteristic, protecting people with physical or mental impairments from discrimination in areas such as employment or services."
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_seed_009",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/02",
-        "question_ref": "3(c)",
-        "exam_board": "OCR"
-      },
-      "topic": "uk_and_wider_world",
-      "subtopic": "global_issues",
-      "question_text": "Explain why climate change is considered a global citizenship issue.",
-      "marks": 6,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "Climate change affects all countries, not just those responsible for emissions",
-          "Developing nations often bear the worst impacts despite contributing least to the problem",
-          "It requires international cooperation to address, as no single country can solve it alone",
-          "It threatens human rights including the right to life, food and water",
-          "Citizens have a responsibility to consider the impact of their choices on future generations",
-          "It creates climate refugees \u2014 people displaced from their homes",
-          "International agreements such as the Paris Agreement show states recognise it as a shared responsibility",
-          "Global inequality means richer countries have a responsibility to support poorer ones"
-        ],
-        "marking_guidance": "Award 1 mark per valid point. For higher marks, answers should link to citizenship concepts such as rights, responsibilities, and global interdependence.",
-        "exemplar_answer": "Climate change is a global citizenship issue because it affects every country, even those that have contributed least to greenhouse gas emissions. This raises issues of global justice and responsibility. No single nation can address it alone, requiring international cooperation through agreements like the Paris Agreement. It also threatens fundamental human rights, including the right to life and food, particularly in vulnerable nations. Citizens have a responsibility to future generations to address this collectively."
-      },
-      "difficulty": "hard",
-      "active": true
-    },
-    {
-      "id": "q_seed_010",
-      "source": {
-        "paper": "Sample",
-        "paper_code": "J560/02",
-        "question_ref": "5(b)",
-        "exam_board": "OCR"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "media_and_democracy",
-      "question_text": "Explain the role of the media in a democratic society.",
-      "marks": 6,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [
-          "The media informs citizens about political issues, enabling them to make informed voting decisions",
-          "It acts as a 'watchdog', holding politicians and institutions to account through investigative journalism",
-          "It provides a platform for debate and discussion of public issues",
-          "Social media allows citizens to directly share views and organise campaigns",
-          "A free press is essential to democracy; state-controlled media undermines it",
-          "Media bias can influence public opinion, which is a concern for democracy",
-          "The media can set the political agenda by choosing which issues to highlight",
-          "Regulation (e.g. Ofcom) tries to ensure accuracy and impartiality in broadcast media"
-        ],
-        "marking_guidance": "Award 1 mark per valid point. For 5-6 marks, answers should show understanding of the media's democratic function and potential tensions.",
-        "exemplar_answer": "In a democratic society, the media plays a vital role in informing citizens about political issues so they can make informed decisions when voting. It also acts as a watchdog, investigating and exposing wrongdoing by politicians and institutions. A free press is essential to democracy \u2014 in countries with state-controlled media, citizens cannot hold power to account. However, media bias is a concern, as outlets can shape public opinion in ways that may not always serve democracy. Regulation such as Ofcom helps ensure accuracy and impartiality in broadcast media."
-      },
-      "difficulty": "hard",
-      "active": true
-    },
-    {
       "id": "q_2018j_01_1a",
       "source": {
         "paper": "June 2018",
@@ -662,6 +373,40 @@
       "active": true
     },
     {
+      "id": "q_2018j_01_6b",
+      "source": {
+        "paper": "June 2018",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "Explain one way used by governments to reduce crime in the UK.\n(2)\n\n\t\nStudy Source C below and then answer part (c) on the next page.\nSource C: Human rights in the Philippines\nRodrigo Duterte became President of the Philippines in June 2016. He obtained more \nthan 16 million votes, nearly 39% of the total vote. He has followed through on his \nelection promise to tackle the drug trade in the country: a campaign that has seen \nthousands of people killed. Duterte encouraged civilians to take matters into their \nown hands and kill alleged drug users and dealers. He promised that they would \nnot face any legal action. This policy has outraged human rights groups and foreign \ngovernments.\nOf the 3,600-plus deaths so far, 1,375 people have been killed in recorded police \noperations, while about 2,233 have been killed by citizens, according to the latest \nstatistics from the Philippines National Police in September 2016.\nThe UN secretary general, Ban Ki-moon, condemned Duterte\u2019s apparent support for \ncitizen-led killings, saying they were \u2018illegal and a breach of fundamental rights and \nfreedoms\u2019. Duterte replied by calling the UN \u2018stupid\u2019 and threatening to leave the UN.",
+      "marks": 2,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "education",
+          "treatment orders (1) Method/way: The principle of incapacitation (1) Possible development:",
+          "prison sentences",
+          "curfew/tagging",
+          "restriction of freedom of movement (1) Method/way: The principle of deterrence (1) Possible development:",
+          "sentencing strategies",
+          "surveillance techniques e.g. CCTV",
+          "media exposure / adverse personal publicity",
+          "increased police presence/numbers (1) Method/way: The principle of social intervention (1) Possible development:",
+          "programmes of education",
+          "youth groups",
+          "early intervention methods (1) Accept any other valid answer which gives of ways governments use to reduce crime"
+        ],
+        "marking_guidance": "In each case, award 1 mark for knowledge (AO1) of ways governments use to \nreduce crime and a 2nd mark for detail. \nMethod/way: \nThe principle of rehabilitation (1) \nPossible development:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2018j_01_6c",
       "source": {
         "paper": "June 2018",
@@ -687,27 +432,6 @@
           "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIf a response does not adhere to the command of the question and fails to compare the \nsituation in the Philippines to the UK, then the response is restricted to Level 1 (max 2 \nmarks). \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited. \nRelevant p",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2018j_01_7",
-      "source": {
-        "paper": "June 2018",
-        "paper_code": "1CS0/01",
-        "question_ref": "7",
-        "exam_board": "Edexcel"
-      },
-      "topic": "government_and_democracy",
-      "subtopic": "general",
-      "question_text": "Study Source D in the Source Booklet about the request made to Parliament to bomb\ntargets inside Syria. \n\t\nThen answer the questions which follow.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -1009,27 +733,6 @@
       "active": true
     },
     {
-      "id": "q_2018j_02_2",
-      "source": {
-        "paper": "June 2018",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Source Booklet before you answer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2018j_02_2a",
       "source": {
         "paper": "June 2018",
@@ -1094,20 +797,13 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "According to the source, the campaigners \u2018just hoped that someone would  \nlisten \u2013 now everyone is listening\u2019.\n\t\n\t\nUsing the source, analyse why this viewpoint might be mistaken.",
-      "marks": 1,
+      "marks": 2,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [
           "Only some local people are listening, rather than \u2018everyone\u2019 (1) as only one church congregation has contributed to the crowdfunding campaign",
           "Not all politicians are listening (1) as according to the source only the local MPs and one Scottish minister have joined the campaign",
-          "The government statement does not prove that they are listening to and planning to act on the campaign (1) as it does not express support or state that they will change the policy (1) (2) Question number Indcative content 2(d) Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO2 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Relevant points may include:",
-          "Contacting local newspapers/television may lead to a specific feature that raises awareness of the campaign",
-          "Letters/articles/editorials about campaigns like this may encourage people to join the campaign online",
-          "Most newspapers have websites and social media to publicise articles, so may post links to the crowdfunding or Facebook pages for their readers to access",
-          "National newspapers/television channels often pick up on local campaigns featured in regional press/television programmes if there is a human interest aspect- this will gain more attention from/put more pressure on politicians Level Mark Descriptor 0 No rewardable material 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+          "The government statement does not prove that they are listening to and planning to act on the campaign (1) as it does not express support or state that they will change the policy (1)"
         ],
         "marking_guidance": "Award up to 2 marks for a reason derived from analysing (AO3) why the viewpoint \nmight be mistaken. The first mark is for providing a valid reason, and the second \nmark is for developing this into an explanation that relates to evidence found in the \nsource, e.g.:",
         "exemplar_answer": null
@@ -1126,14 +822,22 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "Explain how the community campaign in the source may have been able to use \nnewspapers or television to influence public opinion.",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "Contacting local newspapers/television may lead to a specific feature that raises awareness of the campaign",
+          "Letters/articles/editorials about campaigns like this may encourage people to join the campaign online",
+          "Most newspapers have websites and social media to publicise articles, so may post links to the crowdfunding or Facebook pages for their readers to access",
+          "National newspapers/television channels often pick up on local campaigns featured in regional press/television programmes if there is a human interest aspect- this will gain more attention from/put more pressure on politicians Level Mark Descriptor 0 No rewardable material 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include all \nthe material which is indicated as relevant. Other relevant material not suggested below \nmust also be credited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -1498,27 +1202,6 @@
       "active": true
     },
     {
-      "id": "q_2019j_01_1",
-      "source": {
-        "paper": "June 2019",
-        "paper_code": "1CS0/01",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source A below and then answer Question 2.\nSource A: The changing UK population\nThe UK population in 2016 was 65.6 million, its largest ever, and is projected to \nreach 74 million by 2039. While it is growing, improvements in healthcare and \nlifestyles mean the population is also getting older; in 2016 in the UK, 18% of \npeople were aged 65 and over, and 2.4% were aged 85 and over. As a result of the \nageing population the old age dependency ratio (OADR) is increasing. The OADR \nis the number of people aged over 65 for every 1,000 people aged between 16 \nand 64.\nWith lower birth rates and higher life expectancy, the shape of the UK population \nis transforming. Although living longer is something to celebrate, the proportion \nof those of working age is shrinking, as that of pensioners is increasing. While a \nlarger population can increase the size and productive capacity of the workforce, \nit also increases pressure on social services such as education, healthcare and \nhousing and the government\u2019s ability to meet these needs.\n(Source: based on https://www.ons.gov.uk/peoplepopulationandcommunity/\npopulationandmigration/populationestimates/articles/\noverviewoftheukpopulation/july2017)",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2019j_01_2",
       "source": {
         "paper": "June 2019",
@@ -1540,12 +1223,7 @@
           "Overall several aspects of society will have to be prepared if we have population growth as forecast of almost 10 million in future years Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
           "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about the source context. 2 3\u20134",
           "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context. Question number Name one example of direct democracy. Mark 3 (a) Award 1 mark for knowledge (AO1)",
-          "Referendums are examples of direct democracy",
-          "Examples of the above may be cited e.g. Brexit",
-          "The use of initiatives to propose legislation",
-          "The use of online petitions which force parliament to debate certain issues",
-          "Members of the public being selected by lot to hold office \u2013 as was the case in Ancient Athens Accept any other valid answer which provides an example of direct democracy (it is not possible to credit direct action/protests as being classed as direct democracy)."
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the qualities \noutlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include all \nthe material which is indicated as relevant. Other relevant material not suggested below must \nalso be credited. \nRelevant points may include:",
         "exemplar_answer": null
@@ -1567,8 +1245,14 @@
       "marks": 1,
       "question_type": "identify",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "Referendums are examples of direct democracy",
+          "Examples of the above may be cited e.g. Brexit",
+          "The use of initiatives to propose legislation",
+          "The use of online petitions which force parliament to debate certain issues",
+          "Members of the public being selected by lot to hold office \u2013 as was the case in Ancient Athens Accept any other valid answer which provides an example of direct democracy (it is not possible to credit direct action/protests as being classed as direct democracy)."
+        ],
+        "marking_guidance": "Award 1 mark for knowledge (AO1)",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -1806,6 +1490,37 @@
       "active": true
     },
     {
+      "id": "q_2019j_01_6b",
+      "source": {
+        "paper": "June 2019",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "Give two reasons why courts may decide to impose different punishments on \noffenders who commit the same crime.\n(2)\n\n\n\t\n\t\n\t\nStudy Source C below and then answer part (c) below.\nSource C: Access to justice\n\u2022\t\nAccess to justice and the right to a fair hearing are fundamental to any just \nsociety. \n\u2022\t\nWe are lucky enough to live in the oldest unbroken democracy on Earth \u2013  \na place where the vulnerable and voiceless should be able to defend their \nrights and challenge injustice, even if they cannot afford to pay.\n\u2022\t\nHowever, cuts in civil legal aid have put publicly funded advice and \nrepresentation beyond the reach of many. Funding has been scrapped for \nentire areas, with the majority of family, immigration, employment, debt, \nwelfare benefits and education cases now falling outside the system\u2019s scope. \n\u2022\t\nThe cuts in criminal legal aid have not been as severe.\n\u2022\t\nWithout providing fair access to justice for all people from all walks of life, our \nlegal system is in danger.\n\u2022\t\nThe legal system should not be for the very rich alone but an avenue for all to \ngain a fair hearing and fair trial.\n(Source: based on https://www.liberty-human-rights.org.uk/\ncampaigning/other-campaigns/access-justice)",
+      "marks": 1,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "If the offence is the first time the convicted person has been to court",
+          "The character/characteristics (e.g. mental health) of the guilty person",
+          "The age of the guilty person",
+          "If the offender has pleaded guilty and entered \u2018plea bargaining\u2019",
+          "The impact on the family of the guilty person",
+          "The benefit to society of different forms of punishment",
+          "The benefit to the convicted person of different forms of punishment",
+          "Factors which may mitigate the criminal act e.g. homeless person stealing food",
+          "Factors which may aggravate the criminal act e.g. repeat offenders Other aggravating or mitigating factors may also be considered."
+        ],
+        "marking_guidance": "Reasons why courts may decide to impose differing punishments on offenders who \ncommit the same crime due to the following factors:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2019j_01_6c",
       "source": {
         "paper": "June 2019",
@@ -1830,27 +1545,6 @@
           "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the qualities \noutlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include all \nthe material which is indicated as relevant. Other relevant material not suggested below must \nalso be credited. \nRelevant points may include:",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2019j_01_7",
-      "source": {
-        "paper": "June 2019",
-        "paper_code": "1CS0/01",
-        "question_ref": "7",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source D in the Source Booklet. It asks \u2018Should prisons make prisoners work?\u2019.\n\t\nThen answer the questions which follow.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -2008,27 +1702,6 @@
       "active": true
     },
     {
-      "id": "q_2019j_02_1",
-      "source": {
-        "paper": "June 2019",
-        "paper_code": "1CS0/02",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "You have been part of a group that organised and took part in a citizenship\naction. In no more than 20 words, write the title of your citizenship action below.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2019j_02_1a",
       "source": {
         "paper": "June 2019",
@@ -2173,27 +1846,6 @@
       "active": true
     },
     {
-      "id": "q_2019j_02_2",
-      "source": {
-        "paper": "June 2019",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "general",
-      "question_text": "Study the sources in the Sources Booklet about the use of social media in a\ngeneral election campaign before you answer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2019j_02_2a",
       "source": {
         "paper": "June 2019",
@@ -2258,21 +1910,14 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "According to the source, \u2018political parties don\u2019t really understand the importance \nof social media\u2019. \n\t\n\t\nUsing the source, analyse why this viewpoint might be wrong.",
-      "marks": 1,
+      "marks": 2,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [
           "The Labour Party made great use of social media during the 2017 and 2015 campaigns (1) which helped Jeremy Corbyn gain 90,000 Twitter followers in June 2019",
           "Labour have chosen to make links with celebrities to raise their social media profile (1) such as Stormzy and Jme who have 1.5 million followers and may be influenced by their links with the Labour Party",
           "The Conservative Party also made use of social media by hiring digital experts (1) which shows that they understand it is important even if they were not as successful at using it as the Labour Party",
-          "Labour used Facebook and Twitter to encourage voters to register to vote (1) which demonstrates how important they think social media is because they are not just focused on winning support on social media (1) Accept any other valid point. (2) Question number Indcative content 2(d) Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO2 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Relevant points may include:",
-          "The use of social media has allowed political parties to spread their messages more quickly and easily and so encourage people to join their campaigns",
-          "Social media can be used by various organisations (as well as political parties) to promote support for individual policies that interest people which may encourage more participation",
-          "Social media also encourages people to get involved in politics in ways other than voting such as showing support for policies/parties/individuals and encouraging others to also show support",
-          "Social media can be used to spread awareness of and encourage individuals to join direct action such as rallies or demonstrations Accept any other valid points. Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+          "Labour used Facebook and Twitter to encourage voters to register to vote (1) which demonstrates how important they think social media is because they are not just focused on winning support on social media (1) Accept any other valid point."
         ],
         "marking_guidance": "Award 1 mark for identifying a reason derived from analysing (AO3) why the viewpoint \nmight be wrong. The additional marks are to be awarded for developing this into an \nexplanation that relates to evidence found in the source, e.g.:",
         "exemplar_answer": null
@@ -2291,14 +1936,22 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "Explain how the use of social media can encourage wider political participation \nother than simply voting.",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "The use of social media has allowed political parties to spread their messages more quickly and easily and so encourage people to join their campaigns",
+          "Social media can be used by various organisations (as well as political parties) to promote support for individual policies that interest people which may encourage more participation",
+          "Social media also encourages people to get involved in politics in ways other than voting such as showing support for policies/parties/individuals and encouraging others to also show support",
+          "Social media can be used to spread awareness of and encourage individuals to join direct action such as rallies or demonstrations Accept any other valid points. Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the qualities \noutlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include all the \nmaterial which is indicated as relevant. Other relevant material not suggested below must also be \ncredited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -2969,6 +2622,33 @@
       "active": true
     },
     {
+      "id": "q_2020j_01_6b",
+      "source": {
+        "paper": "June 2020",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "life_in_modern_britain",
+      "subtopic": "general",
+      "question_text": "Give two factors which may cause crime rates to increase.\n(2)\n\n\n\t\n\t\nStudy Source C below and then answer part (c).\nSource C\nOver a 10-year period from 2005 to 2016 the rate of reoffending was constant at 30%. \nThis refers to prisoners who have served their sentence and then go on to commit \nanother offence returning them to prison. Within this figure, there are variations \nbetween gender and age. The female re-offending rate was approximately 23% \ncompared to male re-offending which was approximately 31%. However, the highest \nrate of re-offending was for juveniles, with 43% of 10- to-17-year-olds re-offending. \nGenerally, the re-offending rate is highest for those who have served 12 months or \nless in prison.\nDifferent types of offence had varying re-offending rates. Theft had a re-offending \nrate of 52% and robbery had 31%. Violence and drug-related offences both had \nre-offending rates of 25%. The re-offending rate for sexual offences was 14% and for \nfraud it was 11%. \nHence, for nearly a third of all prisoners, serving a sentence in jail was a regular \npattern of their life and the attraction of crime did not diminish for them. So, does \nprison work?\n(Source: adapted from \u00a9 Crown Copyright and https://assets.publishing.service.\ngov.uk/government/uploads/system/uploads/attachment_data/\nfile/728730/proven_reoffending_bulletin_July_to_September_16.pdf)",
+      "marks": 2,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "A person\u2019s financial position e.g. increasing debt and/or unemployment",
+          "A shortage of deterrence \u2013 such as the police",
+          "Increased reporting of crime",
+          "Changes in the law \u2013 such as increasing and introducing new laws to combat offences such as cyber crime",
+          "Drug addiction and gang membership Other reasons may also be offered, accept any other valid response."
+        ],
+        "marking_guidance": "The following factors may account for the rise in crime rates:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2020j_01_6c",
       "source": {
         "paper": "June 2020",
@@ -2993,27 +2673,6 @@
           "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking \nguidance and the qualities outlined in the mark scheme for AO2 \nbelow.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not \nrequired to include all the material which is indicated as relevant. \nOther relevant material not suggested below must also be credited. \nRelevant points may include:",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2020j_01_7",
-      "source": {
-        "paper": "June 2020",
-        "paper_code": "1CS0/01",
-        "question_ref": "7",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source D in the Source Booklet which considers whether austerity has worked,\nand then answer the questions below.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -3173,27 +2832,6 @@
       "active": true
     },
     {
-      "id": "q_2020j_02_1",
-      "source": {
-        "paper": "June 2020",
-        "paper_code": "1CS0/02",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "You have been part of a group that organised and took part in a citizenship\naction. In no more than 20 words, write the title of your citizenship action below.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2020j_02_1a",
       "source": {
         "paper": "June 2020",
@@ -3328,27 +2966,6 @@
           "A convincing and sustained analysis of relevant viewpoints on both sides of the argument. The evaluation contains reasoned, coherent arguments, showing good breadth and depth. An overall judgement is given which is well substantiated through the evidence provided. [AO3]"
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking \nguidance and the qualities outlined in the mark scheme for AO2 and \nAO3 below. These two assessment objectives should be considered \ntogether; the general marking guidance shows how to deal with \nanswers that demonstrate abilities at different levels for each \nassessment objective. \nNo marks may be awarded for answers that do not relate specifically \nto the candidate\u2019s own citizenship action (i.e. a complete absence of \nAO2). AO2 and AO3 are equally weighted: answers that do not display \nany qualities as",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2020j_02_2",
-      "source": {
-        "paper": "June 2020",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Sources Booklet about The Clink Charity before you\nanswer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -3698,48 +3315,6 @@
       "active": true
     },
     {
-      "id": "q_2020j_02_13",
-      "source": {
-        "paper": "June 2020",
-        "paper_code": "1CS0/02",
-        "question_ref": "13",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "July 2015\nEvery effort has been made to contact copyright holders to obtain their permission for the use of copyright \nmaterial. Pearson Education Ltd. will, if notified, be happy to rectify any errors or omissions and include any \nsuch rectifications in future editions.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2021j_01_1",
-      "source": {
-        "paper": "June 2021",
-        "paper_code": "1CS0/01",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "rights_and_responsibilities",
-      "subtopic": "general",
-      "question_text": "hour 45 minutes\nPaper\nreference\n1CS0/01\nCitizenship Studies\nPAPER 1\nTime\n\n\nSource D for use with Section D\nClosed-circuit television and automated facial recognition cameras are praised by some \nand feared by others. Some infer that they breach our human rights. However, others claim \nthe authorities have a right to know and there should be freedom of information to protect \nthe public. \nYes \u2013 facial recognition cameras prevent crime and protect the public, say \nSouth Wales Police Force.\nAutomated facial recognition technology (AFR) maps faces in a crowd and then compares \nthem with a watch list of images of suspects, missing people and persons of interest to \nthe police. South Wales Police Force believe this can be useful for the prevention of crime, \nthe apprehension of offenders and the protection of the public. They imply that freedom \nof information is far more important than any right to privacy. Approaches to dealing \nwith and preventing crime have to be reviewed and updated.\nThe cameras in the South Wales trial project scan faces in large crowds in public places \nsuch as streets, shopping centres, football crowds and music events. Police believe they \nhave the power to use visual imagery for the \u2018prevention and detection of crime\u2019 as long \nas they adhere to data protection rules and have a code of practice for the management \nof information. South Wales Police Force believe neither Article 8 of the Human Rights \nAct \u2013 which enshrines rights around private life \u2013 nor the Data Protection Act is breached \nby the use of closed-circuit television (CCTV) or AFR cameras.\nAFR was used at an anti-arms trade protest in Cardiff in 2018; a woman had made a \nbomb threat at the same event in 2017 and was therefore on a watch list. It\u2019s of obvious \nvalue for the police to know whether that person is there so that if another bomb threat \nis made, they can deal with it accordingly. Using technology saves valuable police time \nand the procedure is constantly improving. However the Court of Appeal in August 2020 \nrejected their claim.\n(Source from: https://www.theguardian.com/technology/2019/may/22/facial-recognition-\nprevents-crime-police-tell-uk-privacy-case)\n(Source: VectorStory/Getty Images)\n\n\nNo \u2013 we don\u2019t want more CCTV cameras and automated facial recognition, say \npressure group Liberty.\nThe pressure group Liberty has denounced automatic facial recognition (AFR) as \u2018poison \nin the water supply of democracy\u2019. It could abolish privacy in public places. It could mean \nthat there was nowhere in any city anyone could walk with their face uncovered without \nbeing potentially visible to the police. \nLiberty argues that the use of AFR technology is grossly disproportionate to its crime-\nfighting benefits. Its use has already been banned in San Francisco. Using it even more \nwidely will create a surveillance state \u2013 as is emerging in China. We would see our \ndemocracy and human rights vanish literally before our very eyes. We have to consider \nnew methods of dealing with crime as new techniques become available \u2013 but these \nmust be reviewed. \nOne of the arguments against the police\u2019s deployment of the technology is that it doesn\u2019t \nyet work very well, especially when used against people of colour. But inaccuracy may no \nlonger be the most pressing problem as technology constantly improves. Anyone who \nunlocks their phone or laptop by pointing the camera at their own face already trusts it \nto work well enough. \nOnce the technology is overwhelmingly reliable, the fearsome world of government \nsurveillance foreseen by Liberty will have become a reality.\n(Source from: The Observer, Sunday 9th June 2019 at https://www.theguardian.com/\ncommentisfree/2019/jun/09/the-guardian-view-on-facial)\n(Source: kuzmaphoto/Shutterstock)\n(\u00a9 Shonagh Rae/Financial Times)\n\n\nBLANK PAGE",
-      "marks": 1,
-      "question_type": "identify",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2021j_01_1a",
       "source": {
         "paper": "June 2021",
@@ -3861,7 +3436,7 @@
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [],
-        "marking_guidance": "",
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited. \nRelevant points may include: \n\uf0b7 \nDisagreement arises as there is no agreed number or accepted figure as to the \nnumber of migrants \n\uf0b7 \nDisagreements arise as false accusations are often attributed ",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -3882,7 +3457,7 @@
       "question_type": "identify",
       "mark_scheme": {
         "indicative_points": [],
-        "marking_guidance": "",
+        "marking_guidance": "Award 1 mark for knowledge (AO1)  \n\uf0b7 \nCivil servants are the operative arm of government and run offices and \nagencies \n\uf0b7 \nCivil servants deal with the public in handling welfare and benefits \n\uf0b7 \nCivil servants prepare policies for ministers \n\uf0b7 \nThey prepare briefs and statements for ministers to issue \n\uf0b7 \nThey may represent the UK in foreign countries \n\uf0b7 \nThey may advise Ministers when choices of action are discussed \n\uf0b7 \nThey may be specialist in certain fields to support the country \u2013 such \nas the environment in times of natural disasters \nAccept any other valid answer which provides an exam",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -4101,6 +3676,27 @@
       "active": true
     },
     {
+      "id": "q_2021j_01_6b",
+      "source": {
+        "paper": "June 2021",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "Explain how common law operates in the UK\u2019s legal system.\n(2) \n\n\t\n\t\nStudy Source C below and then answer part (c). \nSource C: Ages of legal responsibility in Iran\nChildren in Iran become liable for their crimes at different ages - boys at 15, \ngirls at 9. Iran also retains the death penalty for crimes such as murder, rape and \nhomosexuality. This means that it is possible for young people we view as juveniles \nto be executed by the state.\nWhen it comes to marriage in Iran, a girl can be married at 13, while the age rises \nto 15 for a boy. However, even these seemingly low ages can still be lowered if the \nfamily, with the support of the courts, wish to see it reduced. It is alleged that at this \nrelatively young age girls especially are denied sexual advice and guidance.\nThe legal system in Iran focuses on the family as a unit rather than guaranteeing \nindividual rights. Rights are extended to parents and guardians, but children are  \nnot given a clear voice of their own. However, age limits can and do change in Iran; \nuntil 2007 the voting age in national elections was 15 but it has since been \nincreased to 18.\n(Source adapted from: https://www1.essex.ac.uk/hri/documents/brief-children-in-iran.pdf)",
+      "marks": 2,
+      "question_type": "identify",
+      "mark_scheme": {
+        "indicative_points": [],
+        "marking_guidance": "The following can be considered to be aspects of common law operates in the \nUK: \n\uf0b7 \nCommon law means that the law is common or universal to the entire \ncountry (1)  and this is achieved by a detailed system of law reports \n(1) \n\uf0b7 \nCommon law is a system which provides outcomes based on previous \nor past cases (1)\u2013 so that similar principles will deliver consistent \nresults (1) \n\uf0b7 \nCommon law is also referred to as \u2018judge made\u2019 law as it is set out by \nthe judiciary in binding precedent (1) this is distinct from other legal \nsystem where the law is set out in codes and articles \n\uf0b7 \nCommon law ",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2021j_01_6c",
       "source": {
         "paper": "June 2021",
@@ -4116,27 +3712,6 @@
       "mark_scheme": {
         "indicative_points": [],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited. \nRelevant points may include: \n\uf0b7 \nIn Iran the law gives different ages for criminal liability for boys (15) and girls \n(9) whereas in the UK both have criminal liability at 10 \n\uf0b7 \nIn Iran the death ",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2021j_01_7",
-      "source": {
-        "paper": "June 2021",
-        "paper_code": "1CS0/01",
-        "question_ref": "7",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source D in the Source Booklet. Then answer the questions that follow.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -4250,27 +3825,6 @@
       "active": true
     },
     {
-      "id": "q_2021j_02_1",
-      "source": {
-        "paper": "June 2021",
-        "paper_code": "1CS0/02",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "government_and_democracy",
-      "subtopic": "general",
-      "question_text": "hour 45 minutes\nPearson Edexcel Level 1/Level 2 GCSE (9\u20131)\nSource Booklet\nDo not return this Booklet with the question paper.\nCitizenship Studies\nPAPER 2 \n\n1/1/1/1/1\n\n\nSource A for use with SECTION B\nUpskirting made a criminal offence\nFollowing a nationwide campaign, Gina Martin (above) celebrated the \u2018Upskirting Bill\u2019 \nbecoming law. Upskirting happens when a person takes a photo up another person\u2019s \nskirt without consent. \nGina Martin was at a festival when she noticed two men standing next to her looking \nat an image up a girl\u2019s skirt on a smartphone. To her horror, she realised the picture was \nof her. She grabbed the phone and called the police. After telling the man to delete the \nphoto, the police officer said there was nothing else she could do. \nGina Martin posted her experience on Facebook, which went viral. She launched a \npetition to make upskirting a criminal offence. The petition gained support from Liberal \nDemocrat MP Wera Hobhouse (left) who introduced a private member\u2019s bill in Parliament \nto criminalise upskirting. \nHowever, one Conservative MP,  \nSir Christopher Chope (right), \nobjected to the bill in Parliament. He \nblocked it because \nhe does not think private members\u2019 \nbills are debated sufficiently.\n\n\nThe wide-ranging public and media support for the bill caught the eye of Prime Minister \nTheresa May who gave government support to the bill. In January 2019 the bill was \napproved, gaining the Royal Assent in February.\nBaroness Chakrabarti, former leader of human rights pressure group Liberty, spoke in the \nHouse of Lords. She said Gina Martin\u2019s \u2018original indignity was converted into a powerful \ncampaign to do something important that we can all agree on\u2019.\nThe case against an upskirting law\nMaking upskirting a criminal offence won\u2019t make women feel safer. Upskirting is anti-\nsocial, immoral and thankfully rare. Making it illegal will take up a lot of police time \nand could lead to teenage boys being placed on the Sex Offenders Register for acts of \nstupidity. Sir Christopher Chope is right \u2013 MPs should scrutinise this proposed new law \nrather than passing legislation too quickly.\n\n\nPearson Education Ltd. gratefully acknowledges the following sources used in preparation of this paper:\nSource A Text (1) adapted from: https://eachother.org.uk/huge-victory-for-campaigner-gina-martin-as-\nupskirting-is-made-a-criminal-offence/\nImage 1 \u00a9 Ken McKay/ITV/Shutterstock\nImage 2 Sir Christopher Chope sourced from: https://www.theguardian.com/world/2018/jun/15/tory-mp-\nchristopher-chope-blocks-progress-of-upskirting-bill\nImage 3 Wera Hobhouse sourced from: Copyright David Woolfall - https://members-api.parliament.uk/\napi/Members/4602/Portrait?cropType=ThreeFour Gallery: https://members.parliament.uk/member/4602/\nportrait\nSource A Text (2) adapted from: https://www.spiked-online.com/2018/06/18/the-case-against-an-\nupskirting-law/",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2021j_02_1a",
       "source": {
         "paper": "June 2021",
@@ -4376,27 +3930,6 @@
       "active": true
     },
     {
-      "id": "q_2021j_02_2",
-      "source": {
-        "paper": "June 2021",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "rights_and_responsibilities",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Source Booklet about the upskirting law before you\nanswer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2021j_02_2a",
       "source": {
         "paper": "June 2021",
@@ -4449,7 +3982,7 @@
       "topic": "life_in_modern_britain",
       "subtopic": "general",
       "question_text": "Using the source, analyse why this viewpoint could be challenged.",
-      "marks": 1,
+      "marks": 2,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [],
@@ -4470,14 +4003,14 @@
       "topic": "government_and_democracy",
       "subtopic": "general",
       "question_text": "Explain why Gina Martin sought to enlist the support of an MP for the campaign \nin Source A.",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [],
-        "marking_guidance": "",
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include all \nthe material which is indicated as relevant. Other relevant material not suggested below \nmust also be credited. \nRelevant points may include: \n\uf0b7 \nThe support of an MP may gain more media coverage, especially in \nlocal newspapers if it is a local issue \n\uf0b7 \nMPs may have more ability than an individual to gain n",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -4765,27 +4298,6 @@
           "Councillors in the main (though not always) have a political affiliation to a political party whereas officers have to show no political bias in the execution of their role. Accept any other valid differences and examples which show relevant application of knowledge and understanding Credit will be given to candidates that identify the roles of councillors and officers (2) Question 2 This 6-mark Question has been removed due to the nature of the hate crime that has caused distress to some candidates."
         ],
         "marking_guidance": "Differences between councillors and officers in local \ngovernment may include the following:",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2022j_01_1",
-      "source": {
-        "paper": "June 2022",
-        "paper_code": "1CS0/01",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "government_and_democracy",
-      "subtopic": "general",
-      "question_text": "Question 2 \nThis 6-mark Question has been removed due to the nature of the hate crime that has \ncaused distress to some candidates.  \n\u00a0\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \nSECTION B: Democracy at work in the UK\nAnswer ALL questions. Write your answers in the spaces provided.\nSome questions must be answered with a cross in a box . If you change your mind about an \nanswer, put a line through the box \n and then mark your new answer with a cross .",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -5089,6 +4601,35 @@
       "active": true
     },
     {
+      "id": "q_2022j_01_6b",
+      "source": {
+        "paper": "June 2022",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "Explain why published statistics recording crime may sometimes be inaccurate.\n(2)\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \n\t\nStudy Source C below and then answer part (c).\nSource C: The core duties of the police\nThe core duty of the police service is to protect the public by detecting and \npreventing crime. The use of police powers must be compatible with human rights \nand equalities legislation. Police personnel are individually responsible for ensuring \ntheir use of their powers is lawful, proportionate and necessary.\nPolice powers can be grouped into three categories:\n\u2022\t\nPowers to investigate crime. This includes a range of powers to collect evidence \nneeded to identify suspects and support their fair and effective trial.\n\u2022\t\nPowers to prevent crime. This includes a range of powers to maintain public \norder and prevent anti-social behaviour.\n\u2022\t\nPowers to deal with criminal cases. These powers allow police officers to deal \nwith criminal cases outside of court, issue cautions or charge suspects so they can \nbe prosecuted through the courts.\nPowers such as these place the police in difficult situations, where there may  \nbe conflict, grief and trauma. The police may be seen as the \u2018long arm of the law\u2019 \u2013 \nhowever they are not above the law and their exercise of power makes their role  \nat times problematic.\n(Source adapted from \u00a9 UK Parliament 2020)",
+      "marks": 2,
+      "question_type": "identify",
+      "mark_scheme": {
+        "indicative_points": [
+          "A victim fearful of further injury or retaliation may not report a crime (1) because they do not feel they have adequate protection",
+          "A victim of crime may not wish to disclose the crime if it is a domestic setting where parties live together. (1) This may bring harm to the family relationships",
+          "The crime may be considered too petty to be reported. (1) This may be because there is no confidence in the authorities to resolve the matter",
+          "The victim may have reported a similar crime in the past and no positive outcome arose. (1) This may reflect a lack of faith in the police",
+          "The victim may feel that s/he may not have enough evidence to present to secure a conviction. (1) Some crimes are more difficult to establish than others.",
+          "The police may choose not to record a crime (1) in which case it is not included in the statistics",
+          "The police have to choose which category to place a crime in (1) which may mean they wrongly categorise affecting the statistics (1) Other reasons may also be offered, accept any other valid response."
+        ],
+        "marking_guidance": "In each case, award one mark for the reason \nidentified and a second mark for explaining that \nreason:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2022j_01_6c",
       "source": {
         "paper": "June 2022",
@@ -5227,27 +4768,6 @@
           "Judgements on the views are well substantiated."
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking \nguidance and the qualities outlined in the mark scheme for AO3 \nbelow.  \nIndicative content guidance \nThe indicative content below is not prescriptive, and candidates are \nnot required to include all the material which is indicated as relevant.  \nRelevant points may include: \nAn analysis of the case for removal and counterpoints:",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2022j_01_7",
-      "source": {
-        "paper": "June 2022",
-        "paper_code": "1CS0/01",
-        "question_ref": "7",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \nBLANK PAGE\nQUESTION 8 IS ON THE NEXT PAGE.\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -5428,27 +4948,6 @@
           "A convincing and sustained analysis of relevant viewpoints on both sides of the argument. The evaluation contains reasoned, coherent arguments, showing good breadth and depth. An overall judgement is given which is well substantiated through the evidence provided. [AO3]"
         ],
         "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking \nguidance and the qualities outlined in the mark scheme for AO2 and \nAO3 below. These two assessment objectives should be considered \ntogether; the general marking guidance shows how to deal with \nanswers that demonstrate abilities at different levels for each \nassessment objective. \nNo marks may be awarded for answers that do not relate specifically \nto the candidate\u2019s own citizenship action (i.e. a complete absence of \nAO2). AO2 and AO3 are equally weighted: answers that do not display \nany qualities as",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2022j_02_2",
-      "source": {
-        "paper": "June 2022",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Source Booklet about Marcus Rashford\u2019s campaign to end\nchild poverty before you answer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -6275,6 +5774,35 @@
       "active": true
     },
     {
+      "id": "q_2023j_01_6b",
+      "source": {
+        "paper": "June 2023",
+        "paper_code": "1CS0/01",
+        "question_ref": "6(b)",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "Identify two family matters which civil law deals with.\n(2)\n\n\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \n \t\n\t\t\t\n\t\n\t \t\n\t\n\t\nStudy Source C below and then answer part (c).\nSource C: Restorative justice\nAnn Linton was burgled and had over \u00a3500 taken by a burglar known only as \nMark. She and her partner, Terry, agreed to take part in restorative justice. Mark \nreached out to Ann and Terry to make amends for his wrongdoing and in the \nprocess made a lasting friendship. Mark now regularly carries out work for them \nand they exchange Christmas presents. Ann said, \u2018Isn\u2019t it funny, you tell someone \nwho broke into your house that you are now the best of friends with them\u2019. Mark \ncommented, \u2018Ann and Terry gave me the chance to change my life. I owe them \neverything and will always be in their debt. I will do anything I can to help them.\u2019\nWest Midlands Police said, \u2018This restorative justice programme is much better than \na prison sentence because it forces offenders to come face to face with the impact \nof their actions and meet those they harm. It is hard for offenders to do \u2013 but the \nbenefits are considerable: helping those who have suffered burglary, saving Police \ntime, court, and prison costs.\u2019\n(Source from: https://www.bbc.co.uk/news/uk-england-birmingham-56536649 \nand https://inews.co.uk/news/uk/burglary-victim-becomes-best-friends-police-\nrehabilitation-scheme-931269)",
+      "marks": 2,
+      "question_type": "identify",
+      "mark_scheme": {
+        "indicative_points": [
+          "Divorce and separation of married people",
+          "Financial settlements (e.g. property/assets, child maintenance) after a divorce or separation",
+          "Custodianship or guardianship of children",
+          "When a will is contested / inheritance",
+          "When a person dies without making a will / intestate",
+          "Adoption",
+          "It is acceptable to cite \u201cdomestic abuse\u201d in the context of civil law proceedings where an explicit link to the criminal law is not made"
+        ],
+        "marking_guidance": "Two family matters which the civil law deals with may include:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
       "id": "q_2023j_01_6c",
       "source": {
         "paper": "June 2023",
@@ -6476,27 +6004,6 @@
       "active": true
     },
     {
-      "id": "q_2023j_02_1",
-      "source": {
-        "paper": "June 2023",
-        "paper_code": "1CS0/02",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "You have been part of a group that organised and took part in a citizenship\naction. In no more than 20 words, write the title of your citizenship  \naction below.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2023j_02_1a",
       "source": {
         "paper": "June 2023",
@@ -6646,27 +6153,6 @@
       "active": true
     },
     {
-      "id": "q_2023j_02_2",
-      "source": {
-        "paper": "June 2023",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Sources Booklet about The Galley Common Stables before\nyou answer this question.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2023j_02_2a",
       "source": {
         "paper": "June 2023",
@@ -6735,24 +6221,14 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "According to Source A, the results of the campaign to save The Galley Common \nStables were \u2018incredible\u2019.\n\t\n\t\nUsing the source, analyse why this viewpoint might be mistaken.\n(2)\n\n \t\n\t\t\t\n\t\n\t \t\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 1,
+      "marks": 2,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [
           "The money raised was only enough to keep the stables open for one month (1) but this does not guarantee more donations to help them stay open for longer",
           "Free hay and food for a year was offered, but this does not cover all the costs of running a stable (1) and this does not mean that the stables can keep running lessons even with these offers",
           "Although they raised \u00a34,813 in their appeal, this was only 4% of their target of \u00a3117,598 (1) this shows that they still have a lot of fundraising to do to keep the stables open",
-          "The Galley Common Stables have only been successful for some parts of their campaign (1) and the fact they have had to start new campaigns and are continuing to campaign suggests they have not had \u2018incredible\u2019 success (1) Only credit answers directly taken from the source. (2) Question number Indcative content 2(d) Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO2 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Relevant points may include:",
-          "People may donate as a one-off rather than give regular donations, so charities may need to keep campaigning for more fund-raising",
-          "Campaigns may succeed in solving one problem e.g. winning a legal battle against a local council like the riding school did in Source A, but more problems may arise such as running out of money",
-          "Campaigns may succeed in raising awareness and gaining support, but this does not always lead to success in achieving change or gaining necessary financial support",
-          "Campaigns may lose supporters or donations/struggle to gain sufficient support for their campaign as new campaigns arise and people and/or the media/people in positions of power switch their support/focus to a different issue",
-          "Campaigns may find it difficult to achieve their goals without the support of those in power/local council/the government if they do not agree with the issue/want to make a change/are not willing to fund the change required",
-          "Choice of methods may affect the likelihood of success if a campaign chooses methods that don\u2019t appeal to the target audience/are ineffective",
-          "The goal set may be unrealistic/too difficult to achieve so may not be successful Accept any other valid answer. Level Mark Descriptor 0 No rewardable material 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+          "The Galley Common Stables have only been successful for some parts of their campaign (1) and the fact they have had to start new campaigns and are continuing to campaign suggests they have not had \u2018incredible\u2019 success (1) Only credit answers directly taken from the source."
         ],
         "marking_guidance": "Award up to 2 marks for a reason derived from analysing (AO3) why the \nviewpoint might be mistaken. The first mark is for providing a valid \nreason, and the second mark is for developing this into an explanation \nthat relates to evidence found in the source, e.g.:",
         "exemplar_answer": null
@@ -6771,14 +6247,25 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "Explain why some campaigns find it difficult to fully achieve their goals.",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "People may donate as a one-off rather than give regular donations, so charities may need to keep campaigning for more fund-raising",
+          "Campaigns may succeed in solving one problem e.g. winning a legal battle against a local council like the riding school did in Source A, but more problems may arise such as running out of money",
+          "Campaigns may succeed in raising awareness and gaining support, but this does not always lead to success in achieving change or gaining necessary financial support",
+          "Campaigns may lose supporters or donations/struggle to gain sufficient support for their campaign as new campaigns arise and people and/or the media/people in positions of power switch their support/focus to a different issue",
+          "Campaigns may find it difficult to achieve their goals without the support of those in power/local council/the government if they do not agree with the issue/want to make a change/are not willing to fund the change required",
+          "Choice of methods may affect the likelihood of success if a campaign chooses methods that don\u2019t appeal to the target audience/are ineffective",
+          "The goal set may be unrealistic/too difficult to achieve so may not be successful Accept any other valid answer. Level Mark Descriptor 0 No rewardable material 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include \nall the material which is indicated as relevant. Other relevant material not suggested \nbelow must also be credited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -7172,27 +6659,6 @@
       "active": true
     },
     {
-      "id": "q_2024j_01_1",
-      "source": {
-        "paper": "June 2024",
-        "paper_code": "1CS0/01",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \nBLANK PAGE\nQUESTION 2 BEGINS ON THE NEXT PAGE. \n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2024j_01_2",
       "source": {
         "paper": "June 2024",
@@ -7363,38 +6829,11 @@
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
       "question_text": "Explain one way by which Youth Courts differ from other courts.",
-      "marks": 2,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [
-          "In the UK there is a large degree of separation in the three areas of the state, the legislature the judiciary and the executive, unlike North Korea where there is vast overlap.",
-          "In the UK there are multiple parties and opposition is part of the process of democracy, no single person controls any of the established parties. By contrast in North Korea power is restricted and only one party allowed.",
-          "In the UK people do leave office at others request \u2013 they are not purged, driven from office, or executed. Such fates fall to some in North Korea.",
-          "New legislation is a result of democratic elections and popular choice in the UK but in North Korea it is at the demand of the leader",
-          "In the UK the army takes no part in politics whereas in North Korea they are more politically significant",
-          "In the UK political power is not concentrated in one family who pass power on \u2013 there are competitive elections as North Korea does Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context. Question number Suggest two types of case which a civil court will deal with Answer Mark 5 (a) In each case, award 1 mark for knowledge of the types of case dealt with by a civil court:",
-          "Civil courts deal with business law such as contracts between businesses.",
-          "The civil courts deal with issues such as the contest of a will or the granting of probate if a person dies without making a will.",
-          "A person obtains a divorce in the civil courts.",
-          "The civil courts deal with family matters such as the rights of children - adoption etc.",
-          "Civil courts deal with property and property disputes such as ownership and rights.",
-          "Civil courts deal with damages where a person claims for personal injury. Accept any other valid answer which gives details of cases dealt with by civil courts. (2) Question number Suggest three different methods used to punish offenders as a means of reducing crime. Answer Mark 5 (b) In each case, award up to 1 mark for applying knowledge and understanding of the various strategies used to punish those who have committed crime. Please note the correct answers refer to the methods of punishment and as such theories are generic and not considered to be methods.",
-          "One way to punish criminals is to take away their freedom/liberty and impose a custodial sentence (jail)",
-          "Another way is to impose a suspended prison sentence \u2013 this will come into force if the offender breaks the law again.",
-          "It is also possible for the court to restrict the freedom by curfew orders and by tagging.",
-          "It is possible for the courts to impose fines on those guilty of a criminal offence.",
-          "A community service order is possible where an offender has to take part in projects for the benefit of the community.",
-          "A person found guilty of a criminal offence may be. placed on probation.",
-          "Forms of restorative justice Accept any other valid answer which illustrate strategies to punish offenders (3) Question number Explain one way by which Youth Courts differ from other courts. Answer Mark 5 (c) Youth courts differ from other courts in the following ways:",
-          "In Youth courts the public are not allowed to see or witness the proceedings (1) This differs from other courts where the public are given access",
-          "In Youth Courts the proceedings are less formal (1) This does differ from the clear formal process of the courts- especially the higher courts",
-          "Youth courts \u2013 in a magistrate hearing will have a dedicated magistrate trained in dealing with young offenders (1) No such specialism for the accused is provided in other courts",
-          "In a Youth Court a person who is under 16 must be accompanied by an adult over 18 (1) This does not apply in other courts (1) Other examples may be used."
-        ],
-        "marking_guidance": "B is correct as the House of Lords is comprised of those three types of \npeer \nA is incorrect as the House of Lords does not appoint Judges \nC is incorrect as the House of Lords does not make the final decision \nconcerning taxation issues \nD is incorrect as members of the House of Lords do not have constituents  \n(1) \nQuestion \nnumber \nCompare how the UK and North Korea differ in forming and selecting governments. \nIndicative content \n4 (d) \nMarking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 ",
+        "indicative_points": [],
+        "marking_guidance": "B is correct as the House of Lords is comprised of those three types of \npeer \nA is incorrect as the House of Lords does not appoint Judges \nC is incorrect as the House of Lords does not make the final decision \nconcerning taxation issues \nD is incorrect as members of the House of Lords do not have constituents",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -7411,14 +6850,24 @@
       "topic": "life_in_modern_britain",
       "subtopic": "general",
       "question_text": "Compare how the UK and North Korea differ in forming and  \nselecting governments.\n(6)\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "In the UK there is a large degree of separation in the three areas of the state, the legislature the judiciary and the executive, unlike North Korea where there is vast overlap.",
+          "In the UK there are multiple parties and opposition is part of the process of democracy, no single person controls any of the established parties. By contrast in North Korea power is restricted and only one party allowed.",
+          "In the UK people do leave office at others request \u2013 they are not purged, driven from office, or executed. Such fates fall to some in North Korea.",
+          "New legislation is a result of democratic elections and popular choice in the UK but in North Korea it is at the demand of the leader",
+          "In the UK the army takes no part in politics whereas in North Korea they are more politically significant",
+          "In the UK political power is not concentrated in one family who pass power on \u2013 there are competitive elections as North Korea does Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive, and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -7436,22 +6885,9 @@
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [
-          "A person has the right to know why and for what reason they have been arrested.",
-          "After a person has been arrested, they have the right to inform another person about their arrest.",
-          "After an arrest has been made an individual has the right to see a solicitor to obtain advice and guidance",
-          "Advised that they have a right to remain silent \u2013 with the proviso that withholding information relevant to the event may harm their defence.",
-          "The arrest must lay the foundation form a fair trial. Other reasons may also be offered, accept any other valid response. (2) Question number Using the source, explain the benefits which magistrates bring to our legal system. Indicative content 6 (c) Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO2 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Relevant points may include:",
-          "Magistrates have a long history in our legal system of service and performance",
-          "They deal with the vast bulk of all criminal cases \u2013 which is a huge workload",
-          "They receive training which equips them well to deal with family law and youth justice",
-          "Magistrates are recruited and serve in the locality \u2013 this connects the operation of the law with the community and instils trust and confidence",
-          "Building on from the above they reflect the community in its diverse forms being compromised of a representative cross section of society",
-          "In terms of cost, they are quite inexpensive and provide value for money Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
+          "Correct answer: C"
         ],
-        "marking_guidance": "C is the correct answer  \nA is incorrect for this does not define restorative justice \nB is incorrect because excessive force is not allowed  \nD is incorrect for although those whom assist and aid offenders are punished it is \nnot restorative justice \n(1) \nQuestion \nnumber \nIdentify two rights of a person when placed under arrest.  \nAnswer  \nMark \n6 (b) \nThe following rights should be provided for an arrested person:",
+        "marking_guidance": "C is the correct answer  \nA is incorrect for this does not define restorative justice \nB is incorrect because excessive force is not allowed  \nD is incorrect for although those whom assist and aid offenders are punished it is \nnot restorative justice",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -7468,14 +6904,24 @@
       "topic": "rights_and_responsibilities",
       "subtopic": "general",
       "question_text": "Using the source, explain the benefits that magistrates bring to our legal system.\n(6)\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "Magistrates have a long history in our legal system of service and performance",
+          "They deal with the vast bulk of all criminal cases \u2013 which is a huge workload",
+          "They receive training which equips them well to deal with family law and youth justice",
+          "Magistrates are recruited and serve in the locality \u2013 this connects the operation of the law with the community and instils trust and confidence",
+          "Building on from the above they reflect the community in its diverse forms being compromised of a representative cross section of society",
+          "In terms of cost, they are quite inexpensive and provide value for money Level Mark Descriptor 0 No rewardable material. 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {
@@ -7583,7 +7029,29 @@
           "Judgements on the views are given, although they may not be fully substantiated. 4 10\u201312",
           "A convincing and sustained analysis of the different views expressed in the source.",
           "The evaluation contains reasoned, coherent arguments, showing good breadth and depth.",
-          "Judgements on the views are well substantiated. Question number The ages at which people become legally responsible \u2013 such as to drive, to marry, to work and to vote - need to be increased. Indicative content 8 Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO3 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Arguments to support the statement that the law in relation to legal responsibilities may be too low include:",
+          "Judgements on the views are well substantiated."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO3 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant.  \nRelevant points may include: \nThe case for devolution:",
+        "exemplar_answer": null
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
+      "id": "q_2024j_01_8",
+      "source": {
+        "paper": "June 2024",
+        "paper_code": "1CS0/01",
+        "question_ref": "8",
+        "exam_board": "Edexcel"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "general",
+      "question_text": "The ages at which people become legally responsible \u2013 such as to drive, to marry, to\nwork and to vote \u2013 need to be increased.\n\t\nHow far do you agree with this view?\n\t\nGive reasons for your opinion, showing that you have considered different views on \nthe topic.\n(15)\nIn your answer, you could consider:\n\u2022\t\nrights, duties and values that underpin democracy\n\u2022\t\nthe role of the law in everyday life in dealing with complex problems.\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
+      "marks": 1,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
           "Many argue that the age of voting at 18 is too low and needs to be increased to 21.",
           "Some argue that making young people stay in some form of education until they are 18 is wrong and requires reform and higher education should be compulsory until a person is 21.",
           "It is argued that driving \u2013 an important but dangerous responsibility should be deferred until 21 to avoid the huge number of deaths on the road of young drivers.",
@@ -7611,49 +7079,7 @@
           "The evaluation contains reasoned, coherent arguments, showing good breadth and depth.",
           "An overall judgement is given which is well substantiated through the evidence provided. Pearson Education Limited. Registered company number 872828 with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
         ],
-        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO3 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant.  \nRelevant points may include: \nThe case for devolution:",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2024j_01_8",
-      "source": {
-        "paper": "June 2024",
-        "paper_code": "1CS0/01",
-        "question_ref": "8",
-        "exam_board": "Edexcel"
-      },
-      "topic": "rights_and_responsibilities",
-      "subtopic": "general",
-      "question_text": "The ages at which people become legally responsible \u2013 such as to drive, to marry, to\nwork and to vote \u2013 need to be increased.\n\t\nHow far do you agree with this view?\n\t\nGive reasons for your opinion, showing that you have considered different views on \nthe topic.\n(15)\nIn your answer, you could consider:\n\u2022\t\nrights, duties and values that underpin democracy\n\u2022\t\nthe role of the law in everyday life in dealing with complex problems.\n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2 \n\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
-      "id": "q_2024j_02_1",
-      "source": {
-        "paper": "June 2024",
-        "paper_code": "1CS0/02",
-        "question_ref": "1",
-        "exam_board": "Edexcel"
-      },
-      "topic": "life_in_modern_britain",
-      "subtopic": "general",
-      "question_text": "You have been part of a group that organised and took part in a citizenship\naction. In no more than 20 words, write the title of your citizenship action below.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO3 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to \ninclude all the material which is indicated as relevant. Other relevant material not \nsuggested below must also be credited.  \nArguments to support the statement that the law in relation to legal responsibilities may \nbe too low include:",
         "exemplar_answer": null
       },
       "difficulty": "easy",
@@ -7808,27 +7234,6 @@
       "active": true
     },
     {
-      "id": "q_2024j_02_2",
-      "source": {
-        "paper": "June 2024",
-        "paper_code": "1CS0/02",
-        "question_ref": "2",
-        "exam_board": "Edexcel"
-      },
-      "topic": "active_citizenship",
-      "subtopic": "general",
-      "question_text": "Study Source A in the Source Booklet about Eleanor Horner\u2019s campaign before\nyou answer these questions.",
-      "marks": 1,
-      "question_type": "explain",
-      "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
-        "exemplar_answer": null
-      },
-      "difficulty": "easy",
-      "active": true
-    },
-    {
       "id": "q_2024j_02_2a",
       "source": {
         "paper": "June 2024",
@@ -7894,21 +7299,13 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "According to Source A, Eleanor Horner\u2019s campaign will \u2018have a huge impact\u2019 on \nthe lives of local people.\n\t\n\t\nUsing the source, analyse why this viewpoint may be accurate.\n(2)\n\n \t\n\t\t\t\n\t\n\t \t\n\t\n\uf0a2\uf0a2\uf0a2\uf0a2 \n\uf0a2",
-      "marks": 1,
+      "marks": 2,
       "question_type": "explain",
       "mark_scheme": {
         "indicative_points": [
           "Transport Commissioner Chris Boardman agreed that the change would have a huge impact (1) saying \u2018A new or upgraded crossing might seem a small change to a street but it can have a huge impact on local people\u2019/ \u2018 If we make our roads more pleasant and easier to navigate on foot, by bike, scooting or wheeling, we\u2019ll enable thousands more everyday trips to happen without cars\u2019",
           "Changes made to make roads easier to travel on will encourage more people to travel without a car (1) which could improve mental and physical health/is great for kids/helps to clean up the air/saves money",
-          "A new controlled pedestrian and cycling crossing has been proposed for near Eleanor\u2019s school (1) which will make travelling to school safer for pupils (1) (2) Question number Indcative content 2(d) Marking instructions Markers must apply the descriptors in line with the general marking guidance and the qualities outlined in the mark scheme for AO2 below. Indicative content guidance The indicative content below is not prescriptive and candidates are not required to include all the material which is indicated as relevant. Other relevant material not suggested below must also be credited. Relevant points may include:",
-          "Local government have delegated powers that they deal with rather than national government e.g. roads",
-          "Local government may have funding to make the change that your campaign asks for e.g. new pedestrian crossing",
-          "Local councillors may support your campaign and help provide more pressure on the government for change if it is a local and national issue",
-          "People may be more likely to support a local campaign if they know the local government can make a difference",
-          "Councillors are usually local residents themselves and so may be more responsive to campaigns Accept any other valid answer. Level Mark Descriptor 0 No rewardable material 1 1\u20132",
-          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
-          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
-          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+          "A new controlled pedestrian and cycling crossing has been proposed for near Eleanor\u2019s school (1) which will make travelling to school safer for pupils (1)"
         ],
         "marking_guidance": "Award up to 2 marks for a reason derived from analysing why the viewpoint \nmight be accurate. The first mark is for providing a valid reason, and the \nsecond mark is for developing this into an explanation that relates to evidence \nfound in the source (AO3) e.g.:",
         "exemplar_answer": null
@@ -7927,14 +7324,23 @@
       "topic": "active_citizenship",
       "subtopic": "general",
       "question_text": "Explain why targeting a campaign at local government may be the most effective \nway to achieve change.",
-      "marks": 6,
+      "marks": 1,
       "question_type": "explain",
       "mark_scheme": {
-        "indicative_points": [],
-        "marking_guidance": "",
+        "indicative_points": [
+          "Local government have delegated powers that they deal with rather than national government e.g. roads",
+          "Local government may have funding to make the change that your campaign asks for e.g. new pedestrian crossing",
+          "Local councillors may support your campaign and help provide more pressure on the government for change if it is a local and national issue",
+          "People may be more likely to support a local campaign if they know the local government can make a difference",
+          "Councillors are usually local residents themselves and so may be more responsive to campaigns Accept any other valid answer. Level Mark Descriptor 0 No rewardable material 1 1\u20132",
+          "Limited knowledge is shown of concepts, terms and issues relevant to the question. Limited understanding of how these apply is shown by simple undeveloped comment about actions in the source context. 2 3\u20134",
+          "Some knowledge is shown about the concepts, terms and issues relevant to the question. Some understanding of how these apply is shown by some developed comment about actions in the source context. 3 5\u20136",
+          "Detailed knowledge is shown about the concepts, terms and issues relevant to the question. Good understanding of how these apply is shown by effective and sustained comment about actions in the source context."
+        ],
+        "marking_guidance": "Marking instructions \nMarkers must apply the descriptors in line with the general marking guidance and the \nqualities outlined in the mark scheme for AO2 below.  \nIndicative content guidance \nThe indicative content below is not prescriptive and candidates are not required to include \nall the material which is indicated as relevant. Other relevant material not suggested \nbelow must also be credited. \nRelevant points may include:",
         "exemplar_answer": null
       },
-      "difficulty": "hard",
+      "difficulty": "easy",
       "active": true
     },
     {

@@ -297,18 +297,37 @@ def parse_questions_from_paper(text: str) -> list[dict]:
 
     flush_current()
 
-    # Filter out spurious entries
-    questions = [
-        q for q in questions
-        if (
-            q["question_text"]
-            and len(q["question_text"].strip()) > 10
-            and not re.search(r"TOTAL FOR (SECTION|PAPER)", q["question_text"], re.IGNORECASE)
-            and not re.search(r"^SECTION [A-Z]", q["question_text"].strip(), re.IGNORECASE)
-            and not re.search(r"then answer parts?\s*\(", q["question_text"], re.IGNORECASE)
-            and q["marks"] <= 25  # sanity check
-        )
-    ]
+    # Filter out noise and instruction-only entries
+    def _is_real_question(q: dict) -> bool:
+        t = q["question_text"].strip()
+        if not t or len(t) < 12:
+            return False
+        if q["marks"] > 25:
+            return False
+        noise_patterns = [
+            r"TOTAL FOR (SECTION|PAPER)",
+            r"^SECTION [A-Z]",
+            r"BLANK PAGE",
+            r"copyright holders",
+            r"^hour \d",
+            r"^Paper\s*\nreference",
+            r"Question \d+\s*\nThis .{0,30}question has been removed",
+            r"^Source Booklet",
+        ]
+        for pat in noise_patterns:
+            if re.search(pat, t, re.IGNORECASE | re.MULTILINE):
+                return False
+        # Instruction-only intros: "Study Source X ... before you answer" or
+        # "Study Source X ... answer the question(s) that follow"
+        if re.search(r"Study (?:Source|the [Ss]ource)", t, re.IGNORECASE):
+            if not re.search(r"\b(explain|describe|identify|analyse|evaluate|suggest|compare|state|name|which one|give)\b", t, re.IGNORECASE):
+                return False
+        # Active citizenship scenario intro (Paper 2 Q1 preamble)
+        if re.search(r"You have been part of a group that organised", t, re.IGNORECASE):
+            return False
+        return True
+
+    questions = [q for q in questions if _is_real_question(q)]
 
     # Deduplicate by ref (keep last occurrence which tends to be cleaner)
     seen = {}
@@ -430,7 +449,7 @@ def parse_mark_scheme(text: str) -> dict[str, dict]:
     text = clean_text(text)
 
     segments = re.split(
-        r"Question\s*\n?\s*number\s*\n?\s*(?:Answer|Indicative content)\s*\n?\s*(?:Marking instructions\s*\n)?\s*(?:Mark\s*)?",
+        r"Question\s*\n?\s*number\s*\n?\s*(?:Ind?c?ative content|Answer\w*|[A-Z][^\n]{5,60})\s*\n?\s*(?:Marking instructions\s*\n)?\s*(?:Mark\s*)?",
         text,
         flags=re.IGNORECASE,
     )
@@ -541,7 +560,8 @@ def ingest_paper(entry: dict) -> list[dict]:
     questions = []
     for rq in raw_questions:
         ref = rq["ref"]
-        ms = ms_data.get(ref, {})
+        # Fallback: if N(a) not in MS but N is (only sub-part), use parent
+        ms = ms_data.get(ref) or ms_data.get(re.sub(r"\([a-z]\)$", "", ref), {})
 
         # Use mark from mark scheme if available (more reliable)
         marks = ms.get("mark") or rq["marks"]
