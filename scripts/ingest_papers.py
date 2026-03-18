@@ -68,7 +68,7 @@ to its mark scheme. Output a JSON array where each element follows this exact sc
     "paper": "{paper}",
     "paper_code": "{code}",
     "question_ref": "<e.g. 1(a)>",
-    "exam_board": "OCR"
+    "exam_board": "Edexcel"
   }},
   "topic": "<one of: life_in_modern_britain | rights_and_responsibilities | government_and_democracy | uk_and_wider_world | active_citizenship>",
   "subtopic": "<specific subtopic, e.g. electoral_systems>",
@@ -86,7 +86,7 @@ to its mark scheme. Output a JSON array where each element follows this exact sc
 
 Rules:
 - Include ALL questions, including 1-mark questions.
-- Set "topic" based on the subject matter of the question. Use your knowledge of the OCR J560
+- Set "topic" based on the subject matter of the question. Use your knowledge of the Edexcel 1CS0
   GCSE Citizenship specification to assign the most appropriate topic.
 - For "difficulty": easy = 1-2 marks or recall; medium = 3-4 marks or explanation;
   hard = 5+ marks or evaluation/analysis.
