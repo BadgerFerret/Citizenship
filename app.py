@@ -40,6 +40,7 @@ def init_db():
             started_at            TEXT DEFAULT (datetime('now')),
             ended_at              TEXT,
             topic_filter          TEXT,
+            quiz_mode             TEXT DEFAULT 'classic',
             num_questions         INTEGER DEFAULT 0,
             total_marks_available INTEGER DEFAULT 0,
             total_marks_awarded   INTEGER DEFAULT 0
@@ -61,6 +62,12 @@ def init_db():
         );
     """)
     db.commit()
+    # Migration: add quiz_mode column to existing databases
+    try:
+        db.execute("ALTER TABLE sessions ADD COLUMN quiz_mode TEXT DEFAULT 'classic'")
+        db.commit()
+    except Exception:
+        pass  # Column already exists
     db.close()
 
 
@@ -145,10 +152,15 @@ def get_student_summary(student_id):
     return {"total_attempts": total, "avg_pct": avg, "last_active": last_active}
 
 
-def select_next_question(student_id, session_id, topic_filter=None):
+def select_next_question(student_id, session_id, topic_filter=None, quiz_mode='classic'):
     questions = load_questions()
     if not questions:
         return None
+
+    if quiz_mode == 'multi_choice':
+        questions = [q for q in questions if q.get('question_type', '') in ('multiple_choice', 'multiple_choice_multi')]
+        if not questions:
+            return None
 
     db = get_db()
     # Questions already answered this session
@@ -479,6 +491,9 @@ def session_start():
     student_id = request.form.get("student_id", type=int)
     topic_filter = request.form.get("topic_filter", "mixed")
     num_questions = request.form.get("num_questions", 10, type=int)
+    quiz_mode = request.form.get("quiz_mode", "classic")
+    if quiz_mode not in ("classic", "multi_choice"):
+        quiz_mode = "classic"
 
     if not student_id:
         return redirect(url_for("home"))
@@ -491,8 +506,8 @@ def session_start():
 
     db = get_db()
     cur = db.execute(
-        "INSERT INTO sessions (student_id, topic_filter) VALUES (?, ?)",
-        (student_id, topic_filter)
+        "INSERT INTO sessions (student_id, topic_filter, quiz_mode) VALUES (?, ?, ?)",
+        (student_id, topic_filter, quiz_mode)
     )
     sess_id = cur.lastrowid
     db.commit()
@@ -503,6 +518,7 @@ def session_start():
         "student_id": student_id,
         "num_questions": num_questions,
         "answered": 0,
+        "quiz_mode": quiz_mode,
     }
     return redirect(url_for("quiz", session_id=sess_id))
 
@@ -517,11 +533,12 @@ def quiz(session_id):
     sess_info = session.get("current_session", {})
     num_questions = sess_info.get("num_questions", 10)
     answered = sess_info.get("answered", 0)
+    quiz_mode = sess_info.get("quiz_mode", "classic")
 
     if answered >= num_questions:
         return redirect(url_for("session_end", session_id=session_id))
 
-    question = select_next_question(sess["student_id"], session_id, sess["topic_filter"])
+    question = select_next_question(sess["student_id"], session_id, sess["topic_filter"], quiz_mode)
     if not question:
         return redirect(url_for("session_end", session_id=session_id))
 

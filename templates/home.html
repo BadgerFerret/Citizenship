@@ -80,6 +80,18 @@
     <form method="post" action="{{ url_for('session_start') }}">
       <input type="hidden" name="student_id" id="modal-student-id">
 
+      <label>Quiz mode</label>
+      <div class="q-count-picker">
+        <label class="q-count-option">
+          <input type="radio" name="quiz_mode" value="classic" checked>
+          <span>Classic — all questions</span>
+        </label>
+        <label class="q-count-option">
+          <input type="radio" name="quiz_mode" value="multi_choice">
+          <span>Multi-choice only</span>
+        </label>
+      </div>
+
       <label for="topic_filter">Topic focus</label>
       <select name="topic_filter" id="topic_filter">
         <option value="mixed">Mixed — all topics</option>
