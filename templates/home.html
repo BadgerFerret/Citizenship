@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block title %}Home — GCSE Citizenship Revision{% endblock %}
+
+{% block content %}
+<div class="page-home">
+  <h1 class="page-title">Who's revising today?</h1>
+
+  {% if students %}
+  <div class="student-grid">
+    {% for s in students %}
+    <div class="student-card">
+      <div class="student-avatar">{{ s.avatar }}</div>
+      <h2 class="student-name">{{ s.name }}</h2>
+
+      <div class="student-stats">
+        {% if s.summary.total_attempts > 0 %}
+          <div class="stat">
+            <span class="stat-value">{{ s.summary.avg_pct }}%</span>
+            <span class="stat-label">avg score</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">{{ s.summary.total_attempts }}</span>
+            <span class="stat-label">questions done</span>
+          </div>
+          {% if s.weakest_topic_label %}
+          <div class="stat-weak">
+            <span class="badge badge-warn">Weakest: {{ s.weakest_topic_label }}</span>
+          </div>
+          {% endif %}
+        {% else %}
+          <p class="no-data">No attempts yet — start practising!</p>
+        {% endif %}
+      </div>
+
+      <div class="student-actions">
+        <button class="btn btn-primary" onclick="openStartModal({{ s.id }}, '{{ s.name }}')">
+          Start Session
+        </button>
+        <a href="{{ url_for('progress', student_id=s.id) }}" class="btn btn-outline">
+          View Progress
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <p>No students yet. Add your first student below to get started.</p>
+  </div>
+  {% endif %}
+
+  <!-- Add student form -->
+  <div class="add-student-section">
+    <h2>Add a student</h2>
+    <form method="post" action="{{ url_for('add_student') }}" class="add-student-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="e.g. Alex" required maxlength="50">
+      <label for="avatar">Avatar</label>
+      <div class="avatar-picker">
+        {% for emoji in ['📚', '🎓', '✏️', '🌟', '🏆', '🦁', '🐯', '🦊'] %}
+        <label class="avatar-option">
+          <input type="radio" name="avatar" value="{{ emoji }}" {% if loop.first %}checked{% endif %}>
+          <span>{{ emoji }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      <button type="submit" class="btn btn-secondary">Add Student</button>
+    </form>
+  </div>
+</div>
+
+<!-- Start Session Modal -->
+<div id="start-modal" class="modal-overlay" style="display:none">
+  <div class="modal">
+    <h2 id="modal-title">Start a session</h2>
+    <form method="post" action="{{ url_for('session_start') }}">
+      <input type="hidden" name="student_id" id="modal-student-id">
+
+      <label for="topic_filter">Topic focus</label>
+      <select name="topic_filter" id="topic_filter">
+        <option value="mixed">Mixed — all topics</option>
+        <option value="weakest">Focus on my weakest topic</option>
+        <optgroup label="Specific topic">
+          {% for key, info in topics.items() %}
+          <option value="{{ key }}">{{ info.label }}</option>
+          {% endfor %}
+        </optgroup>
+      </select>
+
+      <label for="num_questions">Number of questions</label>
+      <div class="q-count-picker">
+        {% for n in [5, 10, 15] %}
+        <label class="q-count-option">
+          <input type="radio" name="num_questions" value="{{ n }}" {% if n == 10 %}checked{% endif %}>
+          <span>{{ n }}</span>
+        </label>
+        {% endfor %}
+        <label class="q-count-option">
+          <input type="radio" name="num_questions" id="custom-radio" value="">
+          <input type="number" id="custom-num" min="1" max="50" placeholder="custom"
+                 oninput="document.getElementById('custom-radio').value=this.value;document.getElementById('custom-radio').checked=true;"
+                 style="width:70px;margin-left:6px;">
+        </label>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="btn btn-primary">Let's go!</button>
+        <button type="button" class="btn btn-outline" onclick="closeStartModal()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+function openStartModal(studentId, name) {
+  document.getElementById('modal-student-id').value = studentId;
+  document.getElementById('modal-title').textContent = 'Start a session — ' + name;
+  document.getElementById('start-modal').style.display = 'flex';
+}
+function closeStartModal() {
+  document.getElementById('start-modal').style.display = 'none';
+}
+document.getElementById('start-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeStartModal();
+});
+</script>
+{% endblock %}

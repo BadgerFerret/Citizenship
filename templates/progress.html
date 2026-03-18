@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}Progress — {{ student.name }} — GCSE Citizenship{% endblock %}
+
+{% block content %}
+<div class="page-progress">
+  <div class="progress-header">
+    <div>
+      <h1>{{ student.avatar }} {{ student.name }}'s Progress</h1>
+    </div>
+    {% if all_students | length > 1 %}
+    <div class="student-switcher">
+      <label>Switch student:</label>
+      <select onchange="window.location='/progress/' + this.value">
+        {% for s in all_students %}
+        <option value="{{ s.id }}" {% if s.id == student.id %}selected{% endif %}>{{ s.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- Summary stats -->
+  <div class="summary-stats" id="summary-stats">
+    <div class="stat-card">
+      <span class="stat-big" id="stat-total">—</span>
+      <span class="stat-desc">questions answered</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-big" id="stat-avg">—</span>
+      <span class="stat-desc">average score</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-big" id="stat-streak">—</span>
+      <span class="stat-desc">day streak</span>
+    </div>
+  </div>
+
+  <!-- Charts row -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <h2>Topic mastery</h2>
+      <p class="chart-subtitle">Score % across all attempts per topic</p>
+      <div class="chart-wrap">
+        <canvas id="radarChart"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h2>Score over time</h2>
+      <p class="chart-subtitle">Per-question % score (recent attempts)</p>
+      <div class="chart-wrap">
+        <canvas id="timelineChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weakest topics -->
+  <div class="weakest-section">
+    <h2>Topic breakdown</h2>
+    <div id="topic-bars"></div>
+  </div>
+
+  <!-- Recent sessions table -->
+  <div class="sessions-section">
+    <h2>Recent sessions</h2>
+    <div id="sessions-table-wrap">Loading...</div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+<script>
+loadProgress({{ student.id }});
+</script>
+{% endblock %}

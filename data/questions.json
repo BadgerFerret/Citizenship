@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "q_seed_001",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/01",
+        "question_ref": "1(a)",
+        "exam_board": "OCR"
+      },
+      "topic": "government_and_democracy",
+      "subtopic": "electoral_systems",
+      "question_text": "Explain what is meant by a 'free and fair election'.",
+      "marks": 4,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "All eligible citizens have the right to vote",
+          "Votes are cast in secret (secret ballot)",
+          "Results are counted accurately and independently",
+          "Political parties can campaign freely",
+          "No intimidation or corruption of voters",
+          "Independent electoral commission oversees the process"
+        ],
+        "marking_guidance": "Award 1 mark per valid point up to a maximum of 4 marks.",
+        "exemplar_answer": "A free and fair election is one where all eligible citizens are able to vote without fear of intimidation. Votes are cast in secret so voters cannot be pressured. Results are counted independently and accurately. All political parties are able to campaign freely before the election."
+      },
+      "difficulty": "medium",
+      "active": true
+    },
+    {
+      "id": "q_seed_002",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/01",
+        "question_ref": "2(a)",
+        "exam_board": "OCR"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "citizens_rights",
+      "question_text": "Describe two human rights protected by the Human Rights Act 1998.",
+      "marks": 4,
+      "question_type": "describe",
+      "mark_scheme": {
+        "indicative_points": [
+          "Right to life (Article 2) - the state must protect your life",
+          "Right to a fair trial (Article 6) - right to a fair and public hearing",
+          "Right to privacy (Article 8) - right to respect for private and family life",
+          "Freedom of expression (Article 10) - right to hold opinions and express them",
+          "Freedom from torture (Article 3) - no one shall be subjected to torture or inhuman treatment",
+          "Right to liberty (Article 5) - right not to be unlawfully detained"
+        ],
+        "marking_guidance": "Award 1 mark for identifying the right and 1 mark for a description/explanation. Maximum 2 marks per right, maximum 4 marks total.",
+        "exemplar_answer": "The right to a fair trial (Article 6) means that everyone is entitled to a fair and public hearing if they are accused of a crime. Freedom of expression (Article 10) protects the right to hold opinions and share them, for example through the media or protests."
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
+      "id": "q_seed_003",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/01",
+        "question_ref": "3(b)",
+        "exam_board": "OCR"
+      },
+      "topic": "life_in_modern_britain",
+      "subtopic": "british_values_and_identity",
+      "question_text": "Explain why the rule of law is important in a democratic society.",
+      "marks": 6,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "The rule of law means everyone is equal under the law, including the government",
+          "It protects citizens from arbitrary use of power by those in authority",
+          "It ensures disputes can be settled fairly through an independent judiciary",
+          "It provides certainty — people know what is and is not permitted",
+          "It underpins democracy by ensuring elections and rights are protected by law",
+          "Without the rule of law, the powerful could act without accountability",
+          "It promotes trust in public institutions and social stability"
+        ],
+        "marking_guidance": "Award 1 mark per valid point. Higher marks (5-6) should show developed explanation with examples or links between ideas.",
+        "exemplar_answer": "The rule of law means that everyone in society — including the government — must follow the law. This is important because it protects citizens from the arbitrary use of power. Without it, those in authority could act without accountability. It also ensures disputes are settled fairly by an independent judiciary, which promotes public trust in institutions."
+      },
+      "difficulty": "medium",
+      "active": true
+    },
+    {
+      "id": "q_seed_004",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/02",
+        "question_ref": "1(c)",
+        "exam_board": "OCR"
+      },
+      "topic": "uk_and_wider_world",
+      "subtopic": "international_organisations",
+      "question_text": "Describe two roles of the United Nations (UN).",
+      "marks": 4,
+      "question_type": "describe",
+      "mark_scheme": {
+        "indicative_points": [
+          "Maintaining international peace and security through peacekeeping missions",
+          "Promoting and protecting human rights around the world",
+          "Providing humanitarian aid to people affected by conflict or disaster",
+          "Setting international law and norms through treaties and conventions",
+          "Facilitating international cooperation on issues such as climate change",
+          "Supporting economic development in poorer countries through agencies like UNICEF and WHO"
+        ],
+        "marking_guidance": "Award 1 mark for identifying a role and 1 mark for describing it. Maximum 2 marks per role, maximum 4 marks.",
+        "exemplar_answer": "The UN maintains international peace and security by sending peacekeeping forces to areas of conflict. It also promotes human rights globally by setting standards through declarations and conventions such as the Universal Declaration of Human Rights."
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
+      "id": "q_seed_005",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/02",
+        "question_ref": "4(a)",
+        "exam_board": "OCR"
+      },
+      "topic": "active_citizenship",
+      "subtopic": "campaigning_and_advocacy",
+      "question_text": "Explain how citizens can influence government decisions in the UK.",
+      "marks": 6,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "Voting in elections to choose representatives who reflect their views",
+          "Contacting their MP by letter, email or surgery",
+          "Signing or creating petitions (100,000 signatures triggers a parliamentary debate)",
+          "Joining or forming pressure groups to campaign on issues",
+          "Peaceful protest or demonstration",
+          "Using social media to raise awareness and build public support",
+          "Standing as a candidate in local or national elections",
+          "Responding to public consultations"
+        ],
+        "marking_guidance": "Award 1 mark per valid method. For 5-6 marks, answers should show how the method leads to influence, not just list methods.",
+        "exemplar_answer": "Citizens can influence government by voting in elections to choose MPs who represent their views. They can also contact their MP directly to raise concerns, as MPs are duty-bound to represent constituents. Signing petitions is another method — if 100,000 people sign a petition it must be considered for a parliamentary debate. Pressure groups such as Amnesty International organise campaigns that can shift public opinion and put pressure on ministers."
+      },
+      "difficulty": "medium",
+      "active": true
+    },
+    {
+      "id": "q_seed_006",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/01",
+        "question_ref": "5(a)",
+        "exam_board": "OCR"
+      },
+      "topic": "government_and_democracy",
+      "subtopic": "parliament_and_government",
+      "question_text": "Describe the role of the House of Lords in the UK Parliament.",
+      "marks": 4,
+      "question_type": "describe",
+      "mark_scheme": {
+        "indicative_points": [
+          "The House of Lords scrutinises and revises legislation passed by the House of Commons",
+          "It can delay (but not permanently block) bills for up to one year",
+          "It acts as a check on the power of the elected government",
+          "Members include life peers, bishops, and (some) hereditary peers",
+          "It has less power than the House of Commons due to the Parliament Acts",
+          "Lords can introduce bills of their own (except money bills)"
+        ],
+        "marking_guidance": "Award 1 mark per valid point up to 4 marks.",
+        "exemplar_answer": "The House of Lords scrutinises and revises legislation from the House of Commons. It can suggest amendments and delay bills for up to one year, acting as a check on the power of government. It is an unelected chamber made up of life peers, bishops and some hereditary peers."
+      },
+      "difficulty": "medium",
+      "active": true
+    },
+    {
+      "id": "q_seed_007",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/01",
+        "question_ref": "6(b)",
+        "exam_board": "OCR"
+      },
+      "topic": "rights_and_responsibilities",
+      "subtopic": "justice_system",
+      "question_text": "Explain the difference between civil law and criminal law.",
+      "marks": 4,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "Criminal law deals with offences against the state/society; civil law deals with disputes between individuals or organisations",
+          "Criminal cases are prosecuted by the state (Crown Prosecution Service); civil cases are brought by individuals",
+          "The burden of proof in criminal law is 'beyond reasonable doubt'; in civil law it is 'on the balance of probabilities'",
+          "Criminal cases can result in imprisonment or fines; civil cases typically result in compensation or injunctions",
+          "Examples of criminal law: theft, assault, murder; examples of civil law: breach of contract, negligence, divorce"
+        ],
+        "marking_guidance": "Award 1 mark per valid point of distinction. Up to 4 marks.",
+        "exemplar_answer": "Criminal law deals with offences against society, such as theft or assault, and cases are brought by the Crown Prosecution Service. Civil law deals with disputes between individuals or organisations, such as breach of contract. The standard of proof is also different: criminal cases must be proved beyond reasonable doubt, while civil cases are decided on the balance of probabilities."
+      },
+      "difficulty": "medium",
+      "active": true
+    },
+    {
+      "id": "q_seed_008",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/02",
+        "question_ref": "2(a)",
+        "exam_board": "OCR"
+      },
+      "topic": "life_in_modern_britain",
+      "subtopic": "equality_and_discrimination",
+      "question_text": "Describe two protected characteristics under the Equality Act 2010.",
+      "marks": 4,
+      "question_type": "describe",
+      "mark_scheme": {
+        "indicative_points": [
+          "Age — protects people from being treated less favourably because of their age",
+          "Disability — protects people with physical or mental impairments",
+          "Gender reassignment — protects people who are transitioning",
+          "Marriage and civil partnership — protects people who are married or in a civil partnership",
+          "Pregnancy and maternity — protects women who are pregnant or on maternity leave",
+          "Race — protects people from discrimination based on their race, colour or nationality",
+          "Religion or belief — protects people's freedom of religion or belief",
+          "Sex — protects people from being treated less favourably because of their sex",
+          "Sexual orientation — protects gay, lesbian and bisexual people"
+        ],
+        "marking_guidance": "Award 1 mark for identifying the characteristic and 1 mark for describing it. Maximum 2 marks per characteristic, 4 marks total.",
+        "exemplar_answer": "Race is a protected characteristic, meaning people cannot be treated less favourably because of their race, colour or nationality. Disability is another protected characteristic, protecting people with physical or mental impairments from discrimination in areas such as employment or services."
+      },
+      "difficulty": "easy",
+      "active": true
+    },
+    {
+      "id": "q_seed_009",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/02",
+        "question_ref": "3(c)",
+        "exam_board": "OCR"
+      },
+      "topic": "uk_and_wider_world",
+      "subtopic": "global_issues",
+      "question_text": "Explain why climate change is considered a global citizenship issue.",
+      "marks": 6,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "Climate change affects all countries, not just those responsible for emissions",
+          "Developing nations often bear the worst impacts despite contributing least to the problem",
+          "It requires international cooperation to address, as no single country can solve it alone",
+          "It threatens human rights including the right to life, food and water",
+          "Citizens have a responsibility to consider the impact of their choices on future generations",
+          "It creates climate refugees — people displaced from their homes",
+          "International agreements such as the Paris Agreement show states recognise it as a shared responsibility",
+          "Global inequality means richer countries have a responsibility to support poorer ones"
+        ],
+        "marking_guidance": "Award 1 mark per valid point. For higher marks, answers should link to citizenship concepts such as rights, responsibilities, and global interdependence.",
+        "exemplar_answer": "Climate change is a global citizenship issue because it affects every country, even those that have contributed least to greenhouse gas emissions. This raises issues of global justice and responsibility. No single nation can address it alone, requiring international cooperation through agreements like the Paris Agreement. It also threatens fundamental human rights, including the right to life and food, particularly in vulnerable nations. Citizens have a responsibility to future generations to address this collectively."
+      },
+      "difficulty": "hard",
+      "active": true
+    },
+    {
+      "id": "q_seed_010",
+      "source": {
+        "paper": "Sample",
+        "paper_code": "J560/02",
+        "question_ref": "5(b)",
+        "exam_board": "OCR"
+      },
+      "topic": "active_citizenship",
+      "subtopic": "media_and_democracy",
+      "question_text": "Explain the role of the media in a democratic society.",
+      "marks": 6,
+      "question_type": "explain",
+      "mark_scheme": {
+        "indicative_points": [
+          "The media informs citizens about political issues, enabling them to make informed voting decisions",
+          "It acts as a 'watchdog', holding politicians and institutions to account through investigative journalism",
+          "It provides a platform for debate and discussion of public issues",
+          "Social media allows citizens to directly share views and organise campaigns",
+          "A free press is essential to democracy; state-controlled media undermines it",
+          "Media bias can influence public opinion, which is a concern for democracy",
+          "The media can set the political agenda by choosing which issues to highlight",
+          "Regulation (e.g. Ofcom) tries to ensure accuracy and impartiality in broadcast media"
+        ],
+        "marking_guidance": "Award 1 mark per valid point. For 5-6 marks, answers should show understanding of the media's democratic function and potential tensions.",
+        "exemplar_answer": "In a democratic society, the media plays a vital role in informing citizens about political issues so they can make informed decisions when voting. It also acts as a watchdog, investigating and exposing wrongdoing by politicians and institutions. A free press is essential to democracy — in countries with state-controlled media, citizens cannot hold power to account. However, media bias is a concern, as outlets can shape public opinion in ways that may not always serve democracy. Regulation such as Ofcom helps ensure accuracy and impartiality in broadcast media."
+      },
+      "difficulty": "hard",
+      "active": true
+    }
+  ]
+}

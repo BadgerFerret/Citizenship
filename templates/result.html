@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+{% block title %}Result — GCSE Citizenship{% endblock %}
+
+{% block content %}
+<div class="page-result">
+  <div class="result-header">
+    <span class="student-chip">{{ student.avatar }} {{ student.name }}</span>
+    <span class="topic-chip">{{ topic_label }}</span>
+  </div>
+
+  <!-- Score banner -->
+  {% set pct = feedback.percentage %}
+  <div class="score-banner {% if pct >= 70 %}score-good{% elif pct >= 40 %}score-ok{% else %}score-low{% endif %}">
+    <div class="score-fraction">{{ feedback.marks_awarded }} / {{ attempt.marks_available }}</div>
+    <div class="score-pct">{{ pct }}%</div>
+    <div class="score-label">
+      {% if pct >= 70 %}Great work!
+      {% elif pct >= 40 %}Good effort — keep going
+      {% else %}Keep practising — you'll get there!
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Question recap -->
+  <details class="question-recap">
+    <summary>Your question &amp; answer</summary>
+    <div class="recap-inner">
+      <p class="recap-question"><strong>Q:</strong> {{ attempt.question_text }}</p>
+      <p class="recap-answer"><strong>Your answer:</strong> {{ attempt.student_answer }}</p>
+    </div>
+  </details>
+
+  <!-- Feedback panels -->
+  <div class="feedback-grid">
+
+    {% if feedback.points_credited %}
+    <div class="feedback-panel panel-good">
+      <h3>✅ What you got right</h3>
+      <ul>
+        {% for point in feedback.points_credited %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if feedback.points_missed %}
+    <div class="feedback-panel panel-missed">
+      <h3>⚠️ What you missed</h3>
+      <ul>
+        {% for point in feedback.points_missed %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
+
+  <!-- Examiner feedback -->
+  <div class="examiner-feedback">
+    {% if feedback.what_was_good %}
+    <div class="feedback-item">
+      <h4>What was good</h4>
+      <p>{{ feedback.what_was_good }}</p>
+    </div>
+    {% endif %}
+
+    {% if feedback.how_to_improve %}
+    <div class="feedback-item">
+      <h4>How to improve</h4>
+      <p>{{ feedback.how_to_improve }}</p>
+    </div>
+    {% endif %}
+
+    {% if feedback.examiner_tip %}
+    <div class="feedback-item feedback-tip">
+      <h4>Examiner tip</h4>
+      <p><em>{{ feedback.examiner_tip }}</em></p>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- Model answer (collapsible) -->
+  {% if feedback.suggested_answer %}
+  <details class="model-answer">
+    <summary>Show model answer</summary>
+    <div class="model-answer-inner">
+      <p>{{ feedback.suggested_answer }}</p>
+    </div>
+  </details>
+  {% endif %}
+
+  <!-- Navigation -->
+  <div class="result-nav">
+    {% if is_last %}
+    <a href="{{ url_for('session_end', session_id=session_id) }}" class="btn btn-primary btn-large">
+      See session summary →
+    </a>
+    {% else %}
+    <a href="{{ url_for('quiz', session_id=session_id) }}" class="btn btn-primary btn-large">
+      Next question →
+    </a>
+    <a href="{{ url_for('session_end', session_id=session_id) }}" class="btn btn-outline">
+      End session
+    </a>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

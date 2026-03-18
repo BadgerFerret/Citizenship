@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}Session Complete — GCSE Citizenship{% endblock %}
+
+{% block content %}
+<div class="page-session-end">
+  <div class="session-complete-header">
+    <div class="complete-icon">🎉</div>
+    <h1>Session Complete!</h1>
+    <p class="student-name">{{ student.avatar }} {{ student.name }}</p>
+  </div>
+
+  <div class="session-score-big">
+    <div class="score-circle {% if overall_pct >= 70 %}score-good{% elif overall_pct >= 40 %}score-ok{% else %}score-low{% endif %}">
+      <span class="score-num">{{ overall_pct }}%</span>
+      <span class="score-detail">{{ sess.total_marks_awarded }}/{{ sess.total_marks_available }} marks</span>
+    </div>
+    <p>{{ sess.num_questions }} question{{ 's' if sess.num_questions != 1 else '' }} answered</p>
+  </div>
+
+  <!-- Topic breakdown chart -->
+  {% if topic_breakdown_list %}
+  <div class="breakdown-section">
+    <h2>Topic breakdown</h2>
+    <canvas id="topicChart" height="200"></canvas>
+  </div>
+  {% endif %}
+
+  {% if weakest %}
+  <div class="weakest-callout">
+    <h3>Focus area: {{ weakest.label }}</h3>
+    <p>You scored {{ weakest.pct }}% on {{ weakest.label }} questions this session. Keep practising!</p>
+    <a href="{{ url_for('home') }}" class="btn btn-primary" id="revise-weak-btn">
+      Revise {{ weakest.label }}
+    </a>
+  </div>
+  {% endif %}
+
+  <div class="session-end-actions">
+    <a href="{{ url_for('home') }}" class="btn btn-outline">Back to home</a>
+    <a href="{{ url_for('progress', student_id=student['id']) }}" class="btn btn-secondary">
+      View my progress
+    </a>
+  </div>
+</div>
+
+<script>
+const topicData = {{ topic_breakdown | safe }};
+
+if (topicData.length > 0) {
+  const ctx = document.getElementById('topicChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: topicData.map(t => t.label),
+      datasets: [{
+        label: 'Score %',
+        data: topicData.map(t => t.pct),
+        backgroundColor: topicData.map(t => t.color + 'cc'),
+        borderColor: topicData.map(t => t.color),
+        borderWidth: 2,
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          ticks: { callback: v => v + '%' }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => ctx.raw + '% (' + topicData[ctx.dataIndex].awarded + '/' + topicData[ctx.dataIndex].available + ' marks)'
+          }
+        }
+      }
+    }
+  });
+}
+
+// Wire up "Revise weakest" button to pre-select that topic
+{% if weakest %}
+document.getElementById('revise-weak-btn').addEventListener('click', function(e) {
+  e.preventDefault();
+  // Store weakest topic so home page can open modal with it pre-selected
+  sessionStorage.setItem('autoStartStudent', '{{ student.id }}');
+  sessionStorage.setItem('autoStartTopic', '{{ weakest.topic }}');
+  window.location.href = '/';
+});
+{% endif %}
+</script>
+{% endblock %}

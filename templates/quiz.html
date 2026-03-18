@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Question {{ answered + 1 }} — GCSE Citizenship{% endblock %}
+
+{% block content %}
+<div class="page-quiz">
+  <div class="quiz-topbar">
+    <span class="student-chip">{{ student.avatar }} {{ student.name }}</span>
+    <span class="topic-chip">{{ topic_label }}</span>
+    <span class="progress-chip">Question {{ answered + 1 }} of {{ num_questions }}</span>
+  </div>
+
+  <div class="progress-bar-track">
+    <div class="progress-bar-fill" style="width: {{ (answered / num_questions * 100)|int }}%"></div>
+  </div>
+
+  <div class="question-card">
+    <div class="question-meta">
+      <span class="marks-badge">{{ question.marks }} mark{{ 's' if question.marks != 1 else '' }}</span>
+      <span class="difficulty-badge difficulty-{{ question.difficulty }}">{{ question.difficulty }}</span>
+      {% if question.source %}
+      <span class="source-badge">{{ question.source.paper }} · {{ question.source.question_ref }}</span>
+      {% endif %}
+    </div>
+    <h2 class="question-text">{{ question.question_text }}</h2>
+    <p class="answer-hint">
+      Write your answer in full sentences. Aim for {{ question.marks }} point{{ 's' if question.marks != 1 else '' }}.
+    </p>
+  </div>
+
+  <div class="answer-section">
+    <textarea
+      id="answer-box"
+      class="answer-textarea"
+      placeholder="Write your answer here..."
+      rows="8"
+    ></textarea>
+    <div class="answer-footer">
+      <span id="word-count" class="word-count">0 words</span>
+      <button id="submit-btn" class="btn btn-primary btn-large" onclick="submitAnswer()">
+        Submit Answer
+      </button>
+    </div>
+  </div>
+
+  <div id="loading-overlay" class="loading-overlay" style="display:none">
+    <div class="loading-box">
+      <div class="spinner"></div>
+      <p>Marking your answer…</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const SESSION_ID = {{ session_id }};
+const QUESTION_ID = "{{ question.id }}";
+
+document.getElementById('answer-box').addEventListener('input', function() {
+  const words = this.value.trim().split(/\s+/).filter(w => w).length;
+  document.getElementById('word-count').textContent = words + ' word' + (words !== 1 ? 's' : '');
+});
+
+async function submitAnswer() {
+  const answer = document.getElementById('answer-box').value.trim();
+  if (!answer) {
+    alert('Please write your answer before submitting.');
+    return;
+  }
+
+  document.getElementById('submit-btn').disabled = true;
+  document.getElementById('loading-overlay').style.display = 'flex';
+
+  try {
+    const res = await fetch('/api/submit-answer', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        session_id: SESSION_ID,
+        question_id: QUESTION_ID,
+        answer: answer
+      })
+    });
+    const data = await res.json();
+    if (data.error) {
+      alert('Error: ' + data.error);
+      document.getElementById('submit-btn').disabled = false;
+      document.getElementById('loading-overlay').style.display = 'none';
+      return;
+    }
+    window.location.href = '/result/' + data.attempt_id;
+  } catch (err) {
+    alert('Something went wrong. Please try again.');
+    document.getElementById('submit-btn').disabled = false;
+    document.getElementById('loading-overlay').style.display = 'none';
+  }
+}
+</script>
+{% endblock %}

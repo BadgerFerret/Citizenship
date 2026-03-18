@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Question Bank — GCSE Citizenship{% endblock %}
+
+{% block content %}
+<div class="page-admin">
+  <h1>Question Bank</h1>
+
+  <div class="admin-tabs">
+    <button class="tab-btn active" onclick="showTab('bank')">Question Bank</button>
+    <button class="tab-btn" onclick="showTab('import')">Import Questions</button>
+  </div>
+
+  <!-- Question Bank Tab -->
+  <div id="tab-bank" class="tab-panel">
+    <div class="bank-filters">
+      <select id="filter-topic" onchange="loadBank()">
+        <option value="">All topics</option>
+        {% for key, info in topics.items() %}
+        <option value="{{ key }}">{{ info.label }}</option>
+        {% endfor %}
+      </select>
+      <label>
+        <input type="checkbox" id="filter-inactive" onchange="loadBank()">
+        Show inactive
+      </label>
+      <span id="bank-count" class="bank-count"></span>
+    </div>
+    <div id="bank-table-wrap">Loading...</div>
+  </div>
+
+  <!-- Import Tab -->
+  <div id="tab-import" class="tab-panel" style="display:none">
+    <div class="import-instructions">
+      <h2>Import questions from past papers</h2>
+      <p>Use the import script to extract questions from PDF files, then paste the JSON output here.</p>
+      <ol>
+        <li>Copy your PDF files into the project directory.</li>
+        <li>Run: <code>python scripts/import_questions.py --paper "June 2023" --code "J560/01" --paper-pdf path/to/paper.pdf --ms-pdf path/to/markscheme.pdf</code></li>
+        <li>Review the JSON output, then paste it below.</li>
+        <li>Click <strong>Validate &amp; Preview</strong>, then <strong>Add to Bank</strong>.</li>
+      </ol>
+      <p>Alternatively, you can paste a JSON array of questions directly.</p>
+    </div>
+
+    <textarea id="import-json" class="import-textarea" rows="16"
+      placeholder='[{"id": "q_2023j_01a", "topic": "government_and_democracy", ...}]'></textarea>
+
+    <div class="import-actions">
+      <button class="btn btn-outline" onclick="validateImport()">Validate &amp; Preview</button>
+      <button class="btn btn-primary" id="confirm-import-btn" style="display:none" onclick="confirmImport()">
+        Add to Question Bank
+      </button>
+    </div>
+
+    <div id="import-preview" style="display:none">
+      <h3>Preview</h3>
+      <div id="import-preview-inner"></div>
+    </div>
+
+    <div id="import-result"></div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+<script>
+loadBank();
+</script>
+{% endblock %}
