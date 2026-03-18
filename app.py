@@ -347,28 +347,39 @@ def evaluate_answer(question, student_answer):
 {question['question_text']}
 This question is worth {marks} mark{'s' if marks != 1 else ''}.
 
-## Mark Scheme - Indicative Content
+## Mark Scheme — Indicative Content
+Each numbered point below is a credit-worthy idea worth 1 mark. Award 1 mark for each point \
+the student addresses, up to the maximum of {marks} marks total.
+
 {points_list}
+
 Marking guidance: {guidance}
 
 ## Student's Answer
 {student_answer}
 
 ## Your Task
-Mark this answer and respond with ONLY valid JSON in this exact structure (no markdown, no commentary):
+Mark this answer as a GCSE examiner would. Work through each indicative point and decide \
+whether the student has addressed it. Apply these rules strictly:
+
+1. ACCEPT equivalent meaning — if the student conveys the right idea in different words, AWARD the mark
+2. ACCEPT implied understanding — if it is clear the student knows the concept even if not fully explicit, AWARD the mark
+3. DO NOT penalise spelling, grammar, or informal phrasing — mark knowledge only
+4. BE GENEROUS at boundaries — if you are unsure whether a point is addressed, AWARD the mark
+5. AWARD partial credit — a student who addresses 2 out of 4 points should receive 2 marks
+6. The answer does NOT need to be perfect or complete to earn marks — credit every correct point shown
+
+Respond with ONLY valid JSON in this exact structure (no markdown, no commentary):
 {{
   "marks_awarded": <integer 0 to {marks}>,
   "percentage": <integer 0-100>,
-  "points_credited": [<list of strings: indicative points the student addressed>],
-  "points_missed": [<list of strings: indicative points the student did not address>],
-  "what_was_good": "<1-2 sentences on strengths>",
-  "how_to_improve": "<1-2 sentences on what to add or change>",
-  "examiner_tip": "<1 sentence of exam technique advice specific to this question type>",
-  "suggested_answer": "<a concise model answer worth full marks>"
-}}
-
-Be generous with partial credit if the student's meaning is clearly correct even if phrased \
-differently to the mark scheme. Award credit for correct points even if other parts are wrong."""
+  "points_credited": [<plain-English description of each indicative point the student addressed>],
+  "points_missed": [<plain-English description of each indicative point the student did not address>],
+  "what_was_good": "<1-2 sentences praising specific strengths — be encouraging>",
+  "how_to_improve": "<1-2 sentences of specific, actionable advice on what to add next time>",
+  "examiner_tip": "<1 sentence of exam technique advice for this question type>",
+  "suggested_answer": "<a model answer written as a student would write it, worth full marks>"
+}}"""
 
     for attempt in range(3):
         try:
@@ -392,6 +403,10 @@ differently to the mark scheme. Award credit for correct points even if other pa
             return data
         except Exception:
             if attempt == 2:
+                fallback_answer = (
+                    question["mark_scheme"].get("exemplar_answer") or
+                    " ".join(question["mark_scheme"].get("indicative_points", []))
+                )
                 return {
                     "marks_awarded": 0,
                     "percentage": 0,
@@ -400,7 +415,7 @@ differently to the mark scheme. Award credit for correct points even if other pa
                     "what_was_good": "Unable to evaluate automatically.",
                     "how_to_improve": "Please ask your teacher to review this answer.",
                     "examiner_tip": "",
-                    "suggested_answer": question["mark_scheme"].get("exemplar_answer", ""),
+                    "suggested_answer": fallback_answer,
                     "error": "evaluation_failed",
                 }
 

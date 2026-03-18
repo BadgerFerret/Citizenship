@@ -97,15 +97,17 @@
     {% endif %}
   </div>
 
-  <!-- Model answer (collapsible) -->
-  {% if feedback.suggested_answer %}
-  <details class="model-answer">
-    <summary>Show model answer</summary>
+  <!-- Model answer (always shown; open by default unless perfect score) -->
+  <details class="model-answer" {% if feedback.percentage < 100 %}open{% endif %}>
+    <summary>{% if feedback.percentage == 100 %}Show model answer{% else %}Suggested / model answer{% endif %}</summary>
     <div class="model-answer-inner">
+      {% if feedback.suggested_answer %}
       <p>{{ feedback.suggested_answer }}</p>
+      {% else %}
+      <p><em>Ask your teacher for a model answer for this question.</em></p>
+      {% endif %}
     </div>
   </details>
-  {% endif %}
 
   <!-- Navigation -->
   <div class="result-nav">
