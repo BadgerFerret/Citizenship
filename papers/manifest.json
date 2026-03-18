@@ -1,7 +1,7 @@
 [
   {
     "_comment": "Add an entry here for each past paper you want to ingest.",
-    "_comment2": "Run: python scripts/ingest_papers.py",
+    "_comment2": "Run: python scripts/parse_papers_free.py  (no API key needed)",
     "_comment3": "PDFs stay local (gitignored). Commit data/questions.json after ingestion.",
     "paper": "June 2018",
     "code": "1CS0/01",
